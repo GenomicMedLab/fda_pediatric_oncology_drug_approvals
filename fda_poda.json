@@ -1,0 +1,94 @@
+{
+  "statements": [
+    {
+      "id": "fda_poda.statement:1",
+      "description": "Treatment of patients 6 months of age and older with relapsed or refractory pediatric low-grade glioma (LGG) harboring a BRAF fusion or rearrangement, or BRAF V600 mutation",
+      "extensions": [
+        {
+          "name": "additional_description",
+          "value": "Tablets and oral suspension"
+        },
+        {
+          "name": "original_or_supplemental_approval",
+          "value": "original"
+        },
+        {
+          "name": "clinical_trial_ids",
+          "value": ["NCT04775485"]
+        },
+        {
+          "name": "original_spreadsheet_rows",
+          "value": [
+            "Tovorafenib [Ojemda],kinase inhibitor,\"BRAF, CRAF\",\"Treatment of patients 6 months of age and older with relapsed or refractory pediatric low-grade glioma (LGG) harboring a BRAF fusion or rearrangement, or BRAF V600 mutation\",6 months and older,2024-04-23,Original,NCT04775485,Tablets and oral suspension,"
+          ]
+        }
+      ],
+      "specifiedBy": {
+        "todo": "TODO -- is there a referenceable description of FDA approval methods?"
+      },
+      "reportedIn": {
+        "type": "Document",
+        "urls": [
+          "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-tovorafenib-patients-relapsed-or-refractory-braf-altered-pediatric"
+        ]
+      },
+      "type": "Statement",
+      "proposition": {
+        "subjectVariant": {
+          "id": "fda_poda.variant:BRAF V600E",
+          "type": "CategoricalVariant",
+          "name": "BRAF V600E"
+        },
+        "objectTherapeutic": {
+          "name": "Tovorafenib",
+          "conceptType": "Therapy",
+          "id": "drugsatfda.nda:217700",
+          "extensions": [
+            {
+              "name": "trade_names",
+              "value": ["Ojemda"]
+            },
+            {
+              "name": "drug_class",
+              "value": "kinase inhibitor"
+            }
+          ]
+        },
+        "geneContextQualifier": {
+          "conceptType": "Gene",
+          "id": "fda_poda.gene:BRAF",
+          "name": "BRAF"
+        },
+        "conditionQualifier": {
+          "conditions": [
+            {
+              "id": "fda_poda.condition:low-grade glioma",
+              "name": "low-grade glioma",
+              "conceptType": "Condition",
+              "extensions": [
+                {
+                  "name": "aliases",
+                  "value": ["LGG"]
+                }
+              ]
+            },
+            {
+              "id": "fda_poda.onset:6 months of age and older",
+              "name": "6 months of age and older",
+              "conceptType": "Condition"
+            }
+          ],
+          "membershipOperator": "AND"
+        }
+      },
+      "direction": "supports",
+      "strength": {
+        "name": "fda approved",
+        "primaryCoding": {
+          "system": "http fda dot gov",
+          "code": "approved"
+        }
+      }
+    }
+  ]
+}
