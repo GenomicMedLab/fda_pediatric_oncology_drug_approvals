@@ -24,7 +24,18 @@
         }
       ],
       "specifiedBy": {
-        "todo": "TODO -- is there a referenceable description of FDA approval methods?"
+        "id": "fda_poda.method:1",
+        "type": "Method",
+        "name": "Federal Drug Administration Development & Approval Process for Drugs",
+        "reportedIn": {
+          "type": "Document",
+          "name": "Development & Approval Process | Drugs",
+          "title": "Development & Approval Process | Drugs",
+          "documentType": "webpage",
+          "urls": [
+            "https://www.fda.gov/drugs/development-approval-process-drugs"
+          ]
+        }
       },
       "reportedIn": {
         "type": "Document",
@@ -83,11 +94,20 @@
       },
       "direction": "supports",
       "strength": {
-        "name": "fda approved",
         "primaryCoding": {
-          "system": "http fda dot gov",
-          "code": "approved"
-        }
+          "system": "https://www.fda.gov",
+          "code": "FDA-Approved"
+        },
+        "mappings": [
+          {
+            "coding": {
+              "name": "FDA recognized evidence",
+              "system": "https://go.osu.edu/evidence-codes",
+              "code": "e000002"
+            },
+            "relation": "exactMatch"
+          }
+        ]
       }
     }
   ]
