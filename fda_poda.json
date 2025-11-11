@@ -47,6 +47,8 @@
       ],
       "type": "Statement",
       "proposition": {
+        "type": "VariantTherapeuticResponseProposition",
+        "predicate": "predictsSensitivityTo",
         "subjectVariant": {
           "id": "fda_poda.variant:BRAF V600E",
           "type": "CategoricalVariant",
