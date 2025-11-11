@@ -37,14 +37,18 @@
           ]
         }
       },
-      "reportedIn": {
-        "type": "Document",
-        "urls": [
-          "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-tovorafenib-patients-relapsed-or-refractory-braf-altered-pediatric"
-        ]
-      },
+      "reportedIn": [
+        {
+          "type": "Document",
+          "urls": [
+            "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-tovorafenib-patients-relapsed-or-refractory-braf-altered-pediatric"
+          ]
+        }
+      ],
       "type": "Statement",
       "proposition": {
+        "type": "VariantTherapeuticResponseProposition",
+        "predicate": "predictsSensitivityTo",
         "subjectVariant": {
           "id": "fda_poda.variant:BRAF V600E",
           "type": "CategoricalVariant",
