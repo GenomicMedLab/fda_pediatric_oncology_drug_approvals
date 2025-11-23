@@ -88,8 +88,8 @@
               ]
             },
             {
-              "id": "fda_poda.onset:6 months of age and older",
-              "name": "6 months of age and older",
+              "id": "fda_poda.onset:6 months and older",
+              "name": "6 months and older",
               "conceptType": "Condition"
             }
           ],
@@ -687,18 +687,12 @@
               ]
             },
             {
-              "id": "fda_poda.onset:12 years of age and older",
-              "name": "12 years of age and older",
+              "id": "fda_poda.onset:12 years and older",
+              "name": "12 years and older",
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated extra-pancreatic neuroendocrine tumors (epNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -809,18 +803,12 @@
               ]
             },
             {
-              "id": "fda_poda.onset:12 years of age and older",
-              "name": "12 years of age and older",
+              "id": "fda_poda.onset:12 years and older",
+              "name": "12 years and older",
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated extra-pancreatic neuroendocrine tumors (epNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -931,18 +919,12 @@
               ]
             },
             {
-              "id": "fda_poda.onset:12 years of age and older",
-              "name": "12 years of age and older",
+              "id": "fda_poda.onset:12 years and older",
+              "name": "12 years and older",
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated extra-pancreatic neuroendocrine tumors (epNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -1053,18 +1035,12 @@
               ]
             },
             {
-              "id": "fda_poda.onset:12 years of age and older",
-              "name": "12 years of age and older",
+              "id": "fda_poda.onset:12 years and older",
+              "name": "12 years and older",
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated extra-pancreatic neuroendocrine tumors (epNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -1169,18 +1145,12 @@
               ]
             },
             {
-              "id": "fda_poda.onset:12 years of age and older",
-              "name": "12 years of age and older",
+              "id": "fda_poda.onset:12 years and older",
+              "name": "12 years and older",
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated extra-pancreatic neuroendocrine tumors (epNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -1290,13 +1260,7 @@
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated extra-pancreatic neuroendocrine tumors (epNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -1406,13 +1370,7 @@
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated extra-pancreatic neuroendocrine tumors (epNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -1522,13 +1480,7 @@
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated extra-pancreatic neuroendocrine tumors (epNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -1638,13 +1590,7 @@
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated extra-pancreatic neuroendocrine tumors (epNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -1754,13 +1700,7 @@
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated extra-pancreatic neuroendocrine tumors (epNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -1870,13 +1810,7 @@
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated extra-pancreatic neuroendocrine tumors (epNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -1986,13 +1920,7 @@
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated extra-pancreatic neuroendocrine tumors (epNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -2108,13 +2036,7 @@
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated extra-pancreatic neuroendocrine tumors (epNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -2225,13 +2147,7 @@
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated pancreatic neuroendocrine tumors (pNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -2347,13 +2263,7 @@
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
-          "extensions": [
-            {
-              "name": "original_text",
-              "value": "patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated pancreatic neuroendocrine tumors (pNET)"
-            }
-          ]
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
@@ -7728,6 +7638,321 @@
       }
     },
     {
+      "id": "fda_poda.statement:66",
+      "description": "Treatment of pediatric patients 1 year of age and older with newly  diagnosed  Philadelphia chromosome-positive acute lymphoblastic leukemia (Ph+ ALL) in combination with chemotherapy",
+      "extensions": [
+        {
+          "name": "original_or_supplemental_approval",
+          "value": "Supplemental"
+        },
+        {
+          "name": "clinical_trial_ids",
+          "value": ["NCT01460160"]
+        },
+        {
+          "name": "original_spreadsheet_rows",
+          "value": [
+            "Dasatinib [Sprycel]|kinase inhibitor|ABL1 (BCR-ABL), SRC, LCK, YES1, FYN, KIT, EPHA2, PDGFRB|Treatment of pediatric patients 1 year of age and older with newly  diagnosed  Philadelphia chromosome-positive acute lymphoblastic leukemia (Ph+ ALL) in combination with chemotherapy|1 year and older|12-21-2018|Supplemental / [Initial U.S. Approval: 06-28-2006]|NCT01460160"
+          ]
+        }
+      ],
+      "reportedIn": [
+        {
+          "type": "Document",
+          "urls": [
+            "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/021986Orig1s021Ltr.pdf"
+          ]
+        }
+      ],
+      "proposition": {
+        "type": "VariantTherapeuticResponseProposition",
+        "predicate": "predictsSensitivityTo",
+        "subjectVariant": {
+          "id": "fda_poda.variant:BCR-ABL1 Fusion",
+          "type": "CategoricalVariant",
+          "name": "BCR-ABL1 Fusion"
+        },
+        "objectTherapeutic": {
+          "name": "DASATINIB",
+          "conceptType": "Therapy",
+          "id": "drugsatfda.nda:021986 ",
+          "extensions": [
+            {
+              "name": "trade_names",
+              "value": ["SPRYCEL"]
+            },
+            {
+              "name": "drug_class",
+              "value": "kinase inhibitor"
+            }
+          ]
+        },
+        "geneContextQualifier": {
+          "conceptType": "Gene",
+          "id": "fda_poda.gene:BCR",
+          "name": "BCR"
+        },
+        "conditionQualifier": {
+          "conditions": [
+            {
+              "id": "fda_poda.condition:acute lymphoblastic leukemia",
+              "name": "acute lymphoblastic leukemia",
+              "conceptType": "Condition"
+            },
+            {
+              "id": "fda_poda.onset:1 year and older",
+              "name": "1 year and older",
+              "conceptType": "Condition"
+            }
+          ],
+          "membershipOperator": "AND"
+        }
+      },
+      "type": "Statement",
+      "direction": "supports",
+      "specifiedBy": {
+        "id": "fda_poda.method:1",
+        "type": "Method",
+        "name": "Federal Drug Administration Development & Approval Process for Drugs",
+        "reportedIn": {
+          "type": "Document",
+          "name": "Development & Approval Process | Drugs",
+          "title": "Development & Approval Process | Drugs",
+          "documentType": "webpage",
+          "urls": [
+            "https://www.fda.gov/drugs/development-approval-process-drugs"
+          ]
+        }
+      },
+      "strength": {
+        "primaryCoding": {
+          "system": "https://www.fda.gov",
+          "code": "FDA-Approved"
+        },
+        "mappings": [
+          {
+            "coding": {
+              "name": "FDA recognized evidence",
+              "system": "https://go.osu.edu/evidence-codes",
+              "code": "e000002"
+            },
+            "relation": "exactMatch"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fda_poda.statement:67",
+      "description": "Treatment of adult and pediatric patients with solid tumors that have a neurotrophic receptor tyrosine kinase (NTRK) gene fusion without a known acquired resistance mutation, are metastatic or where surgical resection is likely to result in severe morbidity, and have no satisfactory alternative treatments or that have progressed following treatment",
+      "extensions": [
+        {
+          "name": "additional_description",
+          "value": "On November 26, 2018, FDA granted accelerated approval to both the capsule and oral solution formulations of Vitrakvi (larotrectinib) [https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/211710Orig1s000ltr.pdf]. On April 09, 2025, FDA granted traditional approval for these indications [capsule: https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/210861Orig1s012ltr.pdf; oral solution: https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/211710Orig1s010ltr.pdf].  For additional details see Drugs@FDA listing."
+        },
+        {
+          "name": "original_or_supplemental_approval",
+          "value": "Original"
+        },
+        {
+          "name": "clinical_trial_ids",
+          "value": ["NCT02122913", "NCT02637687", "NCT02576431"]
+        },
+        {
+          "name": "original_spreadsheet_rows",
+          "value": [
+            "Larotrectinib [Vitrakvi]|kinase inhibitor |NTRK1, NTRK2,  NTRK3 |Treatment of adult and pediatric patients with solid tumors that have a neurotrophic receptor tyrosine kinase (NTRK) gene fusion without a known acquired resistance mutation, are metastatic or where surgical resection is likely to result in severe morbidity, and have no satisfactory alternative treatments or that have progressed following treatment|Pediatric|11-26-2018|Original|NCT02122913, NCT02637687, NCT02576431|On November 26, 2018, FDA granted accelerated approval to both the capsule and oral solution formulations of Vitrakvi (larotrectinib) [https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/211710Orig1s000ltr.pdf]. On April 09, 2025, FDA granted traditional approval for these indications [capsule: https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/210861Orig1s012ltr.pdf; oral solution: https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/211710Orig1s010ltr.pdf].  For additional details see Drugs@FDA listing."
+          ]
+        }
+      ],
+      "reportedIn": [
+        {
+          "type": "Document",
+          "urls": [
+            "https://www.fda.gov/drugs/fda-approves-larotrectinib-solid-tumors-ntrk-gene-fusions"
+          ]
+        }
+      ],
+      "proposition": {
+        "type": "VariantTherapeuticResponseProposition",
+        "predicate": "predictsSensitivityTo",
+        "subjectVariant": {
+          "id": "fda_poda.variant:NTRK Fusion",
+          "type": "CategoricalVariant",
+          "name": "NTRK Fusion"
+        },
+        "objectTherapeutic": {
+          "name": "Larotrectinib",
+          "conceptType": "Therapy",
+          "id": "drugsatfda.nda:210861",
+          "extensions": [
+            {
+              "name": "trade_names",
+              "value": ["Vitrakvi"]
+            },
+            {
+              "name": "drug_class",
+              "value": "kinase inhibitor"
+            }
+          ]
+        },
+        "conditionQualifier": {
+          "conditions": [
+            {
+              "id": "fda_poda.condition:solid neoplasm",
+              "name": "solid neoplasm",
+              "conceptType": "Condition"
+            },
+            {
+              "id": "fda_poda.onset:0 years and older",
+              "name": "0 years and older",
+              "conceptType": "Condition"
+            }
+          ],
+          "membershipOperator": "AND"
+        }
+      },
+      "type": "Statement",
+      "direction": "supports",
+      "specifiedBy": {
+        "id": "fda_poda.method:1",
+        "type": "Method",
+        "name": "Federal Drug Administration Development & Approval Process for Drugs",
+        "reportedIn": {
+          "type": "Document",
+          "name": "Development & Approval Process | Drugs",
+          "title": "Development & Approval Process | Drugs",
+          "documentType": "webpage",
+          "urls": [
+            "https://www.fda.gov/drugs/development-approval-process-drugs"
+          ]
+        }
+      },
+      "strength": {
+        "primaryCoding": {
+          "system": "https://www.fda.gov",
+          "code": "FDA-Approved"
+        },
+        "mappings": [
+          {
+            "coding": {
+              "name": "FDA recognized evidence",
+              "system": "https://go.osu.edu/evidence-codes",
+              "code": "e000002"
+            },
+            "relation": "exactMatch"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fda_poda.statement:",
+      "description": "Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older",
+      "extensions": [
+        {
+          "name": "additional_description",
+          "value": "\"Indication statements of blinatumomab for MRD-positive B-cell Precursor ALL: •  Approved on 03-29-2018: Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adults and children. For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-granted-accelerated-approval-blinatumomab-blincyto-amgen-inc-treatment-adult-and-pediatric]. •  Revised on 06-20-2023 to “Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients.” For additional details see Drugs@FDA listing. •  Revised on 06-14-2024 to “Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older.” For additional details see Drugs@FDA listing.\""
+        },
+        {
+          "name": "original_or_supplemental_approval",
+          "value": "Supplemental"
+        },
+        {
+          "name": "clinical_trial_ids",
+          "value": ["NCT02101853", "NCT02393859"]
+        },
+        {
+          "name": "original_spreadsheet_rows",
+          "value": [
+            "Blinatumomab [Blincyto]|bispecific CD19-directed CD3 T-cell engager |CD19/CD3|Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older|one month and older|03-29-2018|Supplemental [Initial U.S. Approval: 12-03-2014]|NCT02101853, NCT02393859|\"Indication statements of blinatumomab for MRD-positive B-cell Precursor ALL: •  Approved on 03-29-2018: Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adults and children. For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-granted-accelerated-approval-blinatumomab-blincyto-amgen-inc-treatment-adult-and-pediatric]. •  Revised on 06-20-2023 to “Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients.” For additional details see Drugs@FDA listing. •  Revised on 06-14-2024 to “Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older.” For additional details see Drugs@FDA listing.\""
+          ]
+        }
+      ],
+      "reportedIn": [
+        {
+          "type": "Document",
+          "urls": [
+            "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-granted-accelerated-approval-blinatumomab-blincyto-amgen-inc-treatment-adult-and-pediatric"
+          ]
+        }
+      ],
+      "proposition": {
+        "type": "VariantTherapeuticResponseProposition",
+        "predicate": "predictsSensitivityTo",
+        "subjectVariant": {
+          "id": "fda_poda.variant:CD19+",
+          "type": "CategoricalVariant",
+          "name": "CD19+"
+        },
+        "objectTherapeutic": {
+          "name": "Blinatumomab",
+          "conceptType": "Therapy",
+          "id": "drugsatfda.bla:125557",
+          "extensions": [
+            {
+              "name": "trade_names",
+              "value": ["Blincyto"]
+            },
+            {
+              "name": "drug_class",
+              "value": "bispecific CD19-directed CD3 T-cell engager "
+            }
+          ]
+        },
+        "geneContextQualifier": {
+          "conceptType": "Gene",
+          "id": "fda_poda.gene:CD19",
+          "name": "CD19"
+        },
+        "conditionQualifier": {
+          "conditions": [
+            {
+              "id": "fda_poda.condition:B-cell acute lymphoblastic leukemia",
+              "name": "B-cell acute lymphoblastic leukemia",
+              "conceptType": "Condition"
+            },
+            {
+              "id": "fda_poda.onset:1 month and older",
+              "name": "1 month and older",
+              "conceptType": "Condition"
+            }
+          ],
+          "membershipOperator": "AND"
+        }
+      },
+      "type": "Statement",
+      "direction": "supports",
+      "specifiedBy": {
+        "id": "fda_poda.method:1",
+        "type": "Method",
+        "name": "Federal Drug Administration Development & Approval Process for Drugs",
+        "reportedIn": {
+          "type": "Document",
+          "name": "Development & Approval Process | Drugs",
+          "title": "Development & Approval Process | Drugs",
+          "documentType": "webpage",
+          "urls": [
+            "https://www.fda.gov/drugs/development-approval-process-drugs"
+          ]
+        }
+      },
+      "strength": {
+        "primaryCoding": {
+          "system": "https://www.fda.gov",
+          "code": "FDA-Approved"
+        },
+        "mappings": [
+          {
+            "coding": {
+              "name": "FDA recognized evidence",
+              "system": "https://go.osu.edu/evidence-codes",
+              "code": "e000002"
+            },
+            "relation": "exactMatch"
+          }
+        ]
+      }
+    },
+    {
       "id": "fda_poda.statement:",
       "description": "",
       "extensions": [
@@ -7807,13 +8032,123 @@
               "conceptType": "Condition"
             }
           ],
-          "membershipOperator": "AND",
+          "membershipOperator": "AND"
+        }
+      },
+      "type": "Statement",
+      "direction": "supports",
+      "specifiedBy": {
+        "id": "fda_poda.method:1",
+        "type": "Method",
+        "name": "Federal Drug Administration Development & Approval Process for Drugs",
+        "reportedIn": {
+          "type": "Document",
+          "name": "Development & Approval Process | Drugs",
+          "title": "Development & Approval Process | Drugs",
+          "documentType": "webpage",
+          "urls": [
+            "https://www.fda.gov/drugs/development-approval-process-drugs"
+          ]
+        }
+      },
+      "strength": {
+        "primaryCoding": {
+          "system": "https://www.fda.gov",
+          "code": "FDA-Approved"
+        },
+        "mappings": [
+          {
+            "coding": {
+              "name": "FDA recognized evidence",
+              "system": "https://go.osu.edu/evidence-codes",
+              "code": "e000002"
+            },
+            "relation": "exactMatch"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fda_poda.statement:",
+      "description": "",
+      "extensions": [
+        {
+          "name": "additional_description",
+          "value": ""
+        },
+        {
+          "name": "original_or_supplemental_approval",
+          "value": ""
+        },
+        {
+          "name": "clinical_trial_ids",
+          "value": [""]
+        },
+        {
+          "name": "original_spreadsheet_rows",
+          "value": [""]
+        }
+      ],
+      "reportedIn": [
+        {
+          "type": "Document",
+          "urls": [""]
+        }
+      ],
+      "proposition": {
+        "type": "VariantTherapeuticResponseProposition",
+        "predicate": "predictsSensitivityTo",
+        "subjectVariant": {
+          "id": "fda_poda.variant:",
+          "type": "CategoricalVariant",
+          "name": ""
+        },
+        "objectTherapeutic": {
+          "name": "",
+          "conceptType": "Therapy",
+          "id": "drugsatfda.nda:",
           "extensions": [
             {
-              "name": "original_text",
+              "name": "trade_names",
+              "value": [""]
+            },
+            {
+              "name": "drug_class",
               "value": ""
             }
           ]
+        },
+        "geneContextQualifier": {
+          "conceptType": "Gene",
+          "id": "fda_poda.gene:",
+          "name": "",
+          "extensions": [
+            {
+              "name": "aliases",
+              "value": [""]
+            }
+          ]
+        },
+        "conditionQualifier": {
+          "conditions": [
+            {
+              "id": "fda_poda.condition:",
+              "name": "",
+              "conceptType": "Condition",
+              "extensions": [
+                {
+                  "name": "aliases",
+                  "value": [""]
+                }
+              ]
+            },
+            {
+              "id": "fda_poda.onset:",
+              "name": "",
+              "conceptType": "Condition"
+            }
+          ],
+          "membershipOperator": "AND"
         }
       },
       "type": "Statement",
