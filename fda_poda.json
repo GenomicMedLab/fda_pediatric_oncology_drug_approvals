@@ -88,8 +88,8 @@
               ]
             },
             {
-              "id": "fda_poda.onset:6 months of age and older",
-              "name": "6 months of age and older",
+              "id": "fda_poda.onset:6 months and older",
+              "name": "6 months and older",
               "conceptType": "Condition"
             }
           ],
