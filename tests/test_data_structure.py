@@ -25,3 +25,9 @@ def test_age_phenotype_format(data: dict):
             if condition["id"].startswith("fda_poda.onset"):
                 assert condition["id"].split(":")[-1] == condition["name"]
                 assert re.match(age_of_onset_pattern, condition["name"])
+
+
+def test_statement_ids_successive(data: dict):
+    """Test that statement IDs are unique and incrementing"""
+    id_values = [int(s["id"].split(":")[-1]) for s in data.get("statements", [])]
+    assert id_values == list(range(1, max(id_values) + 1))
