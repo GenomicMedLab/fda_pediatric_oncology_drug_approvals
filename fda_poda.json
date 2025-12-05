@@ -583,8 +583,8 @@
               "conceptType": "Condition"
             },
             {
-              "id": "fda_poda.onset:one month and older",
-              "name": "one month and older",
+              "id": "fda_poda.onset:1 month and older",
+              "name": "1 month and older",
               "conceptType": "Condition"
             }
           ],
@@ -1828,8 +1828,8 @@
               ]
             },
             {
-              "id": "fda_poda.onset:6 months of age and older",
-              "name": "6 months of age and older",
+              "id": "fda_poda.onset:6 months and older",
+              "name": "6 months and older",
               "conceptType": "Condition"
             }
           ],
@@ -2473,8 +2473,8 @@
               ]
             },
             {
-              "id": "fda_poda.onset:1 year of age and older",
-              "name": "1 year of age and older",
+              "id": "fda_poda.onset:1 year and older",
+              "name": "1 year and older",
               "conceptType": "Condition"
             }
           ],
