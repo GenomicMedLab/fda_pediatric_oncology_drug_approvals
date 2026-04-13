@@ -60,12 +60,12 @@
             {
               "id": "fda_poda.condition:acute leukemia",
               "name": "acute leukemia",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:1 year and older",
               "name": "1 year and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -164,12 +164,12 @@
             {
               "id": "fda_poda.condition:diffuse astrocytoma",
               "name": "diffuse astrocytoma",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:12 years and older",
               "name": "12 years and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -268,12 +268,12 @@
             {
               "id": "fda_poda.condition:oligodendroglioma",
               "name": "oligodendroglioma",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:12 years and older",
               "name": "12 years and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -372,12 +372,12 @@
             {
               "id": "fda_poda.condition:diffuse astrocytoma",
               "name": "diffuse astrocytoma",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:12 years and older",
               "name": "12 years and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -476,12 +476,12 @@
             {
               "id": "fda_poda.condition:oligodendroglioma",
               "name": "oligodendroglioma",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:12 years and older",
               "name": "12 years and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -580,12 +580,12 @@
             {
               "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
               "name": "precursor B-cell acute lymphoblastic leukemia",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:1 month and older",
               "name": "1 month and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -679,12 +679,12 @@
             {
               "id": "fda_poda.condition:solid neoplasm",
               "name": "solid neoplasm",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:12 years and older",
               "name": "12 years and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -787,12 +787,12 @@
             {
               "id": "fda_poda.condition:solid neoplasm",
               "name": "solid neoplasm",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:2 years and older",
               "name": "2 years and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND",
@@ -901,12 +901,12 @@
             {
               "id": "fda_poda.condition:Thyroid Gland Neoplasm",
               "name": "Thyroid Gland Neoplasm",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:2 years and older",
               "name": "2 years and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND",
@@ -1015,12 +1015,12 @@
             {
               "id": "fda_poda.condition:medullary thyroid gland carcinoma",
               "name": "medullary thyroid gland carcinoma",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:2 years and older",
               "name": "2 years and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND",
@@ -1144,7 +1144,7 @@
             {
               "id": "fda_poda.condition:low-grade glioma",
               "name": "low-grade glioma",
-              "conceptType": "Condition",
+              "conceptType": "Disease",
               "extensions": [
                 {
                   "name": "aliases",
@@ -1155,7 +1155,7 @@
             {
               "id": "fda_poda.onset:6 months and older",
               "name": "6 months and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -1258,7 +1258,7 @@
             {
               "id": "fda_poda.condition:low-grade glioma",
               "name": "low-grade glioma",
-              "conceptType": "Condition",
+              "conceptType": "Disease",
               "extensions": [
                 {
                   "name": "aliases",
@@ -1269,7 +1269,7 @@
             {
               "id": "fda_poda.onset:6 months and older",
               "name": "6 months and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -1353,12 +1353,12 @@
             {
               "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
               "name": "precursor B-cell acute lymphoblastic leukemia",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:1 year and older",
               "name": "1 year and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND",
@@ -1462,12 +1462,12 @@
             {
               "id": "fda_poda.condition:solid neoplasm",
               "name": "solid neoplasm",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:1 month and older",
               "name": "1 month and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -1561,12 +1561,12 @@
             {
               "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
               "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:1 year and older",
               "name": "1 year and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND",
@@ -1696,12 +1696,12 @@
             {
               "id": "fda_poda.condition:solid neoplasm",
               "name": "solid neoplasm",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:1 year and older",
               "name": "1 year and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -1819,7 +1819,7 @@
             {
               "id": "fda_poda.condition:low-grade glioma",
               "name": "low-grade glioma",
-              "conceptType": "Condition",
+              "conceptType": "Disease",
               "extensions": [
                 {
                   "name": "aliases",
@@ -1830,7 +1830,7 @@
             {
               "id": "fda_poda.onset:6 months and older",
               "name": "6 months and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -1914,12 +1914,12 @@
             {
               "id": "fda_poda.condition:inflammatory myofibroblastic tumor",
               "name": "inflammatory myofibroblastic tumor",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:1 year and older",
               "name": "1 year and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND",
@@ -2024,7 +2024,7 @@
             {
               "id": "fda_poda.condition:diffuse large B-cell lymphoma",
               "name": "diffuse large B-cell lymphoma",
-              "conceptType": "Condition",
+              "conceptType": "Disease",
               "extensions": [
                 {
                   "name": "aliases",
@@ -2035,7 +2035,7 @@
             {
               "id": "fda_poda.onset:6 months and older",
               "name": "6 months and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -2134,7 +2134,7 @@
             {
               "id": "fda_poda.condition:Burkitt lymphoma",
               "name": "Burkitt lymphoma",
-              "conceptType": "Condition",
+              "conceptType": "Disease",
               "extensions": [
                 {
                   "name": "aliases",
@@ -2145,7 +2145,7 @@
             {
               "id": "fda_poda.onset:6 months and older",
               "name": "6 months and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -2244,7 +2244,7 @@
             {
               "id": "fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma",
               "name": "Atypical Burkitt/Burkitt-Like Lymphoma",
-              "conceptType": "Condition",
+              "conceptType": "Disease",
               "extensions": [
                 {
                   "name": "aliases",
@@ -2255,7 +2255,7 @@
             {
               "id": "fda_poda.onset:6 months and older",
               "name": "6 months and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -2354,7 +2354,7 @@
             {
               "id": "fda_poda.condition:Burkitt Leukemia",
               "name": "Burkitt Leukemia",
-              "conceptType": "Condition",
+              "conceptType": "Disease",
               "extensions": [
                 {
                   "name": "aliases",
@@ -2365,7 +2365,7 @@
             {
               "id": "fda_poda.onset:6 months and older",
               "name": "6 months and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -2464,7 +2464,7 @@
             {
               "id": "fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma",
               "name": "",
-              "conceptType": "Condition",
+              "conceptType": "Disease",
               "extensions": [
                 {
                   "name": "aliases",
@@ -2475,7 +2475,7 @@
             {
               "id": "fda_poda.onset:1 year and older",
               "name": "1 year and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -2578,12 +2578,12 @@
             {
               "id": "fda_poda.condition:thyroid cancer",
               "name": "thyroid cancer",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:12 years and older",
               "name": "12 years and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -2686,7 +2686,7 @@
             {
               "id": "fda_poda.condition:medullary thyroid gland carcinoma",
               "name": "medullary thyroid gland carcinoma",
-              "conceptType": "Condition",
+              "conceptType": "Disease",
               "extensions": [
                 {
                   "name": "aliases",
@@ -2697,7 +2697,7 @@
             {
               "id": "fda_poda.onset:12 years and older",
               "name": "12 years and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -2796,12 +2796,12 @@
             {
               "id": "fda_poda.condition:acute myeloid leukemia",
               "name": "acute myeloid leukemia",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:1 month and older",
               "name": "1 month and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -2900,12 +2900,12 @@
             {
               "id": "fda_poda.condition:acute lymphoblastic leukemia",
               "name": "acute lymphoblastic leukemia",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:1 year and older",
               "name": "1 year and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -3003,12 +3003,12 @@
             {
               "id": "fda_poda.condition:solid neoplasm",
               "name": "solid neoplasm",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:0 years and older",
               "name": "0 years and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -3111,12 +3111,12 @@
             {
               "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
               "name": "precursor B-cell acute lymphoblastic leukemia",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:1 month and older",
               "name": "1 month and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -3210,7 +3210,7 @@
             {
               "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
               "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Condition",
+              "conceptType": "Disease",
               "extensions": [
                 {
                   "name": "aliases",
@@ -3221,7 +3221,7 @@
             {
               "id": "fda_poda.onset:1 year and older",
               "name": "1 year and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -3315,7 +3315,7 @@
             {
               "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
               "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Condition",
+              "conceptType": "Disease",
               "extensions": [
                 {
                   "name": "aliases",
@@ -3326,7 +3326,7 @@
             {
               "id": "fda_poda.onset:1 year and older",
               "name": "1 year and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -3420,12 +3420,12 @@
             {
               "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
               "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:1 year and older",
               "name": "1 year and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -3520,12 +3520,12 @@
             {
               "id": "fda_poda.condition:acute myeloid leukemia",
               "name": "acute myeloid leukemia",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:2 years and older",
               "name": "2 years and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -3628,12 +3628,12 @@
             {
               "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
               "name": "precursor B-cell acute lymphoblastic leukemia",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             },
             {
               "id": "fda_poda.onset:1 month and older",
               "name": "1 month and older",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -3728,7 +3728,7 @@
             {
               "id": "fda_poda.condition:acute lymphoblastic leukemia",
               "name": "acute lymphoblastic leukemia",
-              "conceptType": "Condition",
+              "conceptType": "Disease",
               "extensions": [
                 {
                   "name": "aliases",
@@ -3739,7 +3739,7 @@
             {
               "id": "fda_poda.onset:Pediatric",
               "name": "Pediatric",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
@@ -3837,7 +3837,7 @@
             {
               "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
               "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Condition",
+              "conceptType": "Disease",
               "extensions": [
                 {
                   "name": "aliases",
@@ -3848,7 +3848,7 @@
             {
               "id": "fda_poda.onset:Pediatric",
               "name": "Pediatric",
-              "conceptType": "Condition"
+              "conceptType": "Disease"
             }
           ],
           "membershipOperator": "AND"
