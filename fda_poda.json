@@ -88,6 +88,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -192,6 +193,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -296,6 +298,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -400,6 +403,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -504,6 +508,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -608,6 +613,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -707,6 +713,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -821,6 +828,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -935,6 +943,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -1049,6 +1058,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -1163,6 +1173,7 @@
       },
       "direction": "supports",
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -1277,6 +1288,7 @@
       },
       "direction": "supports",
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -1387,6 +1399,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -1490,6 +1503,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -1595,6 +1609,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -1724,6 +1739,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -1838,6 +1854,7 @@
       },
       "direction": "supports",
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -1948,6 +1965,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -2058,6 +2076,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -2168,6 +2187,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -2278,6 +2298,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -2388,6 +2409,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -2498,6 +2520,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -2606,6 +2629,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -2720,6 +2744,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -2824,6 +2849,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -2928,6 +2954,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -3031,6 +3058,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -3139,6 +3167,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -3244,6 +3273,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -3349,6 +3379,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -3448,6 +3479,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -3548,6 +3580,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -3656,6 +3689,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -3762,6 +3796,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
@@ -3871,6 +3906,7 @@
         }
       },
       "strength": {
+        "id": "fda:approved",
         "primaryCoding": {
           "system": "https://www.fda.gov",
           "code": "FDA-Approved"
