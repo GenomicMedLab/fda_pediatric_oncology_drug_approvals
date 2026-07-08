@@ -144,7 +144,7 @@
         "objectTherapeutic": {
           "name": "Vorasidenib",
           "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218784 ",
+          "id": "drugsatfda.nda:218784",
           "extensions": [
             {
               "name": "trade_names",
@@ -250,7 +250,7 @@
         "objectTherapeutic": {
           "name": "Vorasidenib",
           "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218784 ",
+          "id": "drugsatfda.nda:218784",
           "extensions": [
             {
               "name": "trade_names",
@@ -356,7 +356,7 @@
         "objectTherapeutic": {
           "name": "Vorasidenib",
           "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218784 ",
+          "id": "drugsatfda.nda:218784",
           "extensions": [
             {
               "name": "trade_names",
@@ -462,7 +462,7 @@
         "objectTherapeutic": {
           "name": "Vorasidenib",
           "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218784 ",
+          "id": "drugsatfda.nda:218784",
           "extensions": [
             {
               "name": "trade_names",
@@ -674,7 +674,7 @@
         "objectTherapeutic": {
           "name": "Repotrectinib",
           "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218213 ",
+          "id": "drugsatfda.nda:218213",
           "extensions": [
             {
               "name": "trade_names",
@@ -2486,7 +2486,7 @@
         "objectTherapeutic": {
           "name": "Crizotinib",
           "conceptType": "Therapy",
-          "id": "drugsatfda.nda:202570 ",
+          "id": "drugsatfda.nda:202570",
           "extensions": [
             {
               "name": "trade_names",
@@ -2602,7 +2602,7 @@
         "objectTherapeutic": {
           "name": "Pralsetinib",
           "conceptType": "Therapy",
-          "id": "drugsatfda.nda:214701 ",
+          "id": "drugsatfda.nda:214701",
           "extensions": [
             {
               "name": "trade_names",
@@ -2712,7 +2712,7 @@
         "objectTherapeutic": {
           "name": "Pralsetinib",
           "conceptType": "Therapy",
-          "id": "drugsatfda.nda:214701 ",
+          "id": "drugsatfda.nda:214701",
           "extensions": [
             {
               "name": "trade_names",
@@ -2930,7 +2930,7 @@
         "objectTherapeutic": {
           "name": "DASATINIB",
           "conceptType": "Therapy",
-          "id": "drugsatfda.nda:021986 ",
+          "id": "drugsatfda.nda:021986",
           "extensions": [
             {
               "name": "trade_names",
@@ -3779,7 +3779,7 @@
         "objectTherapeutic": {
           "name": "Imatinib Mesylate",
           "conceptType": "Therapy",
-          "id": "drugsatfda.nda:021588 ",
+          "id": "drugsatfda.nda:021588",
           "extensions": [
             {
               "name": "trade_names",
