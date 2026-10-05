@@ -3,136 +3,161 @@
     "fda_poda.condition:acute leukemia": {
       "id": "fda_poda.condition:acute leukemia",
       "name": "acute leukemia",
-      "conceptType": "Disease"
+      "conceptType": "Disease",
+      "type": "MappableConcept"
     },
     "fda_poda.onset:1 year and older": {
       "id": "fda_poda.onset:1 year and older",
       "name": "1 year and older",
-      "conceptType": "Phenotype"
+      "conceptType": "Phenotype",
+      "type": "MappableConcept"
     },
     "fda_poda.condition:diffuse astrocytoma": {
       "id": "fda_poda.condition:diffuse astrocytoma",
       "name": "diffuse astrocytoma",
-      "conceptType": "Disease"
+      "conceptType": "Disease",
+      "type": "MappableConcept"
     },
     "fda_poda.onset:12 years and older": {
       "id": "fda_poda.onset:12 years and older",
       "name": "12 years and older",
-      "conceptType": "Phenotype"
+      "conceptType": "Phenotype",
+      "type": "MappableConcept"
     },
     "fda_poda.condition:oligodendroglioma": {
       "id": "fda_poda.condition:oligodendroglioma",
       "name": "oligodendroglioma",
-      "conceptType": "Disease"
+      "conceptType": "Disease",
+      "type": "MappableConcept"
     },
     "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia": {
       "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
       "name": "precursor B-cell acute lymphoblastic leukemia",
-      "conceptType": "Disease"
+      "conceptType": "Disease",
+      "type": "MappableConcept"
     },
     "fda_poda.onset:1 month and older": {
       "id": "fda_poda.onset:1 month and older",
       "name": "1 month and older",
-      "conceptType": "Phenotype"
+      "conceptType": "Phenotype",
+      "type": "MappableConcept"
     },
     "fda_poda.condition:solid neoplasm": {
       "id": "fda_poda.condition:solid neoplasm",
       "name": "solid neoplasm",
-      "conceptType": "Disease"
+      "conceptType": "Disease",
+      "type": "MappableConcept"
     },
     "fda_poda.onset:2 years and older": {
       "id": "fda_poda.onset:2 years and older",
       "name": "2 years and older",
-      "conceptType": "Phenotype"
+      "conceptType": "Phenotype",
+      "type": "MappableConcept"
     },
     "fda_poda.condition:Thyroid Gland Neoplasm": {
       "id": "fda_poda.condition:Thyroid Gland Neoplasm",
       "name": "Thyroid Gland Neoplasm",
-      "conceptType": "Disease"
+      "conceptType": "Disease",
+      "type": "MappableConcept"
     },
     "fda_poda.condition:medullary thyroid gland carcinoma": {
       "id": "fda_poda.condition:medullary thyroid gland carcinoma",
       "name": "medullary thyroid gland carcinoma",
       "conceptType": "Disease",
-      "aliases": ["MTC"]
+      "aliases": ["MTC"],
+      "type": "MappableConcept"
     },
     "fda_poda.condition:low-grade glioma": {
       "id": "fda_poda.condition:low-grade glioma",
       "name": "low-grade glioma",
       "conceptType": "Disease",
-      "aliases": ["LGG"]
+      "aliases": ["LGG"],
+      "type": "MappableConcept"
     },
     "fda_poda.onset:6 months and older": {
       "id": "fda_poda.onset:6 months and older",
       "name": "6 months and older",
-      "conceptType": "Phenotype"
+      "conceptType": "Phenotype",
+      "type": "MappableConcept"
     },
     "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive": {
       "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
       "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
       "conceptType": "Disease",
-      "aliases": ["Ph+ CML"]
+      "aliases": ["Ph+ CML"],
+      "type": "MappableConcept"
     },
     "fda_poda.condition:inflammatory myofibroblastic tumor": {
       "id": "fda_poda.condition:inflammatory myofibroblastic tumor",
       "name": "inflammatory myofibroblastic tumor",
-      "conceptType": "Disease"
+      "conceptType": "Disease",
+      "type": "MappableConcept"
     },
     "fda_poda.condition:diffuse large B-cell lymphoma": {
       "id": "fda_poda.condition:diffuse large B-cell lymphoma",
       "name": "diffuse large B-cell lymphoma",
       "conceptType": "Disease",
-      "aliases": ["DLBCL"]
+      "aliases": ["DLBCL"],
+      "type": "MappableConcept"
     },
     "fda_poda.condition:Burkitt lymphoma": {
       "id": "fda_poda.condition:Burkitt lymphoma",
       "name": "Burkitt lymphoma",
       "conceptType": "Disease",
-      "aliases": ["BL"]
+      "aliases": ["BL"],
+      "type": "MappableConcept"
     },
     "fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma": {
       "id": "fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma",
       "name": "Atypical Burkitt/Burkitt-Like Lymphoma",
       "conceptType": "Disease",
-      "aliases": ["BLL"]
+      "aliases": ["BLL"],
+      "type": "MappableConcept"
     },
     "fda_poda.condition:Burkitt Leukemia": {
       "id": "fda_poda.condition:Burkitt Leukemia",
       "name": "Burkitt Leukemia",
       "conceptType": "Disease",
-      "aliases": ["B-AL"]
+      "aliases": ["B-AL"],
+      "type": "MappableConcept"
     },
     "fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma": {
       "id": "fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma",
       "name": "",
       "conceptType": "Disease",
-      "aliases": ["ALCL"]
+      "aliases": ["ALCL"],
+      "type": "MappableConcept"
     },
     "fda_poda.condition:thyroid cancer": {
       "id": "fda_poda.condition:thyroid cancer",
       "name": "thyroid cancer",
-      "conceptType": "Disease"
+      "conceptType": "Disease",
+      "type": "MappableConcept"
     },
     "fda_poda.condition:acute myeloid leukemia": {
       "id": "fda_poda.condition:acute myeloid leukemia",
       "name": "acute myeloid leukemia",
-      "conceptType": "Disease"
+      "conceptType": "Disease",
+      "type": "MappableConcept"
     },
     "fda_poda.condition:acute lymphoblastic leukemia": {
       "id": "fda_poda.condition:acute lymphoblastic leukemia",
       "name": "acute lymphoblastic leukemia",
       "conceptType": "Disease",
-      "aliases": ["ALL"]
+      "aliases": ["ALL"],
+      "type": "MappableConcept"
     },
     "fda_poda.onset:0 years and older": {
       "id": "fda_poda.onset:0 years and older",
       "name": "0 years and older",
-      "conceptType": "Phenotype"
+      "conceptType": "Phenotype",
+      "type": "MappableConcept"
     },
     "fda_poda.onset:Pediatric": {
       "id": "fda_poda.onset:Pediatric",
       "name": "Pediatric",
-      "conceptType": "Phenotype"
+      "conceptType": "Phenotype",
+      "type": "MappableConcept"
     }
   },
   "strength": {
@@ -151,7 +176,8 @@
           },
           "relation": "exactMatch"
         }
-      ]
+      ],
+      "type": "MappableConcept"
     }
   },
   "therapy": {
@@ -162,7 +188,8 @@
       "extensions": [
         { "name": "trade_names", "value": ["Revuforj"] },
         { "name": "drug_class", "value": "menin inhibitor" }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:218784": {
       "name": "Vorasidenib",
@@ -174,7 +201,8 @@
           "name": "drug_class",
           "value": "isocitrate dehydrogenase-1 (IDH1) and isocitrate dehydrogenase-2 (IDH2) inhibitor"
         }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:125557": {
       "name": "Blinatumomab",
@@ -186,7 +214,8 @@
           "name": "drug_class",
           "value": "bispecific CD19-directed CD3 T-cell engager"
         }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:218213": {
       "name": "Repotrectinib",
@@ -195,7 +224,8 @@
       "extensions": [
         { "name": "trade_names", "value": ["Augtyro"] },
         { "name": "drug_class", "value": "kinase inhibitor" }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:213246": {
       "name": "Selpercatinib",
@@ -204,7 +234,8 @@
       "extensions": [
         { "name": "trade_names", "value": ["Retevmo"] },
         { "name": "drug_class", "value": "kinase inhibitor" }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:217700": {
       "name": "Tovorafenib",
@@ -213,7 +244,8 @@
       "extensions": [
         { "name": "trade_names", "value": ["Ojemda"] },
         { "name": "drug_class", "value": "kinase inhibitor" }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.bla:761040": {
       "name": "Inotuzumab",
@@ -225,7 +257,8 @@
           "name": "drug_class",
           "value": "CD22-directed antibody and cytotoxic drug conjugate"
         }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:212725": {
       "name": "Entrectinib",
@@ -234,7 +267,8 @@
       "extensions": [
         { "name": "trade_names", "value": ["Rozlytrek"] },
         { "name": "drug_class", "value": "kinase inhibitor" }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:203341": {
       "name": "Bosutinib",
@@ -243,7 +277,8 @@
       "extensions": [
         { "name": "trade_names", "value": ["Bosulif"] },
         { "name": "drug_class", "value": "kinase inhibitor" }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:202806": {
       "name": "Dabrafenib",
@@ -252,7 +287,8 @@
       "extensions": [
         { "name": "trade_names", "value": ["Tafinlar"] },
         { "name": "drug_class", "value": "kinase inhibitor" }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:204114": {
       "name": "Trametinib",
@@ -261,7 +297,8 @@
       "extensions": [
         { "name": "trade_names", "value": ["Mekinist"] },
         { "name": "drug_class", "value": "kinase inhibitor" }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:202570": {
       "name": "Crizotinib",
@@ -270,7 +307,8 @@
       "extensions": [
         { "name": "trade_names", "value": ["Xalkori"] },
         { "name": "drug_class", "value": "kinase inhibitor " }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:103705": {
       "name": "Rituximab",
@@ -279,7 +317,8 @@
       "extensions": [
         { "name": "trade_names", "value": ["Rituxan"] },
         { "name": "drug_class", "value": "CD20-directed cytolytic antibody" }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:214701": {
       "name": "Pralsetinib",
@@ -288,7 +327,8 @@
       "extensions": [
         { "name": "trade_names", "value": ["Gavreto"] },
         { "name": "drug_class", "value": "kinase inhibitor" }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:761060": {
       "name": "Gemtuzumab ozogamicin",
@@ -300,7 +340,8 @@
           "name": "drug_class",
           "value": "CD33-directed antibody and cytotoxic drug conjugate"
         }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:021986": {
       "name": "Dasatinib",
@@ -309,7 +350,8 @@
       "extensions": [
         { "name": "trade_names", "value": ["Sprycel"] },
         { "name": "drug_class", "value": "kinase inhibitor" }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:210861": {
       "name": "Larotrectinib",
@@ -318,7 +360,8 @@
       "extensions": [
         { "name": "trade_names", "value": ["Vitrakvi"] },
         { "name": "drug_class", "value": "kinase inhibitor" }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.bla:125557": {
       "name": "Blinatumomab",
@@ -330,7 +373,8 @@
           "name": "drug_class",
           "value": "bispecific CD19-directed CD3 T-cell engager "
         }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:022068": {
       "name": "Nilotinib",
@@ -339,7 +383,8 @@
       "extensions": [
         { "name": "trade_names", "value": ["Tasigna"] },
         { "name": "drug_class", "value": "kinase inhibitor" }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.bla:761060": {
       "name": "Gemtuzumab ozogamicin",
@@ -351,7 +396,8 @@
           "name": "drug_class",
           "value": "CD33-directed antibody and cytotoxic drug conjugate"
         }
-      ]
+      ],
+      "type": "MappableConcept"
     },
     "drugsatfda.nda:021588": {
       "name": "Imatinib Mesylate",
@@ -360,64 +406,76 @@
       "extensions": [
         { "name": "trade_names", "value": ["Gleevec"] },
         { "name": "drug_class", "value": "kinase inhibitor" }
-      ]
+      ],
+      "type": "MappableConcept"
     }
   },
   "gene": {
     "fda_poda.gene:KMT2A": {
       "conceptType": "Gene",
       "id": "fda_poda.gene:KMT2A",
-      "name": "KMT2A"
+      "name": "KMT2A",
+      "type": "MappableConcept"
     },
     "fda_poda.gene:IDH1": {
       "conceptType": "Gene",
       "id": "fda_poda.gene:IDH1",
-      "name": "IDH1"
+      "name": "IDH1",
+      "type": "MappableConcept"
     },
     "fda_poda.gene:IDH2": {
       "conceptType": "Gene",
       "id": "fda_poda.gene:IDH2",
-      "name": "IDH2"
+      "name": "IDH2",
+      "type": "MappableConcept"
     },
     "fda_poda.gene:CD19": {
       "conceptType": "Gene",
       "id": "fda_poda.gene:CD19",
-      "name": "CD19"
+      "name": "CD19",
+      "type": "MappableConcept"
     },
     "fda_poda.gene:RET": {
       "conceptType": "Gene",
       "id": "fda_poda.gene:RET",
-      "name": "RET"
+      "name": "RET",
+      "type": "MappableConcept"
     },
     "fda_poda.gene:BRAF": {
       "conceptType": "Gene",
       "id": "fda_poda.gene:BRAF",
-      "name": "BRAF"
+      "name": "BRAF",
+      "type": "MappableConcept"
     },
     "fda_poda.gene:CD22": {
       "conceptType": "Gene",
       "id": "fda_poda.gene:CD22",
-      "name": "CD22"
+      "name": "CD22",
+      "type": "MappableConcept"
     },
     "fda_poda.gene:ALK": {
       "conceptType": "Gene",
       "id": "fda_poda.gene:ALK",
-      "name": "ALK"
+      "name": "ALK",
+      "type": "MappableConcept"
     },
     "fda_poda.gene:CD20": {
       "conceptType": "Gene",
       "id": "fda_poda.gene:CD20",
-      "name": "CD20"
+      "name": "CD20",
+      "type": "MappableConcept"
     },
     "fda_poda.gene:CD33": {
       "conceptType": "Gene",
       "id": "fda_poda.gene:CD33",
-      "name": "CD33"
+      "name": "CD33",
+      "type": "MappableConcept"
     },
     "fda_poda.gene:BCR": {
       "conceptType": "Gene",
       "id": "fda_poda.gene:BCR",
-      "name": "BCR"
+      "name": "BCR",
+      "type": "MappableConcept"
     }
   },
   "variant": {
