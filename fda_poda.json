@@ -1,5 +1,101 @@
 {
-  "variant": {},
+  "variant": {
+    "fda_poda.variant:KMT2A translocation": {
+      "id": "fda_poda.variant:KMT2A translocation",
+      "type": "CategoricalVariant",
+      "name": "KIMT2A translocation"
+    },
+    "fda_poda.variant:IDH1 mutation": {
+      "id": "fda_poda.variant:IDH1 mutation",
+      "type": "CategoricalVariant",
+      "name": "IDH1 mutation"
+    },
+    "fda_poda.variant:IDH2 mutation": {
+      "id": "fda_poda.variant:IDH2 mutation",
+      "type": "CategoricalVariant",
+      "name": "IDH2 mutation"
+    },
+    "fda_poda.variant:CD19+ Ph-": {
+      "id": "fda_poda.variant:CD19+ Ph-",
+      "type": "CategoricalVariant",
+      "name": "CD19+ Ph-"
+    },
+    "fda_poda.variant:NTRK fusion": {
+      "id": "fda_poda.variant:NTRK fusion",
+      "type": "CategoricalVariant",
+      "name": "NTRK fusion"
+    },
+    "fda_poda.variant:RET fusion": {
+      "id": "fda_poda.variant:RET fusion",
+      "type": "CategoricalVariant",
+      "name": "RET fusion"
+    },
+    "fda_poda.variant:RET mutation": {
+      "id": "fda_poda.variant:RET mutation",
+      "type": "CategoricalVariant",
+      "name": "RET mutation"
+    },
+    "fda_poda.variant:BRAF V600": {
+      "id": "fda_poda.variant:BRAF V600",
+      "type": "CategoricalVariant",
+      "name": "BRAF V600"
+    },
+    "fda_poda.variant:BRAF Fusion": {
+      "id": "fda_poda.variant:BRAF Fusion",
+      "type": "CategoricalVariant",
+      "name": "BRAF Fusion"
+    },
+    "fda_poda.variant:CD22+": {
+      "id": "fda_poda.variant:CD22+",
+      "type": "CategoricalVariant",
+      "name": "CD22+"
+    },
+    "fda_poda.variant:BCR-ABL1 Fusion": {
+      "id": "fda_poda.variant:BCR-ABL1 Fusion",
+      "type": "CategoricalVariant",
+      "name": "BCR-ABL1 Fusion"
+    },
+    "fda_poda.variant:BRAF V600E": {
+      "id": "fda_poda.variant:BRAF V600E",
+      "type": "CategoricalVariant",
+      "name": "BRAF V600E"
+    },
+    "fda_poda.variant:ALK+": {
+      "id": "fda_poda.variant:ALK+",
+      "type": "CategoricalVariant",
+      "name": "ALK+"
+    },
+    "fda_poda.variant:CD20+": {
+      "id": "fda_poda.variant:CD20+",
+      "type": "CategoricalVariant",
+      "name": "CD20+"
+    },
+    "fda_poda.variant:RET Fusion": {
+      "id": "fda_poda.variant:RET Fusion",
+      "type": "CategoricalVariant",
+      "name": "RET Fusion"
+    },
+    "fda_poda.variant:RET Mutation": {
+      "id": "fda_poda.variant:RET Mutation",
+      "type": "CategoricalVariant",
+      "name": "RET Mutation"
+    },
+    "fda_poda.variant:CD33+": {
+      "id": "fda_poda.variant:CD33+",
+      "type": "CategoricalVariant",
+      "name": "CD33+"
+    },
+    "fda_poda.variant:NTRK Fusion": {
+      "id": "fda_poda.variant:NTRK Fusion",
+      "type": "CategoricalVariant",
+      "name": "NTRK Fusion"
+    },
+    "fda_poda.variant:CD19+": {
+      "id": "fda_poda.variant:CD19+",
+      "type": "CategoricalVariant",
+      "name": "CD19+"
+    }
+  },
   "method": {
     "fda_poda.method:1": {
       "id": "fda_poda.method:1",
@@ -39,11 +135,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:KMT2A translocation",
-          "type": "CategoricalVariant",
-          "name": "KIMT2A translocation"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:KMT2A translocation",
         "objectTherapeutic": {
           "name": "Revumenib",
           "conceptType": "Therapy",
@@ -120,11 +212,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:IDH1 mutation",
-          "type": "CategoricalVariant",
-          "name": "IDH1 mutation"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:IDH1 mutation",
         "objectTherapeutic": {
           "name": "Vorasidenib",
           "conceptType": "Therapy",
@@ -204,11 +292,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:IDH1 mutation",
-          "type": "CategoricalVariant",
-          "name": "IDH1 mutation"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:IDH1 mutation",
         "objectTherapeutic": {
           "name": "Vorasidenib",
           "conceptType": "Therapy",
@@ -288,11 +372,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:IDH2 mutation",
-          "type": "CategoricalVariant",
-          "name": "IDH2 mutation"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:IDH2 mutation",
         "objectTherapeutic": {
           "name": "Vorasidenib",
           "conceptType": "Therapy",
@@ -372,11 +452,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:IDH2 mutation",
-          "type": "CategoricalVariant",
-          "name": "IDH2 mutation"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:IDH2 mutation",
         "objectTherapeutic": {
           "name": "Vorasidenib",
           "conceptType": "Therapy",
@@ -462,11 +538,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD19+ Ph-",
-          "type": "CategoricalVariant",
-          "name": "CD19+ Ph-"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:CD19+ Ph-",
         "objectTherapeutic": {
           "name": "Blinatumomab",
           "conceptType": "Therapy",
@@ -549,11 +621,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:NTRK fusion",
-          "type": "CategoricalVariant",
-          "name": "NTRK fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:NTRK fusion",
         "objectTherapeutic": {
           "name": "Repotrectinib",
           "conceptType": "Therapy",
@@ -632,11 +700,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:RET fusion",
-          "type": "CategoricalVariant",
-          "name": "RET fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:RET fusion",
         "objectTherapeutic": {
           "name": "Selpercatinib",
           "conceptType": "Therapy",
@@ -726,11 +790,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:RET fusion",
-          "type": "CategoricalVariant",
-          "name": "RET fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:RET fusion",
         "objectTherapeutic": {
           "name": "Selpercatinib",
           "conceptType": "Therapy",
@@ -820,11 +880,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:RET mutation",
-          "type": "CategoricalVariant",
-          "name": "RET mutation"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:RET mutation",
         "objectTherapeutic": {
           "name": "Selpercatinib",
           "conceptType": "Therapy",
@@ -913,11 +969,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BRAF V600",
-          "type": "CategoricalVariant",
-          "name": "BRAF V600"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:BRAF V600",
         "objectTherapeutic": {
           "name": "Tovorafenib",
           "conceptType": "Therapy",
@@ -999,11 +1051,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BRAF Fusion",
-          "type": "CategoricalVariant",
-          "name": "BRAF Fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:BRAF Fusion",
         "objectTherapeutic": {
           "name": "Tovorafenib",
           "conceptType": "Therapy",
@@ -1082,11 +1130,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD22+",
-          "type": "CategoricalVariant",
-          "name": "CD22+"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:CD22+",
         "objectTherapeutic": {
           "name": "Inotuzumab",
           "conceptType": "Therapy",
@@ -1182,11 +1226,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:NTRK fusion",
-          "type": "CategoricalVariant",
-          "name": "NTRK fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:NTRK fusion",
         "objectTherapeutic": {
           "name": "Entrectinib",
           "conceptType": "Therapy",
@@ -1261,11 +1301,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BCR-ABL1 Fusion",
-          "type": "CategoricalVariant",
-          "name": "BCR-ABL1 Fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
         "objectTherapeutic": {
           "name": "Bosutinib",
           "conceptType": "Therapy",
@@ -1351,11 +1387,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BRAF V600E",
-          "type": "CategoricalVariant",
-          "name": "BRAF V600E"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:BRAF V600E",
         "objectTherapeutic": {
           "therapies": [
             {
@@ -1452,11 +1484,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BRAF Fusion",
-          "type": "CategoricalVariant",
-          "name": "BRAF Fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:BRAF Fusion",
         "objectTherapeutic": {
           "name": "Tovorafenib",
           "conceptType": "Therapy",
@@ -1535,11 +1563,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:ALK+",
-          "type": "CategoricalVariant",
-          "name": "ALK+"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:ALK+",
         "objectTherapeutic": {
           "name": "Crizotinib",
           "conceptType": "Therapy",
@@ -1625,11 +1649,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD20+",
-          "type": "CategoricalVariant",
-          "name": "CD20+"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:CD20+",
         "objectTherapeutic": {
           "name": "Rituximab",
           "conceptType": "Therapy",
@@ -1713,11 +1733,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD20+",
-          "type": "CategoricalVariant",
-          "name": "CD20+"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:CD20+",
         "objectTherapeutic": {
           "name": "Rituximab",
           "conceptType": "Therapy",
@@ -1801,11 +1817,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD20+",
-          "type": "CategoricalVariant",
-          "name": "CD20+"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:CD20+",
         "objectTherapeutic": {
           "name": "Rituximab",
           "conceptType": "Therapy",
@@ -1889,11 +1901,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD20+",
-          "type": "CategoricalVariant",
-          "name": "CD20+"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:CD20+",
         "objectTherapeutic": {
           "name": "Rituximab",
           "conceptType": "Therapy",
@@ -1977,11 +1985,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:ALK+",
-          "type": "CategoricalVariant",
-          "name": "ALK+"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:ALK+",
         "objectTherapeutic": {
           "name": "Crizotinib",
           "conceptType": "Therapy",
@@ -2063,11 +2067,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:RET Fusion",
-          "type": "CategoricalVariant",
-          "name": "RET Fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:RET Fusion",
         "objectTherapeutic": {
           "name": "Pralsetinib",
           "conceptType": "Therapy",
@@ -2148,11 +2148,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:RET Mutation",
-          "type": "CategoricalVariant",
-          "name": "RET Mutation"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:RET Mutation",
         "objectTherapeutic": {
           "name": "Pralsetinib",
           "conceptType": "Therapy",
@@ -2233,11 +2229,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD33+",
-          "type": "CategoricalVariant",
-          "name": "CD33+"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:CD33+",
         "objectTherapeutic": {
           "name": "Gemtuzumab ozogamicin",
           "conceptType": "Therapy",
@@ -2320,11 +2312,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BCR-ABL1 Fusion",
-          "type": "CategoricalVariant",
-          "name": "BCR-ABL1 Fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
         "objectTherapeutic": {
           "name": "DASATINIB",
           "conceptType": "Therapy",
@@ -2408,11 +2396,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:NTRK Fusion",
-          "type": "CategoricalVariant",
-          "name": "NTRK Fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:NTRK Fusion",
         "objectTherapeutic": {
           "name": "Larotrectinib",
           "conceptType": "Therapy",
@@ -2494,11 +2478,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD19+",
-          "type": "CategoricalVariant",
-          "name": "CD19+"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:CD19+",
         "objectTherapeutic": {
           "name": "Blinatumomab",
           "conceptType": "Therapy",
@@ -2581,11 +2561,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BCR-ABL1 Fusion",
-          "type": "CategoricalVariant",
-          "name": "BCR-ABL1 Fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
         "objectTherapeutic": {
           "name": "Nilotinib",
           "conceptType": "Therapy",
@@ -2664,11 +2640,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BCR-ABL1 Fusion",
-          "type": "CategoricalVariant",
-          "name": "BCR-ABL1 Fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
         "objectTherapeutic": {
           "name": "Nilotinib",
           "conceptType": "Therapy",
@@ -2747,11 +2719,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BCR-ABL1 Fusion",
-          "type": "CategoricalVariant",
-          "name": "BCR-ABL1 Fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
         "objectTherapeutic": {
           "name": "Dasatinib",
           "conceptType": "Therapy",
@@ -2825,11 +2793,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD33+",
-          "type": "CategoricalVariant",
-          "name": "CD33+"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:CD33+",
         "objectTherapeutic": {
           "name": "Gemtuzumab ozogamicin",
           "conceptType": "Therapy",
@@ -2916,11 +2880,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD19+",
-          "type": "CategoricalVariant",
-          "name": "CD19+"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:CD19+",
         "objectTherapeutic": {
           "name": "Blinatumomab",
           "conceptType": "Therapy",
@@ -3006,11 +2966,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BCR-ABL1 Fusion",
-          "type": "CategoricalVariant",
-          "name": "BCR-ABL1 Fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
         "objectTherapeutic": {
           "name": "Imatinib Mesylate",
           "conceptType": "Therapy",
@@ -3090,11 +3046,7 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BCR-ABL1 Fusion",
-          "type": "CategoricalVariant",
-          "name": "BCR-ABL1 Fusion"
-        },
+        "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
         "objectTherapeutic": {
           "name": "Imatinib Mesylate",
           "conceptType": "Therapy",
