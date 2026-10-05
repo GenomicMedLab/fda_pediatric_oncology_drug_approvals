@@ -1,4 +1,140 @@
 {
+  "condition": {
+    "fda_poda.condition:acute leukemia": {
+      "id": "fda_poda.condition:acute leukemia",
+      "name": "acute leukemia",
+      "conceptType": "Disease"
+    },
+    "fda_poda.onset:1 year and older": {
+      "id": "fda_poda.onset:1 year and older",
+      "name": "1 year and older",
+      "conceptType": "Phenotype"
+    },
+    "fda_poda.condition:diffuse astrocytoma": {
+      "id": "fda_poda.condition:diffuse astrocytoma",
+      "name": "diffuse astrocytoma",
+      "conceptType": "Disease"
+    },
+    "fda_poda.onset:12 years and older": {
+      "id": "fda_poda.onset:12 years and older",
+      "name": "12 years and older",
+      "conceptType": "Phenotype"
+    },
+    "fda_poda.condition:oligodendroglioma": {
+      "id": "fda_poda.condition:oligodendroglioma",
+      "name": "oligodendroglioma",
+      "conceptType": "Disease"
+    },
+    "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia": {
+      "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
+      "name": "precursor B-cell acute lymphoblastic leukemia",
+      "conceptType": "Disease"
+    },
+    "fda_poda.onset:1 month and older": {
+      "id": "fda_poda.onset:1 month and older",
+      "name": "1 month and older",
+      "conceptType": "Phenotype"
+    },
+    "fda_poda.condition:solid neoplasm": {
+      "id": "fda_poda.condition:solid neoplasm",
+      "name": "solid neoplasm",
+      "conceptType": "Disease"
+    },
+    "fda_poda.onset:2 years and older": {
+      "id": "fda_poda.onset:2 years and older",
+      "name": "2 years and older",
+      "conceptType": "Phenotype"
+    },
+    "fda_poda.condition:Thyroid Gland Neoplasm": {
+      "id": "fda_poda.condition:Thyroid Gland Neoplasm",
+      "name": "Thyroid Gland Neoplasm",
+      "conceptType": "Disease"
+    },
+    "fda_poda.condition:medullary thyroid gland carcinoma": {
+      "id": "fda_poda.condition:medullary thyroid gland carcinoma",
+      "name": "medullary thyroid gland carcinoma",
+      "conceptType": "Disease",
+      "extensions": [{ "name": "aliases", "value": ["MTC"] }]
+    },
+    "fda_poda.condition:low-grade glioma": {
+      "id": "fda_poda.condition:low-grade glioma",
+      "name": "low-grade glioma",
+      "conceptType": "Disease",
+      "extensions": [{ "name": "aliases", "value": ["LGG"] }]
+    },
+    "fda_poda.onset:6 months and older": {
+      "id": "fda_poda.onset:6 months and older",
+      "name": "6 months and older",
+      "conceptType": "Phenotype"
+    },
+    "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive": {
+      "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
+      "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
+      "conceptType": "Disease",
+      "extensions": [{ "name": "aliases", "value": ["Ph+ CML"] }]
+    },
+    "fda_poda.condition:inflammatory myofibroblastic tumor": {
+      "id": "fda_poda.condition:inflammatory myofibroblastic tumor",
+      "name": "inflammatory myofibroblastic tumor",
+      "conceptType": "Disease"
+    },
+    "fda_poda.condition:diffuse large B-cell lymphoma": {
+      "id": "fda_poda.condition:diffuse large B-cell lymphoma",
+      "name": "diffuse large B-cell lymphoma",
+      "conceptType": "Disease",
+      "extensions": [{ "name": "aliases", "value": ["DLBCL"] }]
+    },
+    "fda_poda.condition:Burkitt lymphoma": {
+      "id": "fda_poda.condition:Burkitt lymphoma",
+      "name": "Burkitt lymphoma",
+      "conceptType": "Disease",
+      "extensions": [{ "name": "aliases", "value": ["BL"] }]
+    },
+    "fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma": {
+      "id": "fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma",
+      "name": "Atypical Burkitt/Burkitt-Like Lymphoma",
+      "conceptType": "Disease",
+      "extensions": [{ "name": "aliases", "value": ["BLL"] }]
+    },
+    "fda_poda.condition:Burkitt Leukemia": {
+      "id": "fda_poda.condition:Burkitt Leukemia",
+      "name": "Burkitt Leukemia",
+      "conceptType": "Disease",
+      "extensions": [{ "name": "aliases", "value": ["B-AL"] }]
+    },
+    "fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma": {
+      "id": "fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma",
+      "name": "",
+      "conceptType": "Disease",
+      "extensions": [{ "name": "aliases", "value": ["ALCL"] }]
+    },
+    "fda_poda.condition:thyroid cancer": {
+      "id": "fda_poda.condition:thyroid cancer",
+      "name": "thyroid cancer",
+      "conceptType": "Disease"
+    },
+    "fda_poda.condition:acute myeloid leukemia": {
+      "id": "fda_poda.condition:acute myeloid leukemia",
+      "name": "acute myeloid leukemia",
+      "conceptType": "Disease"
+    },
+    "fda_poda.condition:acute lymphoblastic leukemia": {
+      "id": "fda_poda.condition:acute lymphoblastic leukemia",
+      "name": "acute lymphoblastic leukemia",
+      "conceptType": "Disease",
+      "extensions": [{ "name": "aliases", "value": ["ALL"] }]
+    },
+    "fda_poda.onset:0 years and older": {
+      "id": "fda_poda.onset:0 years and older",
+      "name": "0 years and older",
+      "conceptType": "Phenotype"
+    },
+    "fda_poda.onset:Pediatric": {
+      "id": "fda_poda.onset:Pediatric",
+      "name": "Pediatric",
+      "conceptType": "Phenotype"
+    }
+  },
   "strength": {
     "fda:approved": {
       "id": "fda:approved",
@@ -425,16 +561,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:KMT2A",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:acute leukemia",
-              "name": "acute leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:acute leukemia",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
           "membershipOperator": "AND"
         },
@@ -474,16 +602,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH1",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:diffuse astrocytoma",
-              "name": "diffuse astrocytoma",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:12 years and older",
-              "name": "12 years and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:diffuse astrocytoma",
+            "#/condition/fda_poda.onset:12 years and older"
           ],
           "membershipOperator": "AND"
         },
@@ -523,16 +643,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH1",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:oligodendroglioma",
-              "name": "oligodendroglioma",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:12 years and older",
-              "name": "12 years and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:oligodendroglioma",
+            "#/condition/fda_poda.onset:12 years and older"
           ],
           "membershipOperator": "AND"
         },
@@ -572,16 +684,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH2",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:diffuse astrocytoma",
-              "name": "diffuse astrocytoma",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:12 years and older",
-              "name": "12 years and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:diffuse astrocytoma",
+            "#/condition/fda_poda.onset:12 years and older"
           ],
           "membershipOperator": "AND"
         },
@@ -621,16 +725,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH2",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:oligodendroglioma",
-              "name": "oligodendroglioma",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:12 years and older",
-              "name": "12 years and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:oligodendroglioma",
+            "#/condition/fda_poda.onset:12 years and older"
           ],
           "membershipOperator": "AND"
         },
@@ -676,16 +772,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
-              "name": "precursor B-cell acute lymphoblastic leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 month and older",
-              "name": "1 month and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
+            "#/condition/fda_poda.onset:1 month and older"
           ],
           "membershipOperator": "AND"
         },
@@ -727,16 +815,8 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:218213",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:solid neoplasm",
-              "name": "solid neoplasm",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:12 years and older",
-              "name": "12 years and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:solid neoplasm",
+            "#/condition/fda_poda.onset:12 years and older"
           ],
           "membershipOperator": "AND"
         },
@@ -783,16 +863,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:solid neoplasm",
-              "name": "solid neoplasm",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:2 years and older",
-              "name": "2 years and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:solid neoplasm",
+            "#/condition/fda_poda.onset:2 years and older"
           ],
           "membershipOperator": "AND",
           "extensions": [
@@ -845,16 +917,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:Thyroid Gland Neoplasm",
-              "name": "Thyroid Gland Neoplasm",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:2 years and older",
-              "name": "2 years and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:Thyroid Gland Neoplasm",
+            "#/condition/fda_poda.onset:2 years and older"
           ],
           "membershipOperator": "AND",
           "extensions": [
@@ -907,16 +971,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:medullary thyroid gland carcinoma",
-              "name": "medullary thyroid gland carcinoma",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:2 years and older",
-              "name": "2 years and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:medullary thyroid gland carcinoma",
+            "#/condition/fda_poda.onset:2 years and older"
           ],
           "membershipOperator": "AND",
           "extensions": [
@@ -968,17 +1024,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:low-grade glioma",
-              "name": "low-grade glioma",
-              "conceptType": "Disease",
-              "extensions": [{ "name": "aliases", "value": ["LGG"] }]
-            },
-            {
-              "id": "fda_poda.onset:6 months and older",
-              "name": "6 months and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:low-grade glioma",
+            "#/condition/fda_poda.onset:6 months and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1022,17 +1069,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:low-grade glioma",
-              "name": "low-grade glioma",
-              "conceptType": "Disease",
-              "extensions": [{ "name": "aliases", "value": ["LGG"] }]
-            },
-            {
-              "id": "fda_poda.onset:6 months and older",
-              "name": "6 months and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:low-grade glioma",
+            "#/condition/fda_poda.onset:6 months and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1073,16 +1111,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:CD22",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
-              "name": "precursor B-cell acute lymphoblastic leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
           "membershipOperator": "AND",
           "extensions": [
@@ -1137,16 +1167,8 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:212725",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:solid neoplasm",
-              "name": "solid neoplasm",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 month and older",
-              "name": "1 month and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:solid neoplasm",
+            "#/condition/fda_poda.onset:1 month and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1188,16 +1210,8 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:203341",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
-              "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
           "membershipOperator": "AND",
           "extensions": [
@@ -1257,16 +1271,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:solid neoplasm",
-              "name": "solid neoplasm",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:solid neoplasm",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1312,17 +1318,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:low-grade glioma",
-              "name": "low-grade glioma",
-              "conceptType": "Disease",
-              "extensions": [{ "name": "aliases", "value": ["LGG"] }]
-            },
-            {
-              "id": "fda_poda.onset:6 months and older",
-              "name": "6 months and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:low-grade glioma",
+            "#/condition/fda_poda.onset:6 months and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1363,16 +1360,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:ALK",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:inflammatory myofibroblastic tumor",
-              "name": "inflammatory myofibroblastic tumor",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:inflammatory myofibroblastic tumor",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
           "membershipOperator": "AND",
           "extensions": [
@@ -1421,17 +1410,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:diffuse large B-cell lymphoma",
-              "name": "diffuse large B-cell lymphoma",
-              "conceptType": "Disease",
-              "extensions": [{ "name": "aliases", "value": ["DLBCL"] }]
-            },
-            {
-              "id": "fda_poda.onset:6 months and older",
-              "name": "6 months and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:diffuse large B-cell lymphoma",
+            "#/condition/fda_poda.onset:6 months and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1474,17 +1454,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:Burkitt lymphoma",
-              "name": "Burkitt lymphoma",
-              "conceptType": "Disease",
-              "extensions": [{ "name": "aliases", "value": ["BL"] }]
-            },
-            {
-              "id": "fda_poda.onset:6 months and older",
-              "name": "6 months and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:Burkitt lymphoma",
+            "#/condition/fda_poda.onset:6 months and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1527,17 +1498,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma",
-              "name": "Atypical Burkitt/Burkitt-Like Lymphoma",
-              "conceptType": "Disease",
-              "extensions": [{ "name": "aliases", "value": ["BLL"] }]
-            },
-            {
-              "id": "fda_poda.onset:6 months and older",
-              "name": "6 months and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma",
+            "#/condition/fda_poda.onset:6 months and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1580,17 +1542,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:Burkitt Leukemia",
-              "name": "Burkitt Leukemia",
-              "conceptType": "Disease",
-              "extensions": [{ "name": "aliases", "value": ["B-AL"] }]
-            },
-            {
-              "id": "fda_poda.onset:6 months and older",
-              "name": "6 months and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:Burkitt Leukemia",
+            "#/condition/fda_poda.onset:6 months and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1633,17 +1586,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:ALK",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma",
-              "name": "",
-              "conceptType": "Disease",
-              "extensions": [{ "name": "aliases", "value": ["ALCL"] }]
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1687,16 +1631,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:thyroid cancer",
-              "name": "thyroid cancer",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:12 years and older",
-              "name": "12 years and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:thyroid cancer",
+            "#/condition/fda_poda.onset:12 years and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1740,17 +1676,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:medullary thyroid gland carcinoma",
-              "name": "medullary thyroid gland carcinoma",
-              "conceptType": "Disease",
-              "extensions": [{ "name": "aliases", "value": ["MTC"] }]
-            },
-            {
-              "id": "fda_poda.onset:12 years and older",
-              "name": "12 years and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:medullary thyroid gland carcinoma",
+            "#/condition/fda_poda.onset:12 years and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1793,16 +1720,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:CD33",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:acute myeloid leukemia",
-              "name": "acute myeloid leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 month and older",
-              "name": "1 month and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:acute myeloid leukemia",
+            "#/condition/fda_poda.onset:1 month and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1845,16 +1764,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:BCR",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:acute lymphoblastic leukemia",
-              "name": "acute lymphoblastic leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:acute lymphoblastic leukemia",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1900,16 +1811,8 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:210861",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:solid neoplasm",
-              "name": "solid neoplasm",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:0 years and older",
-              "name": "0 years and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:solid neoplasm",
+            "#/condition/fda_poda.onset:0 years and older"
           ],
           "membershipOperator": "AND"
         },
@@ -1959,16 +1862,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
-              "name": "precursor B-cell acute lymphoblastic leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 month and older",
-              "name": "1 month and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
+            "#/condition/fda_poda.onset:1 month and older"
           ],
           "membershipOperator": "AND"
         },
@@ -2010,17 +1905,8 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:022068",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
-              "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Disease",
-              "extensions": [{ "name": "aliases", "value": ["Ph+ CML"] }]
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
           "membershipOperator": "AND"
         },
@@ -2065,17 +1951,8 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:022068",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
-              "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Disease",
-              "extensions": [{ "name": "aliases", "value": ["Ph+ CML"] }]
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
           "membershipOperator": "AND"
         },
@@ -2120,16 +1997,8 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:021986",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
-              "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
           "membershipOperator": "AND"
         },
@@ -2171,16 +2040,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:CD33",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:acute myeloid leukemia",
-              "name": "acute myeloid leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:2 years and older",
-              "name": "2 years and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:acute myeloid leukemia",
+            "#/condition/fda_poda.onset:2 years and older"
           ],
           "membershipOperator": "AND"
         },
@@ -2227,16 +2088,8 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
-              "name": "precursor B-cell acute lymphoblastic leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 month and older",
-              "name": "1 month and older",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
+            "#/condition/fda_poda.onset:1 month and older"
           ],
           "membershipOperator": "AND"
         },
@@ -2281,17 +2134,8 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:021588",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:acute lymphoblastic leukemia",
-              "name": "acute lymphoblastic leukemia",
-              "conceptType": "Disease",
-              "extensions": [{ "name": "aliases", "value": ["ALL"] }]
-            },
-            {
-              "id": "fda_poda.onset:Pediatric",
-              "name": "Pediatric",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:acute lymphoblastic leukemia",
+            "#/condition/fda_poda.onset:Pediatric"
           ],
           "membershipOperator": "AND"
         },
@@ -2337,17 +2181,8 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:021588",
         "conditionQualifier": {
           "conditions": [
-            {
-              "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
-              "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Disease",
-              "extensions": [{ "name": "aliases", "value": ["Ph+ CML"] }]
-            },
-            {
-              "id": "fda_poda.onset:Pediatric",
-              "name": "Pediatric",
-              "conceptType": "Phenotype"
-            }
+            "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
+            "#/condition/fda_poda.onset:Pediatric"
           ],
           "membershipOperator": "AND"
         },
