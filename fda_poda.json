@@ -14,7 +14,7 @@
       }
     }
   },
-  "statements": {
+  "statement": {
     "fda_poda.statement:1": {
       "id": "fda_poda.statement:1",
       "description": "Treatment of relapsed or refractory acute leukemia with a lysine methyltransferase 2A gene (KMT2A) translocation in adult and pediatric patients 1 year and older",
@@ -3145,3 +3145,4 @@
     }
   }
 }
+
