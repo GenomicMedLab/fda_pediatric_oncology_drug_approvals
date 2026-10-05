@@ -1,4 +1,20 @@
 {
+  "method": {
+    "fda_poda.method:1": {
+      "id": "fda_poda.method:1",
+      "type": "Method",
+      "name": "Federal Drug Administration Development & Approval Process for Drugs",
+      "reportedIn": {
+        "type": "Document",
+        "name": "Development & Approval Process | Drugs",
+        "title": "Development & Approval Process | Drugs",
+        "documentType": "webpage",
+        "urls": [
+          "https://www.fda.gov/drugs/development-approval-process-drugs"
+        ]
+      }
+    }
+  },
   "statements": [
     {
       "id": "fda_poda.statement:1",
@@ -10,7 +26,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT04065399"]
+          "value": [
+            "NCT04065399"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -42,7 +60,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Revuforj"]
+              "value": [
+                "Revuforj"
+              ]
             },
             {
               "name": "drug_class",
@@ -70,24 +90,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -116,7 +125,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT04164901"]
+          "value": [
+            "NCT04164901"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -148,7 +159,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Voranigo"]
+              "value": [
+                "Voranigo"
+              ]
             },
             {
               "name": "drug_class",
@@ -176,24 +189,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -222,7 +224,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT04164901"]
+          "value": [
+            "NCT04164901"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -254,7 +258,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Voranigo"]
+              "value": [
+                "Voranigo"
+              ]
             },
             {
               "name": "drug_class",
@@ -282,24 +288,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -328,7 +323,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT04164901"]
+          "value": [
+            "NCT04164901"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -360,7 +357,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Voranigo"]
+              "value": [
+                "Voranigo"
+              ]
             },
             {
               "name": "drug_class",
@@ -388,24 +387,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -434,7 +422,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT04164901"]
+          "value": [
+            "NCT04164901"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -466,7 +456,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Voranigo"]
+              "value": [
+                "Voranigo"
+              ]
             },
             {
               "name": "drug_class",
@@ -494,24 +486,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -540,7 +521,11 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT02003222", "NCT02101853", "NCT02393859"]
+          "value": [
+            "NCT02003222",
+            "NCT02101853",
+            "NCT02393859"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -572,7 +557,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Blincyto"]
+              "value": [
+                "Blincyto"
+              ]
             },
             {
               "name": "drug_class",
@@ -600,24 +587,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -646,7 +622,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT03093116"]
+          "value": [
+            "NCT03093116"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -678,7 +656,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Augtyro"]
+              "value": [
+                "Augtyro"
+              ]
             },
             {
               "name": "drug_class",
@@ -701,24 +681,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -751,7 +720,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT03899792"]
+          "value": [
+            "NCT03899792"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -783,7 +754,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Retevmo"]
+              "value": [
+                "Retevmo"
+              ]
             },
             {
               "name": "drug_class",
@@ -817,24 +790,13 @@
             }
           ]
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -867,7 +829,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT03899792"]
+          "value": [
+            "NCT03899792"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -899,7 +863,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Retevmo"]
+              "value": [
+                "Retevmo"
+              ]
             },
             {
               "name": "drug_class",
@@ -933,24 +899,13 @@
             }
           ]
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -983,7 +938,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT03899792"]
+          "value": [
+            "NCT03899792"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -1015,7 +972,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Retevmo"]
+              "value": [
+                "Retevmo"
+              ]
             },
             {
               "name": "drug_class",
@@ -1049,24 +1008,13 @@
             }
           ]
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -1099,7 +1047,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT04775485"]
+          "value": [
+            "NCT04775485"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -1108,20 +1058,7 @@
           ]
         }
       ],
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "reportedIn": [
         {
           "type": "Document",
@@ -1146,7 +1083,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Ojemda"]
+              "value": [
+                "Ojemda"
+              ]
             },
             {
               "name": "drug_class",
@@ -1168,7 +1107,9 @@
               "extensions": [
                 {
                   "name": "aliases",
-                  "value": ["LGG"]
+                  "value": [
+                    "LGG"
+                  ]
                 }
               ]
             },
@@ -1180,7 +1121,9 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "direction": "supports",
       "strength": {
@@ -1215,7 +1158,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT04775485"]
+          "value": [
+            "NCT04775485"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -1224,20 +1169,7 @@
           ]
         }
       ],
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "reportedIn": [
         {
           "type": "Document",
@@ -1262,7 +1194,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Ojemda"]
+              "value": [
+                "Ojemda"
+              ]
             },
             {
               "name": "drug_class",
@@ -1284,7 +1218,9 @@
               "extensions": [
                 {
                   "name": "aliases",
-                  "value": ["LGG"]
+                  "value": [
+                    "LGG"
+                  ]
                 }
               ]
             },
@@ -1296,7 +1232,9 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "direction": "supports",
       "strength": {
@@ -1327,7 +1265,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["WI203581 (ITCC-059)"]
+          "value": [
+            "WI203581 (ITCC-059)"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -1359,7 +1299,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Besponsa"]
+              "value": [
+                "Besponsa"
+              ]
             },
             {
               "name": "drug_class",
@@ -1393,24 +1335,13 @@
             }
           ]
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -1443,7 +1374,12 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT02650401", "NCT04589845", "NCT02568267", "NCT02097810"]
+          "value": [
+            "NCT02650401",
+            "NCT04589845",
+            "NCT02568267",
+            "NCT02097810"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -1475,7 +1411,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Rozlytrek"]
+              "value": [
+                "Rozlytrek"
+              ]
             },
             {
               "name": "drug_class",
@@ -1498,24 +1436,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -1544,7 +1471,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT04258943"]
+          "value": [
+            "NCT04258943"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -1576,7 +1505,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Bosulif"]
+              "value": [
+                "Bosulif"
+              ]
             },
             {
               "name": "drug_class",
@@ -1605,24 +1536,13 @@
             }
           ]
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -1647,7 +1567,7 @@
       "extensions": [
         {
           "name": "additional_description",
-          "value": "This Prior Approval supplemental new drug application extends the age range of the tumor agnostic indication from patients aged 6 years of age and older (approved 6-22-2022 – see https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dabrafenib-combination-trametinib-unresectable-or-metastatic-solid)  to patients aged 1 year of age and older. There was no new clinical data submitted to support the 1-5 year old approval. The supplement was based on the benefit:risk profile and dosage established for the liquid formulation in pediatric glioma patients 1 to <6 years of age. Limitations of Use: TAFINLAR is not indicated for treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition; TAFINLAR is not indicated for treatment of patients with wild-type BRAF solid tumors "
+          "value": "This Prior Approval supplemental new drug application extends the age range of the tumor agnostic indication from patients aged 6 years of age and older (approved 6-22-2022 \u2013 see https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dabrafenib-combination-trametinib-unresectable-or-metastatic-solid)  to patients aged 1 year of age and older. There was no new clinical data submitted to support the 1-5 year old approval. The supplement was based on the benefit:risk profile and dosage established for the liquid formulation in pediatric glioma patients 1 to <6 years of age. Limitations of Use: TAFINLAR is not indicated for treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition; TAFINLAR is not indicated for treatment of patients with wild-type BRAF solid tumors "
         },
         {
           "name": "original_or_supplemental_approval",
@@ -1655,13 +1575,15 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT02124772"]
+          "value": [
+            "NCT02124772"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
           "value": [
-            "Dabrafenib [Tafinlar] |kinase inhibitor|BRAF, CRAF|In combination with trametinib, for the treatment of adult and pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment options|1 year and older |08-31-2023|Supplemental / [Initial U.S. Approval:05-29-2013]|NCT02124772|This Prior Approval supplemental new drug application extends the age range of the tumor agnostic indication from patients aged 6 years of age and older (approved 6-22-2022 – see https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dabrafenib-combination-trametinib-unresectable-or-metastatic-solid)  to patients aged 1 year of age and older. There was no new clinical data submitted to support the 1-5 year old approval. The supplement was based on the benefit:risk profile and dosage established for the liquid formulation in pediatric glioma patients 1 to <6 years of age. Limitations of Use: TAFINLAR is not indicated for treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition; TAFINLAR is not indicated for treatment of patients with wild-type BRAF solid tumors",
-            "Trametinib [Mekinist] |kinase inhibitor|MAP2K1 (MEK1), MAP2K2 (MEK2)|In combination with dabrafenib, for the treatment of adult and pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment options|1 year and older |08-31-2023|Supplemental / [Initial U.S. Approval:05-29-2013]|NCT02124772|This Prior Approval supplemental new drug application extends the age range of the tumor agnostic indication from patients aged 6 years of age and older (approved 6-22-2022 – see https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dabrafenib-combination-trametinib-unresectable-or-metastatic-solid)  to patients aged 1 year of age and older.    There was no new clinical data submitted to support the 1-5 year old approval. The supplement was based on the benefit:risk profile and dosage established for the liquid formulation in pediatric glioma patients 1 to <6 years of age.Limitations of Use: MEKINIST is not indicated for treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition "
+            "Dabrafenib [Tafinlar] |kinase inhibitor|BRAF, CRAF|In combination with trametinib, for the treatment of adult and pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment options|1 year and older |08-31-2023|Supplemental / [Initial U.S. Approval:05-29-2013]|NCT02124772|This Prior Approval supplemental new drug application extends the age range of the tumor agnostic indication from patients aged 6 years of age and older (approved 6-22-2022 \u2013 see https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dabrafenib-combination-trametinib-unresectable-or-metastatic-solid)  to patients aged 1 year of age and older. There was no new clinical data submitted to support the 1-5 year old approval. The supplement was based on the benefit:risk profile and dosage established for the liquid formulation in pediatric glioma patients 1 to <6 years of age. Limitations of Use: TAFINLAR is not indicated for treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition; TAFINLAR is not indicated for treatment of patients with wild-type BRAF solid tumors",
+            "Trametinib [Mekinist] |kinase inhibitor|MAP2K1 (MEK1), MAP2K2 (MEK2)|In combination with dabrafenib, for the treatment of adult and pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment options|1 year and older |08-31-2023|Supplemental / [Initial U.S. Approval:05-29-2013]|NCT02124772|This Prior Approval supplemental new drug application extends the age range of the tumor agnostic indication from patients aged 6 years of age and older (approved 6-22-2022 \u2013 see https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dabrafenib-combination-trametinib-unresectable-or-metastatic-solid)  to patients aged 1 year of age and older.    There was no new clinical data submitted to support the 1-5 year old approval. The supplement was based on the benefit:risk profile and dosage established for the liquid formulation in pediatric glioma patients 1 to <6 years of age.Limitations of Use: MEKINIST is not indicated for treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition "
           ]
         }
       ],
@@ -1690,7 +1612,9 @@
               "extensions": [
                 {
                   "name": "trade_names",
-                  "value": ["Tafinlar"]
+                  "value": [
+                    "Tafinlar"
+                  ]
                 },
                 {
                   "name": "drug_class",
@@ -1705,7 +1629,9 @@
               "extensions": [
                 {
                   "name": "trade_names",
-                  "value": ["Mekinist"]
+                  "value": [
+                    "Mekinist"
+                  ]
                 },
                 {
                   "name": "drug_class",
@@ -1736,24 +1662,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -1786,7 +1701,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT04775485"]
+          "value": [
+            "NCT04775485"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -1795,20 +1712,7 @@
           ]
         }
       ],
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "reportedIn": [
         {
           "type": "Document",
@@ -1833,7 +1737,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Ojemda"]
+              "value": [
+                "Ojemda"
+              ]
             },
             {
               "name": "drug_class",
@@ -1855,7 +1761,9 @@
               "extensions": [
                 {
                   "name": "aliases",
-                  "value": ["LGG"]
+                  "value": [
+                    "LGG"
+                  ]
                 }
               ]
             },
@@ -1867,7 +1775,9 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "direction": "supports",
       "strength": {
@@ -1898,7 +1808,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT00939770"]
+          "value": [
+            "NCT00939770"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -1930,7 +1842,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Xalkori"]
+              "value": [
+                "Xalkori"
+              ]
             },
             {
               "name": "drug_class",
@@ -1964,24 +1878,13 @@
             }
           ]
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -2010,7 +1913,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT01516580"]
+          "value": [
+            "NCT01516580"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -2042,7 +1947,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Rituxan"]
+              "value": [
+                "Rituxan"
+              ]
             },
             {
               "name": "drug_class",
@@ -2064,7 +1971,9 @@
               "extensions": [
                 {
                   "name": "aliases",
-                  "value": ["DLBCL"]
+                  "value": [
+                    "DLBCL"
+                  ]
                 }
               ]
             },
@@ -2076,24 +1985,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -2122,7 +2020,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT01516580"]
+          "value": [
+            "NCT01516580"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -2154,7 +2054,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Rituxan"]
+              "value": [
+                "Rituxan"
+              ]
             },
             {
               "name": "drug_class",
@@ -2176,7 +2078,9 @@
               "extensions": [
                 {
                   "name": "aliases",
-                  "value": ["BL"]
+                  "value": [
+                    "BL"
+                  ]
                 }
               ]
             },
@@ -2188,24 +2092,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -2234,7 +2127,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT01516580"]
+          "value": [
+            "NCT01516580"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -2266,7 +2161,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Rituxan"]
+              "value": [
+                "Rituxan"
+              ]
             },
             {
               "name": "drug_class",
@@ -2288,7 +2185,9 @@
               "extensions": [
                 {
                   "name": "aliases",
-                  "value": ["BLL"]
+                  "value": [
+                    "BLL"
+                  ]
                 }
               ]
             },
@@ -2300,24 +2199,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -2346,7 +2234,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT01516580"]
+          "value": [
+            "NCT01516580"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -2378,7 +2268,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Rituxan"]
+              "value": [
+                "Rituxan"
+              ]
             },
             {
               "name": "drug_class",
@@ -2400,7 +2292,9 @@
               "extensions": [
                 {
                   "name": "aliases",
-                  "value": ["B-AL"]
+                  "value": [
+                    "B-AL"
+                  ]
                 }
               ]
             },
@@ -2412,24 +2306,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -2458,7 +2341,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT00939770"]
+          "value": [
+            "NCT00939770"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -2490,7 +2375,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Xalkori"]
+              "value": [
+                "Xalkori"
+              ]
             },
             {
               "name": "drug_class",
@@ -2512,7 +2399,9 @@
               "extensions": [
                 {
                   "name": "aliases",
-                  "value": ["ALCL"]
+                  "value": [
+                    "ALCL"
+                  ]
                 }
               ]
             },
@@ -2524,24 +2413,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -2574,7 +2452,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT03037385"]
+          "value": [
+            "NCT03037385"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -2606,7 +2486,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Gavreto"]
+              "value": [
+                "Gavreto"
+              ]
             },
             {
               "name": "drug_class",
@@ -2634,24 +2516,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -2684,7 +2555,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT03037385"]
+          "value": [
+            "NCT03037385"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -2716,7 +2589,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Gavreto"]
+              "value": [
+                "Gavreto"
+              ]
             },
             {
               "name": "drug_class",
@@ -2738,7 +2613,9 @@
               "extensions": [
                 {
                   "name": "aliases",
-                  "value": ["MTC"]
+                  "value": [
+                    "MTC"
+                  ]
                 }
               ]
             },
@@ -2750,24 +2627,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -2796,7 +2662,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT00372593"]
+          "value": [
+            "NCT00372593"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -2828,7 +2696,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Mylotarg"]
+              "value": [
+                "Mylotarg"
+              ]
             },
             {
               "name": "drug_class",
@@ -2856,24 +2726,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -2902,7 +2761,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT01460160"]
+          "value": [
+            "NCT01460160"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -2934,7 +2795,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["SPRYCEL"]
+              "value": [
+                "SPRYCEL"
+              ]
             },
             {
               "name": "drug_class",
@@ -2962,24 +2825,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -3012,7 +2864,11 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT02122913", "NCT02637687", "NCT02576431"]
+          "value": [
+            "NCT02122913",
+            "NCT02637687",
+            "NCT02576431"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -3044,7 +2900,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Vitrakvi"]
+              "value": [
+                "Vitrakvi"
+              ]
             },
             {
               "name": "drug_class",
@@ -3067,24 +2925,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -3109,7 +2956,7 @@
       "extensions": [
         {
           "name": "additional_description",
-          "value": "\"Indication statements of blinatumomab for MRD-positive B-cell Precursor ALL: •  Approved on 03-29-2018: Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adults and children. For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-granted-accelerated-approval-blinatumomab-blincyto-amgen-inc-treatment-adult-and-pediatric]. •  Revised on 06-20-2023 to “Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients.” For additional details see Drugs@FDA listing. •  Revised on 06-14-2024 to “Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older.” For additional details see Drugs@FDA listing.\""
+          "value": "\"Indication statements of blinatumomab for MRD-positive B-cell Precursor ALL: \u2022  Approved on 03-29-2018: Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adults and children. For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-granted-accelerated-approval-blinatumomab-blincyto-amgen-inc-treatment-adult-and-pediatric]. \u2022  Revised on 06-20-2023 to \u201cTreatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients.\u201d For additional details see Drugs@FDA listing. \u2022  Revised on 06-14-2024 to \u201cTreatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older.\u201d For additional details see Drugs@FDA listing.\""
         },
         {
           "name": "original_or_supplemental_approval",
@@ -3117,12 +2964,15 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT02101853", "NCT02393859"]
+          "value": [
+            "NCT02101853",
+            "NCT02393859"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
           "value": [
-            "Blinatumomab [Blincyto]|bispecific CD19-directed CD3 T-cell engager |CD19/CD3|Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older|one month and older|03-29-2018|Supplemental [Initial U.S. Approval: 12-03-2014]|NCT02101853, NCT02393859|\"Indication statements of blinatumomab for MRD-positive B-cell Precursor ALL: •  Approved on 03-29-2018: Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adults and children. For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-granted-accelerated-approval-blinatumomab-blincyto-amgen-inc-treatment-adult-and-pediatric]. •  Revised on 06-20-2023 to “Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients.” For additional details see Drugs@FDA listing. •  Revised on 06-14-2024 to “Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older.” For additional details see Drugs@FDA listing.\""
+            "Blinatumomab [Blincyto]|bispecific CD19-directed CD3 T-cell engager |CD19/CD3|Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older|one month and older|03-29-2018|Supplemental [Initial U.S. Approval: 12-03-2014]|NCT02101853, NCT02393859|\"Indication statements of blinatumomab for MRD-positive B-cell Precursor ALL: \u2022  Approved on 03-29-2018: Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adults and children. For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-granted-accelerated-approval-blinatumomab-blincyto-amgen-inc-treatment-adult-and-pediatric]. \u2022  Revised on 06-20-2023 to \u201cTreatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients.\u201d For additional details see Drugs@FDA listing. \u2022  Revised on 06-14-2024 to \u201cTreatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older.\u201d For additional details see Drugs@FDA listing.\""
           ]
         }
       ],
@@ -3149,7 +2999,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Blincyto"]
+              "value": [
+                "Blincyto"
+              ]
             },
             {
               "name": "drug_class",
@@ -3177,24 +3029,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -3223,7 +3064,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT01844765"]
+          "value": [
+            "NCT01844765"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -3255,7 +3098,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Tasigna"]
+              "value": [
+                "Tasigna"
+              ]
             },
             {
               "name": "drug_class",
@@ -3272,7 +3117,9 @@
               "extensions": [
                 {
                   "name": "aliases",
-                  "value": ["Ph+ CML"]
+                  "value": [
+                    "Ph+ CML"
+                  ]
                 }
               ]
             },
@@ -3284,24 +3131,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -3330,7 +3166,10 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT01844765", "NCT01077544"]
+          "value": [
+            "NCT01844765",
+            "NCT01077544"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -3362,7 +3201,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Tasigna"]
+              "value": [
+                "Tasigna"
+              ]
             },
             {
               "name": "drug_class",
@@ -3379,7 +3220,9 @@
               "extensions": [
                 {
                   "name": "aliases",
-                  "value": ["Ph+ CML"]
+                  "value": [
+                    "Ph+ CML"
+                  ]
                 }
               ]
             },
@@ -3391,24 +3234,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -3437,7 +3269,10 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT00306202", "NCT00777036"]
+          "value": [
+            "NCT00306202",
+            "NCT00777036"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -3469,7 +3304,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Sprycel"]
+              "value": [
+                "Sprycel"
+              ]
             },
             {
               "name": "drug_class",
@@ -3492,24 +3329,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -3566,7 +3392,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Mylotarg"]
+              "value": [
+                "Mylotarg"
+              ]
             },
             {
               "name": "drug_class",
@@ -3594,24 +3422,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -3636,7 +3453,7 @@
       "extensions": [
         {
           "name": "additional_description",
-          "value": "\"Indication statements of blinatumomab for Relapsed or Refractory B-cell Precursor ALL: •  08-30-2016: Treatment of Philadelphia chromosome-negative relapsed or refractory B-cell precursor acute lymphoblastic leukemia (ALL). For additional details see Drugs@FDA listing. •  On 07-11-2017 the indication was expanded to include Philadelphia chromosome-positive (Ph+) relapsed or refractory B-cell precursor ALL: “Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adults and  children”.  For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-regular-approval-blinatumomab-and-expands-indication-include-philadelphia-chromosome]. •  Revised on 06-20-2023 to: “Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients.” For additional details see Drugs@FDA listing. \"\" •  Revised on 06-14-2024 to “Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients one month and older.”\""
+          "value": "\"Indication statements of blinatumomab for Relapsed or Refractory B-cell Precursor ALL: \u2022  08-30-2016: Treatment of Philadelphia chromosome-negative relapsed or refractory B-cell precursor acute lymphoblastic leukemia (ALL). For additional details see Drugs@FDA listing. \u2022  On 07-11-2017 the indication was expanded to include Philadelphia chromosome-positive (Ph+) relapsed or refractory B-cell precursor ALL: \u201cTreatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adults and  children\u201d.  For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-regular-approval-blinatumomab-and-expands-indication-include-philadelphia-chromosome]. \u2022  Revised on 06-20-2023 to: \u201cTreatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients.\u201d For additional details see Drugs@FDA listing. \"\" \u2022  Revised on 06-14-2024 to \u201cTreatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients one month and older.\u201d\""
         },
         {
           "name": "original_or_supplemental_approval",
@@ -3644,12 +3461,14 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT01471782"]
+          "value": [
+            "NCT01471782"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
           "value": [
-            "Blinatumomab [Blincyto]|bispecific CD19-directed CD3 T-cell engager |CD19/CD3|Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients one month and older|one month and older|07-11-2017|Supplemental [Initial U.S. Approval: 12-03-2014]|NCT01471782|\"Indication statements of blinatumomab for Relapsed or Refractory B-cell Precursor ALL: •  08-30-2016: Treatment of Philadelphia chromosome-negative relapsed or refractory B-cell precursor acute lymphoblastic leukemia (ALL). For additional details see Drugs@FDA listing. •  On 07-11-2017 the indication was expanded to include Philadelphia chromosome-positive (Ph+) relapsed or refractory B-cell precursor ALL: “Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adults and  children”.  For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-regular-approval-blinatumomab-and-expands-indication-include-philadelphia-chromosome]. •  Revised on 06-20-2023 to: “Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients.” For additional details see Drugs@FDA listing. \"\" •  Revised on 06-14-2024 to “Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients one month and older.”\""
+            "Blinatumomab [Blincyto]|bispecific CD19-directed CD3 T-cell engager |CD19/CD3|Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients one month and older|one month and older|07-11-2017|Supplemental [Initial U.S. Approval: 12-03-2014]|NCT01471782|\"Indication statements of blinatumomab for Relapsed or Refractory B-cell Precursor ALL: \u2022  08-30-2016: Treatment of Philadelphia chromosome-negative relapsed or refractory B-cell precursor acute lymphoblastic leukemia (ALL). For additional details see Drugs@FDA listing. \u2022  On 07-11-2017 the indication was expanded to include Philadelphia chromosome-positive (Ph+) relapsed or refractory B-cell precursor ALL: \u201cTreatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adults and  children\u201d.  For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-regular-approval-blinatumomab-and-expands-indication-include-philadelphia-chromosome]. \u2022  Revised on 06-20-2023 to: \u201cTreatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients.\u201d For additional details see Drugs@FDA listing. \"\" \u2022  Revised on 06-14-2024 to \u201cTreatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients one month and older.\u201d\""
           ]
         }
       ],
@@ -3676,7 +3495,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Blincyto"]
+              "value": [
+                "Blincyto"
+              ]
             },
             {
               "name": "drug_class",
@@ -3704,24 +3525,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -3752,7 +3562,6 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -3783,7 +3592,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Gleevec"]
+              "value": [
+                "Gleevec"
+              ]
             },
             {
               "name": "drug_class",
@@ -3800,7 +3611,9 @@
               "extensions": [
                 {
                   "name": "aliases",
-                  "value": ["ALL"]
+                  "value": [
+                    "ALL"
+                  ]
                 }
               ]
             },
@@ -3812,24 +3625,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
@@ -3862,7 +3664,9 @@
         },
         {
           "name": "clinical_trial_ids",
-          "value": ["NCT00030394"]
+          "value": [
+            "NCT00030394"
+          ]
         },
         {
           "name": "original_spreadsheet_rows",
@@ -3894,7 +3698,9 @@
           "extensions": [
             {
               "name": "trade_names",
-              "value": ["Gleevec"]
+              "value": [
+                "Gleevec"
+              ]
             },
             {
               "name": "drug_class",
@@ -3911,7 +3717,9 @@
               "extensions": [
                 {
                   "name": "aliases",
-                  "value": ["Ph+ CML"]
+                  "value": [
+                    "Ph+ CML"
+                  ]
                 }
               ]
             },
@@ -3923,24 +3731,13 @@
           ],
           "membershipOperator": "AND"
         },
-        "alleleOriginQualifier": { "name": "somatic" }
+        "alleleOriginQualifier": {
+          "name": "somatic"
+        }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "strength": {
         "id": "fda:approved",
         "primaryCoding": {
