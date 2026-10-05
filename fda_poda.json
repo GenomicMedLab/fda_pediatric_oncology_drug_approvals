@@ -54,13 +54,13 @@
       "id": "fda_poda.condition:medullary thyroid gland carcinoma",
       "name": "medullary thyroid gland carcinoma",
       "conceptType": "Disease",
-      "extensions": [{ "name": "aliases", "value": ["MTC"] }]
+      "aliases": ["MTC"]
     },
     "fda_poda.condition:low-grade glioma": {
       "id": "fda_poda.condition:low-grade glioma",
       "name": "low-grade glioma",
       "conceptType": "Disease",
-      "extensions": [{ "name": "aliases", "value": ["LGG"] }]
+      "aliases": ["LGG"]
     },
     "fda_poda.onset:6 months and older": {
       "id": "fda_poda.onset:6 months and older",
@@ -71,7 +71,7 @@
       "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
       "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
       "conceptType": "Disease",
-      "extensions": [{ "name": "aliases", "value": ["Ph+ CML"] }]
+      "aliases": ["Ph+ CML"]
     },
     "fda_poda.condition:inflammatory myofibroblastic tumor": {
       "id": "fda_poda.condition:inflammatory myofibroblastic tumor",
@@ -82,31 +82,31 @@
       "id": "fda_poda.condition:diffuse large B-cell lymphoma",
       "name": "diffuse large B-cell lymphoma",
       "conceptType": "Disease",
-      "extensions": [{ "name": "aliases", "value": ["DLBCL"] }]
+      "aliases": ["DLBCL"]
     },
     "fda_poda.condition:Burkitt lymphoma": {
       "id": "fda_poda.condition:Burkitt lymphoma",
       "name": "Burkitt lymphoma",
       "conceptType": "Disease",
-      "extensions": [{ "name": "aliases", "value": ["BL"] }]
+      "aliases": ["BL"]
     },
     "fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma": {
       "id": "fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma",
       "name": "Atypical Burkitt/Burkitt-Like Lymphoma",
       "conceptType": "Disease",
-      "extensions": [{ "name": "aliases", "value": ["BLL"] }]
+      "aliases": ["BLL"]
     },
     "fda_poda.condition:Burkitt Leukemia": {
       "id": "fda_poda.condition:Burkitt Leukemia",
       "name": "Burkitt Leukemia",
       "conceptType": "Disease",
-      "extensions": [{ "name": "aliases", "value": ["B-AL"] }]
+      "aliases": ["B-AL"]
     },
     "fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma": {
       "id": "fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma",
       "name": "",
       "conceptType": "Disease",
-      "extensions": [{ "name": "aliases", "value": ["ALCL"] }]
+      "aliases": ["ALCL"]
     },
     "fda_poda.condition:thyroid cancer": {
       "id": "fda_poda.condition:thyroid cancer",
@@ -122,7 +122,7 @@
       "id": "fda_poda.condition:acute lymphoblastic leukemia",
       "name": "acute lymphoblastic leukemia",
       "conceptType": "Disease",
-      "extensions": [{ "name": "aliases", "value": ["ALL"] }]
+      "aliases": ["ALL"]
     },
     "fda_poda.onset:0 years and older": {
       "id": "fda_poda.onset:0 years and older",
