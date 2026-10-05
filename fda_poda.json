@@ -1,4 +1,23 @@
 {
+  "strength": {
+    "fda:approved": {
+      "id": "fda:approved",
+      "primaryCoding": {
+        "system": "https://www.fda.gov",
+        "code": "FDA-Approved"
+      },
+      "mappings": [
+        {
+          "coding": {
+            "name": "FDA recognized evidence",
+            "system": "https://go.osu.edu/evidence-codes",
+            "code": "e000002"
+          },
+          "relation": "exactMatch"
+        }
+      ]
+    }
+  },
   "therapy": {
     "drugsatfda.nda:218944": {
       "name": "Revumenib",
@@ -424,23 +443,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:2": {
       "id": "fda_poda.statement:2",
@@ -489,23 +492,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:3": {
       "id": "fda_poda.statement:3",
@@ -554,23 +541,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:4": {
       "id": "fda_poda.statement:4",
@@ -619,23 +590,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:5": {
       "id": "fda_poda.statement:5",
@@ -684,23 +639,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:6": {
       "id": "fda_poda.statement:6",
@@ -755,23 +694,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:7": {
       "id": "fda_poda.statement:7",
@@ -822,23 +745,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:8": {
       "id": "fda_poda.statement:8",
@@ -900,23 +807,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:9": {
       "id": "fda_poda.statement:9",
@@ -978,23 +869,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:10": {
       "id": "fda_poda.statement:10",
@@ -1056,23 +931,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:11": {
       "id": "fda_poda.statement:11",
@@ -1126,23 +985,7 @@
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "direction": "supports",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:12": {
       "id": "fda_poda.statement:12",
@@ -1196,23 +1039,7 @@
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "direction": "supports",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:13": {
       "id": "fda_poda.statement:13",
@@ -1270,23 +1097,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:14": {
       "id": "fda_poda.statement:14",
@@ -1344,23 +1155,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:15": {
       "id": "fda_poda.statement:15",
@@ -1417,23 +1212,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:16": {
       "id": "fda_poda.statement:16",
@@ -1496,23 +1275,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:17": {
       "id": "fda_poda.statement:17",
@@ -1566,23 +1329,7 @@
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "direction": "supports",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:18": {
       "id": "fda_poda.statement:18",
@@ -1640,23 +1387,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:19": {
       "id": "fda_poda.statement:19",
@@ -1709,23 +1440,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:20": {
       "id": "fda_poda.statement:20",
@@ -1778,23 +1493,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:21": {
       "id": "fda_poda.statement:21",
@@ -1847,23 +1546,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:22": {
       "id": "fda_poda.statement:22",
@@ -1916,23 +1599,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:23": {
       "id": "fda_poda.statement:23",
@@ -1985,23 +1652,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:24": {
       "id": "fda_poda.statement:24",
@@ -2054,23 +1705,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:25": {
       "id": "fda_poda.statement:25",
@@ -2124,23 +1759,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:26": {
       "id": "fda_poda.statement:26",
@@ -2192,23 +1811,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:27": {
       "id": "fda_poda.statement:27",
@@ -2260,23 +1863,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:28": {
       "id": "fda_poda.statement:28",
@@ -2331,23 +1918,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:29": {
       "id": "fda_poda.statement:29",
@@ -2406,23 +1977,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:30": {
       "id": "fda_poda.statement:30",
@@ -2474,23 +2029,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:31": {
       "id": "fda_poda.statement:31",
@@ -2545,23 +2084,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:32": {
       "id": "fda_poda.statement:32",
@@ -2615,23 +2138,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:33": {
       "id": "fda_poda.statement:33",
@@ -2682,23 +2189,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:34": {
       "id": "fda_poda.statement:34",
@@ -2754,23 +2245,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:35": {
       "id": "fda_poda.statement:35",
@@ -2825,23 +2300,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
     "fda_poda.statement:36": {
       "id": "fda_poda.statement:36",
@@ -2897,23 +2356,7 @@
       "type": "Statement",
       "direction": "supports",
       "specifiedBy": "#/method/fda_poda.method:1",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     }
   }
 }
