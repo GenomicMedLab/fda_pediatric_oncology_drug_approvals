@@ -1,5 +1,213 @@
 {
-  "therapy": {},
+  "therapy": {
+    "drugsatfda.nda:218944": {
+      "name": "Revumenib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:218944",
+      "extensions": [
+        { "name": "trade_names", "value": ["Revuforj"] },
+        { "name": "drug_class", "value": "menin inhibitor" }
+      ]
+    },
+    "drugsatfda.nda:218784": {
+      "name": "Vorasidenib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:218784",
+      "extensions": [
+        { "name": "trade_names", "value": ["Voranigo"] },
+        {
+          "name": "drug_class",
+          "value": "isocitrate dehydrogenase-1 (IDH1) and isocitrate dehydrogenase-2 (IDH2) inhibitor"
+        }
+      ]
+    },
+    "drugsatfda.nda:125557": {
+      "name": "Blinatumomab",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:125557",
+      "extensions": [
+        { "name": "trade_names", "value": ["Blincyto"] },
+        {
+          "name": "drug_class",
+          "value": "bispecific CD19-directed CD3 T-cell engager"
+        }
+      ]
+    },
+    "drugsatfda.nda:218213": {
+      "name": "Repotrectinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:218213",
+      "extensions": [
+        { "name": "trade_names", "value": ["Augtyro"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ]
+    },
+    "drugsatfda.nda:213246": {
+      "name": "Selpercatinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:213246",
+      "extensions": [
+        { "name": "trade_names", "value": ["Retevmo"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ]
+    },
+    "drugsatfda.nda:217700": {
+      "name": "Tovorafenib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:217700",
+      "extensions": [
+        { "name": "trade_names", "value": ["Ojemda"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ]
+    },
+    "drugsatfda.bla:761040": {
+      "name": "Inotuzumab",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.bla:761040",
+      "extensions": [
+        { "name": "trade_names", "value": ["Besponsa"] },
+        {
+          "name": "drug_class",
+          "value": "CD22-directed antibody and cytotoxic drug conjugate"
+        }
+      ]
+    },
+    "drugsatfda.nda:212725": {
+      "name": "Entrectinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:212725",
+      "extensions": [
+        { "name": "trade_names", "value": ["Rozlytrek"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ]
+    },
+    "drugsatfda.nda:203341": {
+      "name": "Bosutinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:203341",
+      "extensions": [
+        { "name": "trade_names", "value": ["Bosulif"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ]
+    },
+    "drugsatfda.nda:202806": {
+      "name": "Dabrafenib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:202806",
+      "extensions": [
+        { "name": "trade_names", "value": ["Tafinlar"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ]
+    },
+    "drugsatfda.nda:204114": {
+      "name": "Trametinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:204114",
+      "extensions": [
+        { "name": "trade_names", "value": ["Mekinist"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ]
+    },
+    "drugsatfda.nda:202570": {
+      "name": "Crizotinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:202570",
+      "extensions": [
+        { "name": "trade_names", "value": ["Xalkori"] },
+        { "name": "drug_class", "value": "kinase inhibitor " }
+      ]
+    },
+    "drugsatfda.nda:103705": {
+      "name": "Rituximab",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:103705",
+      "extensions": [
+        { "name": "trade_names", "value": ["Rituxan"] },
+        { "name": "drug_class", "value": "CD20-directed cytolytic antibody" }
+      ]
+    },
+    "drugsatfda.nda:214701": {
+      "name": "Pralsetinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:214701",
+      "extensions": [
+        { "name": "trade_names", "value": ["Gavreto"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ]
+    },
+    "drugsatfda.nda:761060": {
+      "name": "Gemtuzumab ozogamicin",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:761060",
+      "extensions": [
+        { "name": "trade_names", "value": ["Mylotarg"] },
+        {
+          "name": "drug_class",
+          "value": "CD33-directed antibody and cytotoxic drug conjugate"
+        }
+      ]
+    },
+    "drugsatfda.nda:021986": {
+      "name": "Dasatinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:021986",
+      "extensions": [
+        { "name": "trade_names", "value": ["Sprycel"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ]
+    },
+    "drugsatfda.nda:210861": {
+      "name": "Larotrectinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:210861",
+      "extensions": [
+        { "name": "trade_names", "value": ["Vitrakvi"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ]
+    },
+    "drugsatfda.bla:125557": {
+      "name": "Blinatumomab",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.bla:125557",
+      "extensions": [
+        { "name": "trade_names", "value": ["Blincyto"] },
+        {
+          "name": "drug_class",
+          "value": "bispecific CD19-directed CD3 T-cell engager "
+        }
+      ]
+    },
+    "drugsatfda.nda:022068": {
+      "name": "Nilotinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:022068",
+      "extensions": [
+        { "name": "trade_names", "value": ["Tasigna"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ]
+    },
+    "drugsatfda.bla:761060": {
+      "name": "Gemtuzumab ozogamicin",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.bla:761060",
+      "extensions": [
+        { "name": "trade_names", "value": ["Mylotarg"] },
+        {
+          "name": "drug_class",
+          "value": "CD33-directed antibody and cytotoxic drug conjugate"
+        }
+      ]
+    },
+    "drugsatfda.nda:021588": {
+      "name": "Imatinib Mesylate",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:021588",
+      "extensions": [
+        { "name": "trade_names", "value": ["Gleevec"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ]
+    }
+  },
   "gene": {
     "fda_poda.gene:KMT2A": {
       "conceptType": "Gene",
@@ -194,15 +402,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:KMT2A translocation",
-        "objectTherapeutic": {
-          "name": "Revumenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218944",
-          "extensions": [
-            { "name": "trade_names", "value": ["Revuforj"] },
-            { "name": "drug_class", "value": "menin inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:218944",
         "geneContextQualifier": "#/gene/fda_poda.gene:KMT2A",
         "conditionQualifier": {
           "conditions": [
@@ -267,18 +467,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:IDH1 mutation",
-        "objectTherapeutic": {
-          "name": "Vorasidenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218784",
-          "extensions": [
-            { "name": "trade_names", "value": ["Voranigo"] },
-            {
-              "name": "drug_class",
-              "value": "isocitrate dehydrogenase-1 (IDH1) and isocitrate dehydrogenase-2 (IDH2) inhibitor"
-            }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:218784",
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH1",
         "conditionQualifier": {
           "conditions": [
@@ -343,18 +532,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:IDH1 mutation",
-        "objectTherapeutic": {
-          "name": "Vorasidenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218784",
-          "extensions": [
-            { "name": "trade_names", "value": ["Voranigo"] },
-            {
-              "name": "drug_class",
-              "value": "isocitrate dehydrogenase-1 (IDH1) and isocitrate dehydrogenase-2 (IDH2) inhibitor"
-            }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:218784",
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH1",
         "conditionQualifier": {
           "conditions": [
@@ -419,18 +597,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:IDH2 mutation",
-        "objectTherapeutic": {
-          "name": "Vorasidenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218784",
-          "extensions": [
-            { "name": "trade_names", "value": ["Voranigo"] },
-            {
-              "name": "drug_class",
-              "value": "isocitrate dehydrogenase-1 (IDH1) and isocitrate dehydrogenase-2 (IDH2) inhibitor"
-            }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:218784",
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH2",
         "conditionQualifier": {
           "conditions": [
@@ -495,18 +662,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:IDH2 mutation",
-        "objectTherapeutic": {
-          "name": "Vorasidenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218784",
-          "extensions": [
-            { "name": "trade_names", "value": ["Voranigo"] },
-            {
-              "name": "drug_class",
-              "value": "isocitrate dehydrogenase-1 (IDH1) and isocitrate dehydrogenase-2 (IDH2) inhibitor"
-            }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:218784",
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH2",
         "conditionQualifier": {
           "conditions": [
@@ -577,18 +733,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:CD19+ Ph-",
-        "objectTherapeutic": {
-          "name": "Blinatumomab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:125557",
-          "extensions": [
-            { "name": "trade_names", "value": ["Blincyto"] },
-            {
-              "name": "drug_class",
-              "value": "bispecific CD19-directed CD3 T-cell engager"
-            }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:125557",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
           "conditions": [
@@ -656,15 +801,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:NTRK fusion",
-        "objectTherapeutic": {
-          "name": "Repotrectinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218213",
-          "extensions": [
-            { "name": "trade_names", "value": ["Augtyro"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:218213",
         "conditionQualifier": {
           "conditions": [
             {
@@ -735,15 +872,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:RET fusion",
-        "objectTherapeutic": {
-          "name": "Selpercatinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:213246",
-          "extensions": [
-            { "name": "trade_names", "value": ["Retevmo"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:213246",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "conditions": [
@@ -821,15 +950,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:RET fusion",
-        "objectTherapeutic": {
-          "name": "Selpercatinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:213246",
-          "extensions": [
-            { "name": "trade_names", "value": ["Retevmo"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:213246",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "conditions": [
@@ -907,15 +1028,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:RET mutation",
-        "objectTherapeutic": {
-          "name": "Selpercatinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:213246",
-          "extensions": [
-            { "name": "trade_names", "value": ["Retevmo"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:213246",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "conditions": [
@@ -992,15 +1105,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:BRAF V600",
-        "objectTherapeutic": {
-          "name": "Tovorafenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:217700",
-          "extensions": [
-            { "name": "trade_names", "value": ["Ojemda"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:217700",
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
           "conditions": [
@@ -1070,15 +1175,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:BRAF Fusion",
-        "objectTherapeutic": {
-          "name": "Tovorafenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:217700",
-          "extensions": [
-            { "name": "trade_names", "value": ["Ojemda"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:217700",
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
           "conditions": [
@@ -1145,18 +1242,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:CD22+",
-        "objectTherapeutic": {
-          "name": "Inotuzumab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.bla:761040",
-          "extensions": [
-            { "name": "trade_names", "value": ["Besponsa"] },
-            {
-              "name": "drug_class",
-              "value": "CD22-directed antibody and cytotoxic drug conjugate"
-            }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.bla:761040",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD22",
         "conditionQualifier": {
           "conditions": [
@@ -1237,15 +1323,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:NTRK fusion",
-        "objectTherapeutic": {
-          "name": "Entrectinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:212725",
-          "extensions": [
-            { "name": "trade_names", "value": ["Rozlytrek"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:212725",
         "conditionQualifier": {
           "conditions": [
             {
@@ -1312,15 +1390,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
-        "objectTherapeutic": {
-          "name": "Bosutinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:203341",
-          "extensions": [
-            { "name": "trade_names", "value": ["Bosulif"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:203341",
         "conditionQualifier": {
           "conditions": [
             {
@@ -1400,24 +1470,8 @@
         "subjectVariant": "#/variant/fda_poda.variant:BRAF V600E",
         "objectTherapeutic": {
           "therapies": [
-            {
-              "name": "Dabrafenib",
-              "conceptType": "Therapy",
-              "id": "drugsatfda.nda:202806",
-              "extensions": [
-                { "name": "trade_names", "value": ["Tafinlar"] },
-                { "name": "drug_class", "value": "kinase inhibitor" }
-              ]
-            },
-            {
-              "name": "Trametinib",
-              "conceptType": "Therapy",
-              "id": "drugsatfda.nda:204114",
-              "extensions": [
-                { "name": "trade_names", "value": ["Mekinist"] },
-                { "name": "drug_class", "value": "kinase inhibitor" }
-              ]
-            }
+            "#/therapy/drugsatfda.nda:202806",
+            "#/therapy/drugsatfda.nda:204114"
           ],
           "membershipOperator": "AND"
         },
@@ -1491,15 +1545,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:BRAF Fusion",
-        "objectTherapeutic": {
-          "name": "Tovorafenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:217700",
-          "extensions": [
-            { "name": "trade_names", "value": ["Ojemda"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:217700",
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
           "conditions": [
@@ -1566,15 +1612,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:ALK+",
-        "objectTherapeutic": {
-          "name": "Crizotinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:202570",
-          "extensions": [
-            { "name": "trade_names", "value": ["Xalkori"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:202570",
         "geneContextQualifier": "#/gene/fda_poda.gene:ALK",
         "conditionQualifier": {
           "conditions": [
@@ -1648,18 +1686,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:CD20+",
-        "objectTherapeutic": {
-          "name": "Rituximab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:103705",
-          "extensions": [
-            { "name": "trade_names", "value": ["Rituxan"] },
-            {
-              "name": "drug_class",
-              "value": "CD20-directed cytolytic antibody"
-            }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:103705",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
           "conditions": [
@@ -1728,18 +1755,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:CD20+",
-        "objectTherapeutic": {
-          "name": "Rituximab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:103705",
-          "extensions": [
-            { "name": "trade_names", "value": ["Rituxan"] },
-            {
-              "name": "drug_class",
-              "value": "CD20-directed cytolytic antibody"
-            }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:103705",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
           "conditions": [
@@ -1808,18 +1824,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:CD20+",
-        "objectTherapeutic": {
-          "name": "Rituximab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:103705",
-          "extensions": [
-            { "name": "trade_names", "value": ["Rituxan"] },
-            {
-              "name": "drug_class",
-              "value": "CD20-directed cytolytic antibody"
-            }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:103705",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
           "conditions": [
@@ -1888,18 +1893,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:CD20+",
-        "objectTherapeutic": {
-          "name": "Rituximab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:103705",
-          "extensions": [
-            { "name": "trade_names", "value": ["Rituxan"] },
-            {
-              "name": "drug_class",
-              "value": "CD20-directed cytolytic antibody"
-            }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:103705",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
           "conditions": [
@@ -1968,15 +1962,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:ALK+",
-        "objectTherapeutic": {
-          "name": "Crizotinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:202570",
-          "extensions": [
-            { "name": "trade_names", "value": ["Xalkori"] },
-            { "name": "drug_class", "value": "kinase inhibitor " }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:202570",
         "geneContextQualifier": "#/gene/fda_poda.gene:ALK",
         "conditionQualifier": {
           "conditions": [
@@ -2046,15 +2032,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:RET Fusion",
-        "objectTherapeutic": {
-          "name": "Pralsetinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:214701",
-          "extensions": [
-            { "name": "trade_names", "value": ["Gavreto"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:214701",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "conditions": [
@@ -2123,15 +2101,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:RET Mutation",
-        "objectTherapeutic": {
-          "name": "Pralsetinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:214701",
-          "extensions": [
-            { "name": "trade_names", "value": ["Gavreto"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:214701",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "conditions": [
@@ -2200,18 +2170,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:CD33+",
-        "objectTherapeutic": {
-          "name": "Gemtuzumab ozogamicin",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:761060",
-          "extensions": [
-            { "name": "trade_names", "value": ["Mylotarg"] },
-            {
-              "name": "drug_class",
-              "value": "CD33-directed antibody and cytotoxic drug conjugate"
-            }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:761060",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD33",
         "conditionQualifier": {
           "conditions": [
@@ -2279,15 +2238,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
-        "objectTherapeutic": {
-          "name": "DASATINIB",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:021986",
-          "extensions": [
-            { "name": "trade_names", "value": ["SPRYCEL"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:021986",
         "geneContextQualifier": "#/gene/fda_poda.gene:BCR",
         "conditionQualifier": {
           "conditions": [
@@ -2359,15 +2310,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:NTRK Fusion",
-        "objectTherapeutic": {
-          "name": "Larotrectinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:210861",
-          "extensions": [
-            { "name": "trade_names", "value": ["Vitrakvi"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:210861",
         "conditionQualifier": {
           "conditions": [
             {
@@ -2441,18 +2384,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:CD19+",
-        "objectTherapeutic": {
-          "name": "Blinatumomab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.bla:125557",
-          "extensions": [
-            { "name": "trade_names", "value": ["Blincyto"] },
-            {
-              "name": "drug_class",
-              "value": "bispecific CD19-directed CD3 T-cell engager "
-            }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.bla:125557",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
           "conditions": [
@@ -2520,15 +2452,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
-        "objectTherapeutic": {
-          "name": "Nilotinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:022068",
-          "extensions": [
-            { "name": "trade_names", "value": ["Tasigna"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:022068",
         "conditionQualifier": {
           "conditions": [
             {
@@ -2599,15 +2523,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
-        "objectTherapeutic": {
-          "name": "Nilotinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:022068",
-          "extensions": [
-            { "name": "trade_names", "value": ["Tasigna"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:022068",
         "conditionQualifier": {
           "conditions": [
             {
@@ -2678,15 +2594,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
-        "objectTherapeutic": {
-          "name": "Dasatinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:021986",
-          "extensions": [
-            { "name": "trade_names", "value": ["Sprycel"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:021986",
         "conditionQualifier": {
           "conditions": [
             {
@@ -2752,18 +2660,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:CD33+",
-        "objectTherapeutic": {
-          "name": "Gemtuzumab ozogamicin",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.bla:761060",
-          "extensions": [
-            { "name": "trade_names", "value": ["Mylotarg"] },
-            {
-              "name": "drug_class",
-              "value": "CD33-directed antibody and cytotoxic drug conjugate"
-            }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.bla:761060",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD33",
         "conditionQualifier": {
           "conditions": [
@@ -2835,18 +2732,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:CD19+",
-        "objectTherapeutic": {
-          "name": "Blinatumomab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.bla:125557",
-          "extensions": [
-            { "name": "trade_names", "value": ["Blincyto"] },
-            {
-              "name": "drug_class",
-              "value": "bispecific CD19-directed CD3 T-cell engager "
-            }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.bla:125557",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
           "conditions": [
@@ -2917,15 +2803,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
-        "objectTherapeutic": {
-          "name": "Imatinib Mesylate",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:021588",
-          "extensions": [
-            { "name": "trade_names", "value": ["Gleevec"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:021588",
         "conditionQualifier": {
           "conditions": [
             {
@@ -2997,15 +2875,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
-        "objectTherapeutic": {
-          "name": "Imatinib Mesylate",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:021588",
-          "extensions": [
-            { "name": "trade_names", "value": ["Gleevec"] },
-            { "name": "drug_class", "value": "kinase inhibitor" }
-          ]
-        },
+        "objectTherapeutic": "#/therapy/drugsatfda.nda:021588",
         "conditionQualifier": {
           "conditions": [
             {
@@ -3047,3 +2917,4 @@
     }
   }
 }
+
