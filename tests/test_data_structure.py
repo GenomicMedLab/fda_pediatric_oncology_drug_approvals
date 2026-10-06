@@ -5,6 +5,7 @@ from pathlib import Path
 import pytest
 from ga4gh.cat_vrs.models import CategoricalVariant
 from ga4gh.core.models import MappableConcept
+from ga4gh.gkm.bundles import load_bundle
 from ga4gh.va_spec.base import Method, Statement
 
 
@@ -51,5 +52,5 @@ def test_statement_ids_successive(data: dict):
     assert id_values == list(range(1, max(id_values) + 1))
 
 
-# TODO test derefs/pointers all work... general bundle functions?
-# https://ga4gh.github.io/gkm-starter-kit/0.4.0/tools/gkm-toolkit/notebooks/validation-notebook/
+def test_load_bundle():
+    assert load_bundle("fda_poda.json", schema="schema.json")

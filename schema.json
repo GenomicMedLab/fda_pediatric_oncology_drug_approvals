@@ -1,0 +1,1378 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:gkm_fda_poda:gkm-bundle:schema:2026-07-08",
+  "type": "object",
+  "required": [
+    "condition",
+    "strength",
+    "therapy",
+    "gene",
+    "variant",
+    "method",
+    "statement"
+  ],
+  "$defs": {
+    "Agent": {
+      "additionalProperties": false,
+      "description": "An autonomous actor (person, organization, or software agent) that bears some\nform of responsibility for an activity taking place, for the existence of an entity,\nor for another agent's activity.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the Entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "type": {
+          "const": "Agent",
+          "default": "Agent",
+          "description": "MUST be 'Agent'.",
+          "title": "Type",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The given name of the Agent.",
+          "title": "Name"
+        },
+        "description": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A free-text description of the Entity.",
+          "title": "Description"
+        },
+        "aliases": {
+          "anyOf": [
+            { "items": { "type": "string" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Alternative name(s) for the Entity.",
+          "title": "Aliases"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "agentType": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A specific type of agent the Agent object represents. Recommended subtypes include codes for `person`, `organization`, or `software`.",
+          "title": "Agenttype"
+        }
+      },
+      "title": "Agent",
+      "type": "object"
+    },
+    "Coding": {
+      "additionalProperties": false,
+      "description": "A structured representation of a code for a defined concept in a terminology or\ncode system.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the data element in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The human-readable name for the coded concept, as defined by the code system.",
+          "title": "Name"
+        },
+        "system": {
+          "description": "The terminology/code system that defined the code. May be reported as a free-text name (e.g. 'Sequence Ontology'), but it is preferable to provide a uri/url for the system.",
+          "title": "System",
+          "type": "string"
+        },
+        "systemVersion": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "Version of the terminology or code system that provided the code.",
+          "title": "Systemversion"
+        },
+        "code": { "$ref": "#/$defs/code" },
+        "iris": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/iriReference" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of IRIs that are associated with the coding. This can be used to provide additional context or to link to additional information about the concept.",
+          "title": "Iris"
+        }
+      },
+      "required": ["system", "code"],
+      "title": "Coding",
+      "type": "object"
+    },
+    "ConceptMapping": {
+      "additionalProperties": false,
+      "description": "A mapping to a concept in a terminology or code system.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the data element in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "coding": {
+          "$ref": "#/$defs/Coding",
+          "description": "A structured representation of a code for a defined concept in a terminology or code system."
+        },
+        "relation": {
+          "$ref": "#/$defs/Relation",
+          "description": "A mapping relation between concepts as defined by the Simple Knowledge Organization System (SKOS)."
+        }
+      },
+      "required": ["coding", "relation"],
+      "title": "ConceptMapping",
+      "type": "object"
+    },
+    "Contribution": {
+      "additionalProperties": false,
+      "description": "An action taken by an agent in contributing to the creation, modification,\nassessment, or deprecation of a particular entity (e.g. a Statement, DataSet,\nPublication, etc.)",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the Entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "type": {
+          "const": "Contribution",
+          "default": "Contribution",
+          "description": "MUST be 'Contribution'.",
+          "title": "Type",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A primary name for the entity.",
+          "title": "Name"
+        },
+        "description": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A free-text description of the Entity.",
+          "title": "Description"
+        },
+        "aliases": {
+          "anyOf": [
+            { "items": { "type": "string" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Alternative name(s) for the Entity.",
+          "title": "Aliases"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "contributor": {
+          "anyOf": [
+            { "$ref": "#/$defs/Agent" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "The agent that made the contribution.",
+          "title": "Contributor"
+        },
+        "activityType": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The specific type of activity performed or role played by an agent in making the contribution (e.g. for a publication, agents may contribute as a primary author, editor, figure designer, data generator, etc.). Values of this property may be framed as activities, or as contribution roles (e.g. using terms from the Contribution Role Ontology (CRO)).",
+          "title": "Activitytype"
+        },
+        "date": {
+          "anyOf": [
+            { "format": "date-time", "type": "string" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "When the contributing activity was completed.",
+          "title": "Date"
+        }
+      },
+      "title": "Contribution",
+      "type": "object"
+    },
+    "DataItem": {
+      "additionalProperties": false,
+      "description": "An Information Entity representing an individual piece of data, generated or\nacquired through methods which reliably produce truthful information about\nsomething.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the Entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "type": {
+          "const": "DataItem",
+          "default": "DataItem",
+          "description": "Must be \"DataItem\"",
+          "title": "Type",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A primary name for the entity.",
+          "title": "Name"
+        },
+        "description": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A free-text description of the Entity.",
+          "title": "Description"
+        },
+        "aliases": {
+          "anyOf": [
+            { "items": { "type": "string" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Alternative name(s) for the Entity.",
+          "title": "Aliases"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "specifiedBy": {
+          "anyOf": [
+            { "$ref": "#/$defs/Method" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A specification that describes all or part of the process that led to creation of the Information Entity",
+          "title": "Specifiedby"
+        },
+        "contributions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Contribution" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Specific actions taken by an Agent toward the creation, modification, validation, or deprecation of an Information Entity.",
+          "title": "Contributions"
+        },
+        "reportedIn": {
+          "anyOf": [
+            {
+              "items": {
+                "anyOf": [
+                  { "$ref": "#/$defs/Document" },
+                  { "$ref": "#/$defs/iriReference" }
+                ]
+              },
+              "type": "array"
+            },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A document in which the the Information Entity is reported.",
+          "title": "Reportedin"
+        },
+        "value": {
+          "anyOf": [
+            { "additionalProperties": true, "type": "object" },
+            { "type": "string" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "The value of the data item (could be a structured value, a quantitative or qualitative value, or an IRI reference to either).",
+          "title": "Value"
+        }
+      },
+      "title": "DataItem",
+      "type": "object"
+    },
+    "DataSet": {
+      "additionalProperties": false,
+      "description": "A collection of related data items or records that are organized together in a\ncommon format or structure, to enable their computational manipulation as a unit.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the Entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "type": {
+          "const": "DataSet",
+          "default": "DataSet",
+          "description": "MUST be 'DataSet'.",
+          "title": "Type",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A primary name for the entity.",
+          "title": "Name"
+        },
+        "description": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A free-text description of the Entity.",
+          "title": "Description"
+        },
+        "aliases": {
+          "anyOf": [
+            { "items": { "type": "string" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Alternative name(s) for the Entity.",
+          "title": "Aliases"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "datasetType": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A specific type of data set the DataSet instance represents (e.g. a 'clinical data set', a 'sequencing data set', a 'gene expression data set', a 'genome annotation data set')",
+          "title": "Datasettype"
+        },
+        "reportedIn": {
+          "anyOf": [
+            { "$ref": "#/$defs/Document" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A document in which the the Method is reported.",
+          "title": "Reportedin"
+        },
+        "releaseDate": {
+          "anyOf": [{ "format": "date", "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "Indicates the date a version of a DataSet was formally released.",
+          "title": "Releasedate"
+        },
+        "version": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The version of the DataSet, as assigned by its creator.",
+          "title": "Version"
+        },
+        "license": {
+          "anyOf": [
+            { "$ref": "#/$defs/MappableConcept" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A specific license that dictates legal permissions for how a data set can be used (by whom, where, for what purposes, with what additional requirements, etc.)",
+          "title": "License"
+        }
+      },
+      "title": "DataSet",
+      "type": "object"
+    },
+    "Direction": {
+      "description": "A term indicating whether the Statement supports, disputes, or remains neutral\nw.r.t. the validity of the Proposition it evaluates.",
+      "enum": ["supports", "neutral", "disputes"],
+      "title": "Direction",
+      "type": "string"
+    },
+    "Document": {
+      "additionalProperties": false,
+      "description": "A collection of information, usually in a text-based or graphic human-readable\nform, intended to be read and understood together as a whole.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the Entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "type": {
+          "const": "Document",
+          "default": "Document",
+          "description": "Must be 'Document'",
+          "title": "Type",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A primary name for the entity.",
+          "title": "Name"
+        },
+        "description": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A free-text description of the Entity.",
+          "title": "Description"
+        },
+        "aliases": {
+          "anyOf": [
+            { "items": { "type": "string" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Alternative name(s) for the Entity.",
+          "title": "Aliases"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "documentType": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A specific type of document that a Document instance represents (e.g.  'publication', 'patent', 'pathology report')",
+          "title": "Documenttype"
+        },
+        "title": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The official title given to the document by its authors.",
+          "title": "Title"
+        },
+        "urls": {
+          "anyOf": [
+            {
+              "items": { "pattern": "^(https?|s?ftp)://", "type": "string" },
+              "type": "array"
+            },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "One or more URLs from which the content of the Document can be retrieved.",
+          "title": "Urls"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "pattern": "^10\\.(\\d+)(\\.\\d+)*\\/[\\w\\-\\.]+",
+              "type": "string"
+            },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A [Digital Object Identifier](https://www.doi.org/the-identifier/what-is-a-doi/) for the document.",
+          "title": "Doi"
+        },
+        "pmid": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A [PubMed unique identifier](https://en.wikipedia.org/wiki/PubMed#PubMed_identifier) for the document.",
+          "title": "Pmid"
+        }
+      },
+      "title": "Document",
+      "type": "object"
+    },
+    "Entity": {
+      "description": "Anything that exists, has existed, or will exist.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the Entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "type": {
+          "description": "The name of the class that is instantiated by a data object representing the Entity.",
+          "title": "Type",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A primary name for the entity.",
+          "title": "Name"
+        },
+        "description": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A free-text description of the Entity.",
+          "title": "Description"
+        },
+        "aliases": {
+          "anyOf": [
+            { "items": { "type": "string" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Alternative name(s) for the Entity.",
+          "title": "Aliases"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        }
+      },
+      "required": ["type"],
+      "title": "Entity",
+      "type": "object"
+    },
+    "EvidenceLine": {
+      "additionalProperties": false,
+      "description": "An independent, evidence-based argument that may support or refute the validity\nof a specific Proposition. The strength and direction of this argument is based on\nan interpretation of one or more pieces of information as evidence for or against\nthe target Proposition.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the Entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "type": {
+          "const": "EvidenceLine",
+          "default": "EvidenceLine",
+          "description": "MUST be 'EvidenceLine'.",
+          "title": "Type",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A primary name for the entity.",
+          "title": "Name"
+        },
+        "description": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A free-text description of the Entity.",
+          "title": "Description"
+        },
+        "aliases": {
+          "anyOf": [
+            { "items": { "type": "string" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Alternative name(s) for the Entity.",
+          "title": "Aliases"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "specifiedBy": {
+          "anyOf": [
+            { "$ref": "#/$defs/Method" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A specification that describes all or part of the process that led to creation of the Information Entity",
+          "title": "Specifiedby"
+        },
+        "contributions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Contribution" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Specific actions taken by an Agent toward the creation, modification, validation, or deprecation of an Information Entity.",
+          "title": "Contributions"
+        },
+        "reportedIn": {
+          "anyOf": [
+            {
+              "items": {
+                "anyOf": [
+                  { "$ref": "#/$defs/Document" },
+                  { "$ref": "#/$defs/iriReference" }
+                ]
+              },
+              "type": "array"
+            },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A document in which the the Information Entity is reported.",
+          "title": "Reportedin"
+        },
+        "targetProposition": {
+          "anyOf": [
+            { "$ref": "#/$defs/Proposition" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "The possible fact against which evidence items contained in an Evidence Line were collectively evaluated, in determining the overall strength and direction of support they provide. For example, in an ACMG Guideline-based assessment of variant pathogenicity, the support provided by distinct lines of evidence are assessed against a target proposition that the variant is pathogenic for a specific disease.",
+          "title": "Targetproposition"
+        },
+        "hasEvidenceItems": {
+          "anyOf": [
+            {
+              "items": {
+                "anyOf": [
+                  { "$ref": "#/$defs/InformationEntity" },
+                  { "$ref": "#/$defs/iriReference" }
+                ]
+              },
+              "type": "array"
+            },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "An individual piece of information that was evaluated as evidence in building the argument represented by an Evidence Line.",
+          "title": "Hasevidenceitems"
+        },
+        "directionOfEvidenceProvided": {
+          "$ref": "#/$defs/Direction",
+          "description": "The direction of support that the Evidence Line is determined to provide toward its target Proposition (supports, disputes, neutral)"
+        },
+        "strengthOfEvidenceProvided": {
+          "anyOf": [
+            { "$ref": "#/$defs/MappableConcept" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "The strength of support that an Evidence Line is determined to provide for or against its target Proposition, evaluated relative to the direction indicated by the directionOfEvidenceProvided value.",
+          "title": "Strengthofevidenceprovided"
+        },
+        "scoreOfEvidenceProvided": {
+          "anyOf": [
+            { "type": "integer" },
+            { "type": "number" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A quantitative score indicating the strength of support that an Evidence Line is determined to provide for or against its target Proposition, evaluated relative to the direction indicated by the directionOfEvidenceProvided value.",
+          "title": "Scoreofevidenceprovided"
+        },
+        "evidenceOutcome": {
+          "anyOf": [
+            { "$ref": "#/$defs/MappableConcept" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A term summarizing the overall outcome of the evidence assessment represented by the Evidence Line, in terms of the direction and strength of support it provides for or against the target Proposition.",
+          "title": "Evidenceoutcome"
+        }
+      },
+      "required": ["directionOfEvidenceProvided"],
+      "title": "EvidenceLine",
+      "type": "object"
+    },
+    "Extension": {
+      "additionalProperties": false,
+      "description": "The Extension class provides entities with a means to include additional\nattributes that are outside of the specified standard but needed by a given content\nprovider or system implementer. These extensions are not expected to be natively\nunderstood, but may be used for pre-negotiated exchange of message attributes\nbetween systems.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the data element in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "name": {
+          "description": "A name for the Extension. Should be indicative of its meaning and/or the type of information it value represents.",
+          "title": "Name",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            { "type": "integer" },
+            { "type": "number" },
+            { "type": "string" },
+            { "type": "boolean" },
+            { "additionalProperties": true, "type": "object" },
+            { "items": {}, "type": "array" },
+            { "type": "null" }
+          ],
+          "description": "The value of the Extension - can be any primitive or structured object",
+          "title": "Value"
+        },
+        "description": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A description of the meaning or utility of the Extension, to explain the type of information it is meant to hold.",
+          "title": "Description"
+        }
+      },
+      "required": ["name", "value"],
+      "title": "Extension",
+      "type": "object"
+    },
+    "InformationEntity": {
+      "description": "An abstract (non-physical) entity that represents 'information content' carried by\nphysical or digital information artifacts such as books, web pages, data sets, or\nimages.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the Entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "type": {
+          "description": "The name of the class that is instantiated by a data object representing the Entity.",
+          "title": "Type",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A primary name for the entity.",
+          "title": "Name"
+        },
+        "description": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A free-text description of the Entity.",
+          "title": "Description"
+        },
+        "aliases": {
+          "anyOf": [
+            { "items": { "type": "string" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Alternative name(s) for the Entity.",
+          "title": "Aliases"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "specifiedBy": {
+          "anyOf": [
+            { "$ref": "#/$defs/Method" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A specification that describes all or part of the process that led to creation of the Information Entity",
+          "title": "Specifiedby"
+        },
+        "contributions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Contribution" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Specific actions taken by an Agent toward the creation, modification, validation, or deprecation of an Information Entity.",
+          "title": "Contributions"
+        },
+        "reportedIn": {
+          "anyOf": [
+            {
+              "items": {
+                "anyOf": [
+                  { "$ref": "#/$defs/Document" },
+                  { "$ref": "#/$defs/iriReference" }
+                ]
+              },
+              "type": "array"
+            },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A document in which the the Information Entity is reported.",
+          "title": "Reportedin"
+        }
+      },
+      "required": ["type"],
+      "title": "InformationEntity",
+      "type": "object"
+    },
+    "MappableConcept": {
+      "additionalProperties": false,
+      "description": "A concept based on a primaryCoding and/or name that may be mapped to one or more other `Codings`.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the Entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "type": {
+          "const": "MappableConcept",
+          "default": "MappableConcept",
+          "description": "MUST be \"MappableConcept\".",
+          "title": "Type",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A primary name for the concept.",
+          "title": "Name"
+        },
+        "description": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A free-text description of the Entity.",
+          "title": "Description"
+        },
+        "aliases": {
+          "anyOf": [
+            { "items": { "type": "string" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Alternative name(s) for the Entity.",
+          "title": "Aliases"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "conceptType": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A term indicating the type of concept being represented by the MappableConcept.",
+          "title": "Concepttype"
+        },
+        "primaryCoding": {
+          "anyOf": [{ "$ref": "#/$defs/Coding" }, { "type": "null" }],
+          "default": null,
+          "description": "A primary coding for the concept."
+        },
+        "mappings": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/ConceptMapping" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of mappings to concepts in terminologies or code systems. Each mapping should include a coding and a relation.",
+          "title": "Mappings"
+        }
+      },
+      "title": "MappableConcept",
+      "type": "object"
+    },
+    "Method": {
+      "additionalProperties": false,
+      "description": "A set of instructions that specify how to achieve some objective.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the Entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "type": {
+          "const": "Method",
+          "default": "Method",
+          "description": "MUST be 'Method'.",
+          "title": "Type",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A primary name for the entity.",
+          "title": "Name"
+        },
+        "description": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A free-text description of the Entity.",
+          "title": "Description"
+        },
+        "aliases": {
+          "anyOf": [
+            { "items": { "type": "string" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Alternative name(s) for the Entity.",
+          "title": "Aliases"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "methodType": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A specific type of method that a Method instance represents (e.g. 'Variant Interpretation Guideline', or 'Experimental Protocol').",
+          "title": "Methodtype"
+        },
+        "reportedIn": {
+          "anyOf": [
+            { "$ref": "#/$defs/Document" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A document in which the the Method is reported.",
+          "title": "Reportedin"
+        }
+      },
+      "title": "Method",
+      "type": "object"
+    },
+    "Proposition": {
+      "description": "An abstract entity representing a possible fact that may be true or false. As\nabstract entities, Propositions capture a 'sharable' piece of meaning whose identify\nand existence is independent of space and time, or whether it is ever asserted to be\ntrue by some agent.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the Entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "type": {
+          "description": "The name of the class that is instantiated by a data object representing the Entity.",
+          "title": "Type",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A primary name for the entity.",
+          "title": "Name"
+        },
+        "description": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A free-text description of the Entity.",
+          "title": "Description"
+        },
+        "aliases": {
+          "anyOf": [
+            { "items": { "type": "string" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Alternative name(s) for the Entity.",
+          "title": "Aliases"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "subject": {
+          "anyOf": [
+            { "additionalProperties": true, "type": "object" },
+            { "$ref": "#/$defs/iriReference" }
+          ],
+          "description": "The Entity or concept about which the Proposition is made.",
+          "title": "Subject"
+        },
+        "predicate": {
+          "description": "The relationship declared to hold between the subject and the object of the Proposition.",
+          "title": "Predicate",
+          "type": "string"
+        },
+        "object": {
+          "anyOf": [
+            { "additionalProperties": true, "type": "object" },
+            { "$ref": "#/$defs/iriReference" }
+          ],
+          "description": "An Entity or concept that is related to the subject of a Proposition via its predicate.",
+          "title": "Object"
+        }
+      },
+      "required": ["type", "subject", "predicate", "object"],
+      "title": "Proposition",
+      "type": "object"
+    },
+    "Relation": {
+      "description": "A mapping relation between concepts as defined by the Simple Knowledge\nOrganization System (SKOS).",
+      "enum": [
+        "closeMatch",
+        "exactMatch",
+        "broadMatch",
+        "narrowMatch",
+        "relatedMatch"
+      ],
+      "title": "Relation",
+      "type": "string"
+    },
+    "Statement": {
+      "additionalProperties": false,
+      "description": "A claim of purported truth as made by a particular agent, on a particular\noccasion. Statements may be used to put forth a possible fact (i.e. a 'Proposition')\nas true or false, or to provide a more nuanced assessment of the level of confidence\nor evidence supporting a particular Proposition.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the Entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "type": {
+          "const": "Statement",
+          "default": "Statement",
+          "description": "MUST be 'Statement'.",
+          "title": "Type",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A primary name for the entity.",
+          "title": "Name"
+        },
+        "description": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A free-text description of the Entity.",
+          "title": "Description"
+        },
+        "aliases": {
+          "anyOf": [
+            { "items": { "type": "string" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Alternative name(s) for the Entity.",
+          "title": "Aliases"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "specifiedBy": {
+          "anyOf": [
+            { "$ref": "#/$defs/Method" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A specification that describes all or part of the process that led to creation of the Information Entity",
+          "title": "Specifiedby"
+        },
+        "contributions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Contribution" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Specific actions taken by an Agent toward the creation, modification, validation, or deprecation of an Information Entity.",
+          "title": "Contributions"
+        },
+        "reportedIn": {
+          "anyOf": [
+            {
+              "items": {
+                "anyOf": [
+                  { "$ref": "#/$defs/Document" },
+                  { "$ref": "#/$defs/iriReference" }
+                ]
+              },
+              "type": "array"
+            },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A document in which the the Information Entity is reported.",
+          "title": "Reportedin"
+        },
+        "proposition": {
+          "anyOf": [
+            { "$ref": "#/$defs/Proposition" },
+            { "$ref": "#/$defs/iriReference" }
+          ],
+          "description": "A possible fact, the validity of which is assessed and reported by the Statement. A Statement can put forth the proposition as being true, false, or uncertain, and may provide an assessment of the level of confidence/evidence supporting this claim.",
+          "title": "Proposition"
+        },
+        "direction": {
+          "$ref": "#/$defs/Direction",
+          "description": "A term indicating whether the Statement supports, disputes, or remains neutral w.r.t. the validity of the Proposition it evaluates."
+        },
+        "strength": {
+          "anyOf": [
+            { "$ref": "#/$defs/MappableConcept" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A term used to report the strength of a Proposition's assessment in the direction indicated (i.e. how strongly supported or disputed the Proposition is believed to be).  Implementers may choose to frame a strength assessment in terms of how *confident* an agent is that the Proposition is true or false, or in terms of the *strength of all evidence* they believe supports or disputes it.",
+          "title": "Strength"
+        },
+        "score": {
+          "anyOf": [
+            { "type": "integer" },
+            { "type": "number" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A quantitative score that indicates the strength of a Proposition's assessment in the direction indicated (i.e. how strongly supported or disputed the Proposition is believed to be). Depending on its implementation, a score may reflect how *confident* that agent is that the Proposition is true or false, or the *strength of evidence* they believe supports or disputes it. Instructions for how to interpret the meaning of a given score may be gleaned from the method or document referenced in 'specifiedBy' attribute.",
+          "title": "Score"
+        },
+        "classification": {
+          "anyOf": [
+            { "$ref": "#/$defs/MappableConcept" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A single term or phrase summarizing the result of direction and strength assessments of a Statement's Proposition, in terms of a classification of its subject.",
+          "title": "Classification"
+        },
+        "quality": {
+          "anyOf": [
+            { "$ref": "#/$defs/MappableConcept" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A term used to report the quality of the assessment of a Proposition taking into consideration the reliability of the method, the contributor's self-reporting of the rigor of the evaluation, and the overall robustness of the supporting or disputing evidence. This is useful when there is a consistent policy and authority that manages and a governing framework for evaluating the quality of evidence. Also known as trust rating, review status or ranking.",
+          "title": "Quality"
+        },
+        "hasEvidence": {
+          "anyOf": [
+            {
+              "items": {
+                "anyOf": [
+                  { "$ref": "#/$defs/Statement" },
+                  { "$ref": "#/$defs/StudyResult" },
+                  { "$ref": "#/$defs/DataItem" },
+                  { "$ref": "#/$defs/iriReference" }
+                ]
+              },
+              "type": "array"
+            },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "An individual piece of information that was evaluated as evidence in assessing the validity of the Proposition put forth by the Statement.",
+          "title": "Hasevidence"
+        },
+        "hasEvidenceLines": {
+          "anyOf": [
+            {
+              "items": {
+                "anyOf": [
+                  { "$ref": "#/$defs/EvidenceLine" },
+                  { "$ref": "#/$defs/iriReference" }
+                ]
+              },
+              "type": "array"
+            },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "An evidence-based argument that supports or disputes the validity of the proposition that a Statement assesses or puts forth as true. The strength and direction of this argument (whether it supports or disputes the proposition, and how strongly) is based on an interpretation of one or more pieces of information as evidence (i.e. 'Evidence Items).",
+          "title": "Hasevidencelines"
+        }
+      },
+      "required": ["proposition", "direction"],
+      "title": "Statement",
+      "type": "object"
+    },
+    "StudyResult": {
+      "description": "A collection of data items from a single study that pertain to a particular\nsubject or experimental unit in the study, along with optional provenance\ninformation describing how these data items were generated.",
+      "properties": {
+        "id": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "The 'logical' identifier of the Entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system, but may or may not be globally unique outside the system. It is used within a system to reference an object from another.",
+          "title": "Id"
+        },
+        "type": {
+          "description": "The name of the class that is instantiated by a data object representing the Entity.",
+          "title": "Type",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A primary name for the entity.",
+          "title": "Name"
+        },
+        "description": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "default": null,
+          "description": "A free-text description of the Entity.",
+          "title": "Description"
+        },
+        "aliases": {
+          "anyOf": [
+            { "items": { "type": "string" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Alternative name(s) for the Entity.",
+          "title": "Aliases"
+        },
+        "extensions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Extension" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A list of extensions to the Entity, that allow for capture of information not directly supported by elements defined in the model.",
+          "title": "Extensions"
+        },
+        "specifiedBy": {
+          "anyOf": [
+            { "$ref": "#/$defs/Method" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A specification that describes all or part of the process that led to creation of the Information Entity",
+          "title": "Specifiedby"
+        },
+        "contributions": {
+          "anyOf": [
+            { "items": { "$ref": "#/$defs/Contribution" }, "type": "array" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "Specific actions taken by an Agent toward the creation, modification, validation, or deprecation of an Information Entity.",
+          "title": "Contributions"
+        },
+        "reportedIn": {
+          "anyOf": [
+            {
+              "items": {
+                "anyOf": [
+                  { "$ref": "#/$defs/Document" },
+                  { "$ref": "#/$defs/iriReference" }
+                ]
+              },
+              "type": "array"
+            },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A document in which the the Information Entity is reported.",
+          "title": "Reportedin"
+        },
+        "focus": {
+          "anyOf": [
+            { "$ref": "#/$defs/Entity" },
+            { "$ref": "#/$defs/iriReference" }
+          ],
+          "description": "The specific participant, subject or experimental unit in a Study that data included in the StudyResult object is about - e.g. a particular variant in a population allele frequency dataset like ExAC or gnomAD.",
+          "title": "Focus"
+        },
+        "sourceDataSet": {
+          "anyOf": [
+            { "$ref": "#/$defs/DataSet" },
+            { "$ref": "#/$defs/iriReference" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "A larger DataSet from which the data included in the StudyResult was taken or derived.",
+          "title": "Sourcedataset"
+        },
+        "ancillaryResults": {
+          "anyOf": [
+            { "additionalProperties": true, "type": "object" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "An object in which implementers can define custom fields to capture additional results derived from analysis of primary data items captured in standard attributes in the main body of the Study Result. e.g. in a Cohort Allele Frequency Study Result, this maybe a grpMaxFAF95 calculation, or homozygote/heterozygote calls derived from analyzing raw allele count data.",
+          "title": "Ancillaryresults"
+        },
+        "qualityMeasures": {
+          "anyOf": [
+            { "additionalProperties": true, "type": "object" },
+            { "type": "null" }
+          ],
+          "default": null,
+          "description": "An object in which implementers can define custom fields to capture metadata about the quality/provenance of the primary data items captured in standard attributes in the main body of the Study Result. e.g. a sequencing coverage metric in a Cohort Allele Frequency Study Result.",
+          "title": "Qualitymeasures"
+        }
+      },
+      "required": ["type", "focus"],
+      "title": "StudyResult",
+      "type": "object"
+    },
+    "code": {
+      "description": "Indicates that the value is taken from a set of controlled strings defined elsewhere. Technically, a code is restricted to a string which has at least one character and no leading or  trailing whitespace, and where there is no whitespace other than single spaces in the contents.",
+      "example": "ENSG00000139618",
+      "pattern": "\\S+( \\S+)*",
+      "title": "code",
+      "type": "string"
+    },
+    "iriReference": {
+      "description": "An IRI Reference (either an IRI or a relative-reference), according to `RFC3986 section 4.1 <https://datatracker.ietf.org/doc/html/rfc3986#section-4.1>`_ and `RFC3987 section 2.1 <https://datatracker.ietf.org/doc/html/rfc3987#section-2.1>`_. MAY be a JSON Pointer as an IRI fragment, as described by `RFC6901 section 6 <https://datatracker.ietf.org/doc/html/rfc6901#section-6>`_.",
+      "title": "iriReference",
+      "type": "string"
+    }
+  }
+}

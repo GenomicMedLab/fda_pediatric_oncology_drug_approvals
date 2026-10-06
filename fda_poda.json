@@ -1577,7 +1577,7 @@
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
           "concepts": [
-            "#/condition/fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma",
+            "#/condition/fda_poda.condition:Atypical Burkitt~1Burkitt-Like Lymphoma",
             "#/condition/fda_poda.onset:6 months and older"
           ],
           "membershipOperator": "AND",
