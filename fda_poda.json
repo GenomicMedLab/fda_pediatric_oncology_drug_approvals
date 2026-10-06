@@ -615,7 +615,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:KMT2A translocation",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:218944",
+        "object": "#/therapy/drugsatfda.nda:218944",
         "geneContextQualifier": "#/gene/fda_poda.gene:KMT2A",
         "conditionQualifier": {
           "concepts": [
@@ -657,7 +657,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:IDH1 mutation",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:218784",
+        "object": "#/therapy/drugsatfda.nda:218784",
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH1",
         "conditionQualifier": {
           "concepts": [
@@ -699,7 +699,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:IDH1 mutation",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:218784",
+        "object": "#/therapy/drugsatfda.nda:218784",
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH1",
         "conditionQualifier": {
           "concepts": [
@@ -741,7 +741,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:IDH2 mutation",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:218784",
+        "object": "#/therapy/drugsatfda.nda:218784",
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH2",
         "conditionQualifier": {
           "concepts": [
@@ -783,7 +783,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:IDH2 mutation",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:218784",
+        "object": "#/therapy/drugsatfda.nda:218784",
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH2",
         "conditionQualifier": {
           "concepts": [
@@ -831,7 +831,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:CD19+ Ph-",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:125557",
+        "object": "#/therapy/drugsatfda.nda:125557",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
           "concepts": [
@@ -876,7 +876,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:NTRK fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:218213",
+        "object": "#/therapy/drugsatfda.nda:218213",
         "conditionQualifier": {
           "concepts": [
             "#/condition/fda_poda.condition:solid neoplasm",
@@ -924,7 +924,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:RET fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:213246",
+        "object": "#/therapy/drugsatfda.nda:213246",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "concepts": [
@@ -979,7 +979,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:RET fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:213246",
+        "object": "#/therapy/drugsatfda.nda:213246",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "concepts": [
@@ -1034,7 +1034,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:RET mutation",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:213246",
+        "object": "#/therapy/drugsatfda.nda:213246",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "concepts": [
@@ -1088,7 +1088,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:BRAF V600",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:217700",
+        "object": "#/therapy/drugsatfda.nda:217700",
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
           "concepts": [
@@ -1134,7 +1134,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:BRAF Fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:217700",
+        "object": "#/therapy/drugsatfda.nda:217700",
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
           "concepts": [
@@ -1177,7 +1177,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:CD22+",
-        "objectTherapeutic": "#/therapy/drugsatfda.bla:761040",
+        "object": "#/therapy/drugsatfda.bla:761040",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD22",
         "conditionQualifier": {
           "concepts": [
@@ -1235,7 +1235,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:NTRK fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:212725",
+        "object": "#/therapy/drugsatfda.nda:212725",
         "conditionQualifier": {
           "concepts": [
             "#/condition/fda_poda.condition:solid neoplasm",
@@ -1279,7 +1279,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:203341",
+        "object": "#/therapy/drugsatfda.nda:203341",
         "conditionQualifier": {
           "concepts": [
             "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
@@ -1334,7 +1334,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:BRAF V600E",
-        "objectTherapeutic": {
+        "object": {
           "concepts": [
             "#/therapy/drugsatfda.nda:202806",
             "#/therapy/drugsatfda.nda:204114"
@@ -1389,7 +1389,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:BRAF Fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:217700",
+        "object": "#/therapy/drugsatfda.nda:217700",
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
           "concepts": [
@@ -1432,7 +1432,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:ALK+",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:202570",
+        "object": "#/therapy/drugsatfda.nda:202570",
         "geneContextQualifier": "#/gene/fda_poda.gene:ALK",
         "conditionQualifier": {
           "concepts": [
@@ -1483,7 +1483,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:CD20+",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:103705",
+        "object": "#/therapy/drugsatfda.nda:103705",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
           "concepts": [
@@ -1528,7 +1528,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:CD20+",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:103705",
+        "object": "#/therapy/drugsatfda.nda:103705",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
           "concepts": [
@@ -1573,7 +1573,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:CD20+",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:103705",
+        "object": "#/therapy/drugsatfda.nda:103705",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
           "concepts": [
@@ -1618,7 +1618,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:CD20+",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:103705",
+        "object": "#/therapy/drugsatfda.nda:103705",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
           "concepts": [
@@ -1663,7 +1663,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:ALK+",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:202570",
+        "object": "#/therapy/drugsatfda.nda:202570",
         "geneContextQualifier": "#/gene/fda_poda.gene:ALK",
         "conditionQualifier": {
           "concepts": [
@@ -1709,7 +1709,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:RET Fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:214701",
+        "object": "#/therapy/drugsatfda.nda:214701",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "concepts": [
@@ -1755,7 +1755,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:RET Mutation",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:214701",
+        "object": "#/therapy/drugsatfda.nda:214701",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
           "concepts": [
@@ -1800,7 +1800,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:CD33+",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:761060",
+        "object": "#/therapy/drugsatfda.nda:761060",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD33",
         "conditionQualifier": {
           "concepts": [
@@ -1845,7 +1845,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:021986",
+        "object": "#/therapy/drugsatfda.nda:021986",
         "geneContextQualifier": "#/gene/fda_poda.gene:BCR",
         "conditionQualifier": {
           "concepts": [
@@ -1894,7 +1894,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:NTRK Fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:210861",
+        "object": "#/therapy/drugsatfda.nda:210861",
         "conditionQualifier": {
           "concepts": [
             "#/condition/fda_poda.condition:solid neoplasm",
@@ -1945,7 +1945,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:CD19+",
-        "objectTherapeutic": "#/therapy/drugsatfda.bla:125557",
+        "object": "#/therapy/drugsatfda.bla:125557",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
           "concepts": [
@@ -1990,7 +1990,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:022068",
+        "object": "#/therapy/drugsatfda.nda:022068",
         "conditionQualifier": {
           "concepts": [
             "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
@@ -2037,7 +2037,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:022068",
+        "object": "#/therapy/drugsatfda.nda:022068",
         "conditionQualifier": {
           "concepts": [
             "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
@@ -2084,7 +2084,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:021986",
+        "object": "#/therapy/drugsatfda.nda:021986",
         "conditionQualifier": {
           "concepts": [
             "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
@@ -2127,7 +2127,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:CD33+",
-        "objectTherapeutic": "#/therapy/drugsatfda.bla:761060",
+        "object": "#/therapy/drugsatfda.bla:761060",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD33",
         "conditionQualifier": {
           "concepts": [
@@ -2176,7 +2176,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:CD19+",
-        "objectTherapeutic": "#/therapy/drugsatfda.bla:125557",
+        "object": "#/therapy/drugsatfda.bla:125557",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
           "concepts": [
@@ -2224,7 +2224,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:021588",
+        "object": "#/therapy/drugsatfda.nda:021588",
         "conditionQualifier": {
           "concepts": [
             "#/condition/fda_poda.condition:acute lymphoblastic leukemia",
@@ -2272,7 +2272,7 @@
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
         "subject": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
-        "objectTherapeutic": "#/therapy/drugsatfda.nda:021588",
+        "object": "#/therapy/drugsatfda.nda:021588",
         "conditionQualifier": {
           "concepts": [
             "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
