@@ -618,7 +618,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:218944",
         "geneContextQualifier": "#/gene/fda_poda.gene:KMT2A",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:acute leukemia",
             "#/condition/fda_poda.onset:1 year and older"
           ],
@@ -660,7 +660,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:218784",
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH1",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:diffuse astrocytoma",
             "#/condition/fda_poda.onset:12 years and older"
           ],
@@ -702,7 +702,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:218784",
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH1",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:oligodendroglioma",
             "#/condition/fda_poda.onset:12 years and older"
           ],
@@ -744,7 +744,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:218784",
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH2",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:diffuse astrocytoma",
             "#/condition/fda_poda.onset:12 years and older"
           ],
@@ -786,7 +786,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:218784",
         "geneContextQualifier": "#/gene/fda_poda.gene:IDH2",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:oligodendroglioma",
             "#/condition/fda_poda.onset:12 years and older"
           ],
@@ -834,7 +834,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:125557",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
             "#/condition/fda_poda.onset:1 month and older"
           ],
@@ -878,7 +878,7 @@
         "subjectVariant": "#/variant/fda_poda.variant:NTRK fusion",
         "objectTherapeutic": "#/therapy/drugsatfda.nda:218213",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:solid neoplasm",
             "#/condition/fda_poda.onset:12 years and older"
           ],
@@ -927,7 +927,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:213246",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:solid neoplasm",
             "#/condition/fda_poda.onset:2 years and older"
           ],
@@ -982,7 +982,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:213246",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:Thyroid Gland Neoplasm",
             "#/condition/fda_poda.onset:2 years and older"
           ],
@@ -1037,7 +1037,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:213246",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:medullary thyroid gland carcinoma",
             "#/condition/fda_poda.onset:2 years and older"
           ],
@@ -1091,7 +1091,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:217700",
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:low-grade glioma",
             "#/condition/fda_poda.onset:6 months and older"
           ],
@@ -1137,7 +1137,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:217700",
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:low-grade glioma",
             "#/condition/fda_poda.onset:6 months and older"
           ],
@@ -1180,7 +1180,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.bla:761040",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD22",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
             "#/condition/fda_poda.onset:1 year and older"
           ],
@@ -1237,7 +1237,7 @@
         "subjectVariant": "#/variant/fda_poda.variant:NTRK fusion",
         "objectTherapeutic": "#/therapy/drugsatfda.nda:212725",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:solid neoplasm",
             "#/condition/fda_poda.onset:1 month and older"
           ],
@@ -1281,7 +1281,7 @@
         "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
         "objectTherapeutic": "#/therapy/drugsatfda.nda:203341",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
             "#/condition/fda_poda.onset:1 year and older"
           ],
@@ -1335,7 +1335,7 @@
         "predicate": "predictsSensitivityTo",
         "subjectVariant": "#/variant/fda_poda.variant:BRAF V600E",
         "objectTherapeutic": {
-          "therapies": [
+          "concepts": [
             "#/therapy/drugsatfda.nda:202806",
             "#/therapy/drugsatfda.nda:204114"
           ],
@@ -1344,7 +1344,7 @@
         },
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:solid neoplasm",
             "#/condition/fda_poda.onset:1 year and older"
           ],
@@ -1392,7 +1392,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:217700",
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:low-grade glioma",
             "#/condition/fda_poda.onset:6 months and older"
           ],
@@ -1435,7 +1435,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:202570",
         "geneContextQualifier": "#/gene/fda_poda.gene:ALK",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:inflammatory myofibroblastic tumor",
             "#/condition/fda_poda.onset:1 year and older"
           ],
@@ -1486,7 +1486,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:103705",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:diffuse large B-cell lymphoma",
             "#/condition/fda_poda.onset:6 months and older"
           ],
@@ -1531,7 +1531,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:103705",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:Burkitt lymphoma",
             "#/condition/fda_poda.onset:6 months and older"
           ],
@@ -1576,7 +1576,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:103705",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma",
             "#/condition/fda_poda.onset:6 months and older"
           ],
@@ -1621,7 +1621,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:103705",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:Burkitt Leukemia",
             "#/condition/fda_poda.onset:6 months and older"
           ],
@@ -1666,7 +1666,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:202570",
         "geneContextQualifier": "#/gene/fda_poda.gene:ALK",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma",
             "#/condition/fda_poda.onset:1 year and older"
           ],
@@ -1712,7 +1712,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:214701",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:thyroid cancer",
             "#/condition/fda_poda.onset:12 years and older"
           ],
@@ -1758,7 +1758,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:214701",
         "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:medullary thyroid gland carcinoma",
             "#/condition/fda_poda.onset:12 years and older"
           ],
@@ -1803,7 +1803,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:761060",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD33",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:acute myeloid leukemia",
             "#/condition/fda_poda.onset:1 month and older"
           ],
@@ -1848,7 +1848,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.nda:021986",
         "geneContextQualifier": "#/gene/fda_poda.gene:BCR",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:acute lymphoblastic leukemia",
             "#/condition/fda_poda.onset:1 year and older"
           ],
@@ -1896,7 +1896,7 @@
         "subjectVariant": "#/variant/fda_poda.variant:NTRK Fusion",
         "objectTherapeutic": "#/therapy/drugsatfda.nda:210861",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:solid neoplasm",
             "#/condition/fda_poda.onset:0 years and older"
           ],
@@ -1948,7 +1948,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.bla:125557",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
             "#/condition/fda_poda.onset:1 month and older"
           ],
@@ -1992,7 +1992,7 @@
         "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
         "objectTherapeutic": "#/therapy/drugsatfda.nda:022068",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
             "#/condition/fda_poda.onset:1 year and older"
           ],
@@ -2039,7 +2039,7 @@
         "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
         "objectTherapeutic": "#/therapy/drugsatfda.nda:022068",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
             "#/condition/fda_poda.onset:1 year and older"
           ],
@@ -2086,7 +2086,7 @@
         "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
         "objectTherapeutic": "#/therapy/drugsatfda.nda:021986",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
             "#/condition/fda_poda.onset:1 year and older"
           ],
@@ -2130,7 +2130,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.bla:761060",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD33",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:acute myeloid leukemia",
             "#/condition/fda_poda.onset:2 years and older"
           ],
@@ -2179,7 +2179,7 @@
         "objectTherapeutic": "#/therapy/drugsatfda.bla:125557",
         "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
             "#/condition/fda_poda.onset:1 month and older"
           ],
@@ -2226,7 +2226,7 @@
         "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
         "objectTherapeutic": "#/therapy/drugsatfda.nda:021588",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:acute lymphoblastic leukemia",
             "#/condition/fda_poda.onset:Pediatric"
           ],
@@ -2274,7 +2274,7 @@
         "subjectVariant": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
         "objectTherapeutic": "#/therapy/drugsatfda.nda:021588",
         "conditionQualifier": {
-          "conditions": [
+          "concepts": [
             "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
             "#/condition/fda_poda.onset:Pediatric"
           ],
