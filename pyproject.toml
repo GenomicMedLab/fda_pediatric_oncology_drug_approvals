@@ -8,4 +8,5 @@ dependencies = [
     "ga4gh.vrs",
     "ga4gh.cat-vrs",
     "pytest",
+    "ga4gh.gkm",
 ]
