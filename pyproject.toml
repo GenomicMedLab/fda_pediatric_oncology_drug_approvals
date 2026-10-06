@@ -4,6 +4,8 @@ version = "0.1.0"
 readme = "README.md"
 requires-python = "~=3.13.0"
 dependencies = [
-    "ga4gh.va_spec",
+    "ga4gh.va_spec~=0.5.0-a7",
+    "ga4gh.vrs",
+    "ga4gh.cat-vrs",
     "pytest",
 ]
