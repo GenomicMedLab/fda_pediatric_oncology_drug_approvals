@@ -622,7 +622,8 @@
             "#/condition/fda_poda.condition:acute leukemia",
             "#/condition/fda_poda.onset:1 year and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -663,7 +664,8 @@
             "#/condition/fda_poda.condition:diffuse astrocytoma",
             "#/condition/fda_poda.onset:12 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -704,7 +706,8 @@
             "#/condition/fda_poda.condition:oligodendroglioma",
             "#/condition/fda_poda.onset:12 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -745,7 +748,8 @@
             "#/condition/fda_poda.condition:diffuse astrocytoma",
             "#/condition/fda_poda.onset:12 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -786,7 +790,8 @@
             "#/condition/fda_poda.condition:oligodendroglioma",
             "#/condition/fda_poda.onset:12 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -833,7 +838,8 @@
             "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
             "#/condition/fda_poda.onset:1 month and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -876,7 +882,8 @@
             "#/condition/fda_poda.condition:solid neoplasm",
             "#/condition/fda_poda.onset:12 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -930,7 +937,8 @@
               "name": "original_text",
               "value": "pediatric patients 2 years of age and older with locally advanced or metastatic solid tumors with a RET gene fusion, as detected by an FDA-approved test, that have progressed on or following prior systemic treatment or who have no satisfactory alternative treatment options"
             }
-          ]
+          ],
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -984,7 +992,8 @@
               "name": "original_text",
               "value": "pediatric patients 2 years of age and older with advanced or metastatic thyroid cancer with a RET gene fusion, as detected by an FDA-approved test, who require systemic therapy and who are radioactive iodine-refractory (if radioactive iodine is appropriate)"
             }
-          ]
+          ],
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1038,7 +1047,8 @@
               "name": "original_text",
               "value": "pediatric patients 2 years of age and older with advanced or metastatic medullary thyroid cancer (MTC) with a RET mutation, as detected by an FDA-approved test, who require systemic therapy"
             }
-          ]
+          ],
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1085,7 +1095,8 @@
             "#/condition/fda_poda.condition:low-grade glioma",
             "#/condition/fda_poda.onset:6 months and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1130,7 +1141,8 @@
             "#/condition/fda_poda.condition:low-grade glioma",
             "#/condition/fda_poda.onset:6 months and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1178,7 +1190,8 @@
               "name": "original_text",
               "value": "relapsed or refractory CD22-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients 1 year and older"
             }
-          ]
+          ],
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1228,7 +1241,8 @@
             "#/condition/fda_poda.condition:solid neoplasm",
             "#/condition/fda_poda.onset:1 month and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1277,7 +1291,8 @@
               "name": "original_text",
               "value": "pediatric patients 1 year of age and older with chronic phase (CP) Philadelphia chromosome-positive chronic myelogenous leukemia (Ph+ CML), newly-diagnosed or resistant or intolerant to prior therapy"
             }
-          ]
+          ],
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1324,7 +1339,8 @@
             "#/therapy/drugsatfda.nda:202806",
             "#/therapy/drugsatfda.nda:204114"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
@@ -1332,7 +1348,8 @@
             "#/condition/fda_poda.condition:solid neoplasm",
             "#/condition/fda_poda.onset:1 year and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1379,7 +1396,8 @@
             "#/condition/fda_poda.condition:low-grade glioma",
             "#/condition/fda_poda.onset:6 months and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1427,7 +1445,8 @@
               "name": "original_text",
               "value": "pediatric patients 1 year of age and older with unresectable, recurrent, or refractory inflammatory myofibroblastic tumor (IMT) that is ALK-positive"
             }
-          ]
+          ],
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1471,7 +1490,8 @@
             "#/condition/fda_poda.condition:diffuse large B-cell lymphoma",
             "#/condition/fda_poda.onset:6 months and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1515,7 +1535,8 @@
             "#/condition/fda_poda.condition:Burkitt lymphoma",
             "#/condition/fda_poda.onset:6 months and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1559,7 +1580,8 @@
             "#/condition/fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma",
             "#/condition/fda_poda.onset:6 months and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1603,7 +1625,8 @@
             "#/condition/fda_poda.condition:Burkitt Leukemia",
             "#/condition/fda_poda.onset:6 months and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1647,7 +1670,8 @@
             "#/condition/fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma",
             "#/condition/fda_poda.onset:1 year and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1692,7 +1716,8 @@
             "#/condition/fda_poda.condition:thyroid cancer",
             "#/condition/fda_poda.onset:12 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1737,7 +1762,8 @@
             "#/condition/fda_poda.condition:medullary thyroid gland carcinoma",
             "#/condition/fda_poda.onset:12 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1781,7 +1807,8 @@
             "#/condition/fda_poda.condition:acute myeloid leukemia",
             "#/condition/fda_poda.onset:1 month and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1825,7 +1852,8 @@
             "#/condition/fda_poda.condition:acute lymphoblastic leukemia",
             "#/condition/fda_poda.onset:1 year and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1872,7 +1900,8 @@
             "#/condition/fda_poda.condition:solid neoplasm",
             "#/condition/fda_poda.onset:0 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1923,7 +1952,8 @@
             "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
             "#/condition/fda_poda.onset:1 month and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -1966,7 +1996,8 @@
             "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
             "#/condition/fda_poda.onset:1 year and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -2012,7 +2043,8 @@
             "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
             "#/condition/fda_poda.onset:1 year and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -2058,7 +2090,8 @@
             "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
             "#/condition/fda_poda.onset:1 year and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -2101,7 +2134,8 @@
             "#/condition/fda_poda.condition:acute myeloid leukemia",
             "#/condition/fda_poda.onset:2 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -2149,7 +2183,8 @@
             "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
             "#/condition/fda_poda.onset:1 month and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -2195,7 +2230,8 @@
             "#/condition/fda_poda.condition:acute lymphoblastic leukemia",
             "#/condition/fda_poda.onset:Pediatric"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -2242,7 +2278,8 @@
             "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
             "#/condition/fda_poda.onset:Pediatric"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
@@ -2253,4 +2290,3 @@
     }
   }
 }
-
