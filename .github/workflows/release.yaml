@@ -1,0 +1,71 @@
+name: release data
+
+on:
+  push:
+    tags:
+      - "**"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Verify tag matches data version
+        id: version
+        env:
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          data_version="$(python -c 'import json; print(json.load(open("schema.json"))["dataVersion"])')"
+          if [ "$TAG_NAME" != "$data_version" ]; then
+            echo "Tag '$TAG_NAME' does not match schema.json dataVersion '$data_version'." >&2
+            exit 1
+          fi
+          printf 'data_version=%s\n' "$data_version" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Run tests
+        run: uv run pytest
+
+      - name: Create release archive
+        id: archive
+        env:
+          DATA_VERSION: ${{ steps.version.outputs.data_version }}
+        run: |
+          asset_name="fda-poda-${DATA_VERSION}.tar.gz"
+          mkdir -p release
+          tar -czf "release/${asset_name}" schema.json fda_poda.json
+          archive_contents="$(tar -tzf "release/${asset_name}")"
+          expected_contents=$'schema.json\nfda_poda.json'
+          if [ "$archive_contents" != "$expected_contents" ]; then
+            echo "Release archive has unexpected contents:" >&2
+            tar -tzf "release/${asset_name}" >&2
+            exit 1
+          fi
+          printf 'asset_name=%s\n' "$asset_name" >> "$GITHUB_OUTPUT"
+
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ASSET_NAME: ${{ steps.archive.outputs.asset_name }}
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          asset_path="release/${ASSET_NAME}"
+          if gh release view "$TAG_NAME" >/dev/null 2>&1; then
+            gh release upload "$TAG_NAME" "$asset_path" --clobber
+          else
+            gh release create "$TAG_NAME" "$asset_path" --verify-tag --title "$TAG_NAME" --generate-notes
+          fi
