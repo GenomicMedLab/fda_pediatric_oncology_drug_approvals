@@ -1,4 +1,5 @@
 {
+  "dataVersion": "2026-07-08",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "urn:gkm_fda_poda:gkm-bundle:schema:2026-07-08",
   "type": "object",
