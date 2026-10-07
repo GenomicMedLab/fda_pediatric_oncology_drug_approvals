@@ -3,10 +3,7 @@ import re
 from pathlib import Path
 
 import pytest
-from ga4gh.cat_vrs.models import CategoricalVariant
-from ga4gh.core.models import MappableConcept
 from ga4gh.gkm.bundles import load_bundle
-from ga4gh.va_spec.base import Method, Statement
 
 
 @pytest.fixture(scope="session")
@@ -15,24 +12,8 @@ def data():
         return json.load(f)
 
 
-def test_valid_data_structure(data: dict):
-    for condition in data["condition"].values():
-        assert MappableConcept(**condition)
-    for strength in data["strength"].values():
-        assert MappableConcept(**strength)
-    for therapy in data["therapy"].values():
-        assert MappableConcept(**therapy)
-    for gene in data["gene"].values():
-        assert MappableConcept(**gene)
-    for variant in data["variant"].values():
-        assert CategoricalVariant(**variant)
-    for method in data["method"].values():
-        assert Method(**method)
-    for statement in data["statement"].values():
-        assert Statement(**statement)
-
-
 def test_age_phenotype_format(data: dict):
+    """Ensure that phenotype concept declaration is consistent + matches expected nomenclature"""
     age_of_onset_pattern = re.compile(r"^\d+ (?:months?|years?) and older$")
     for statement in data.get("statements", []):
         for condition in statement["proposition"]["conditionQualifier"]["conditions"]:
@@ -53,4 +34,5 @@ def test_statement_ids_successive(data: dict):
 
 
 def test_load_bundle():
+    """Test overall GKM bundle structure"""
     assert load_bundle("fda_poda.json", schema="schema.json")
