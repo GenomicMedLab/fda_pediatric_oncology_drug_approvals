@@ -1,17 +1,601 @@
 {
-  "statements": [
-    {
+  "condition": {
+    "fda_poda.condition:acute leukemia": {
+      "id": "fda_poda.condition:acute leukemia",
+      "name": "acute leukemia",
+      "conceptType": "Disease",
+      "type": "MappableConcept"
+    },
+    "fda_poda.onset:1 year and older": {
+      "id": "fda_poda.onset:1 year and older",
+      "name": "1 year and older",
+      "conceptType": "Phenotype",
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:diffuse astrocytoma": {
+      "id": "fda_poda.condition:diffuse astrocytoma",
+      "name": "diffuse astrocytoma",
+      "conceptType": "Disease",
+      "type": "MappableConcept"
+    },
+    "fda_poda.onset:12 years and older": {
+      "id": "fda_poda.onset:12 years and older",
+      "name": "12 years and older",
+      "conceptType": "Phenotype",
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:oligodendroglioma": {
+      "id": "fda_poda.condition:oligodendroglioma",
+      "name": "oligodendroglioma",
+      "conceptType": "Disease",
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia": {
+      "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
+      "name": "precursor B-cell acute lymphoblastic leukemia",
+      "conceptType": "Disease",
+      "type": "MappableConcept"
+    },
+    "fda_poda.onset:1 month and older": {
+      "id": "fda_poda.onset:1 month and older",
+      "name": "1 month and older",
+      "conceptType": "Phenotype",
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:solid neoplasm": {
+      "id": "fda_poda.condition:solid neoplasm",
+      "name": "solid neoplasm",
+      "conceptType": "Disease",
+      "type": "MappableConcept"
+    },
+    "fda_poda.onset:2 years and older": {
+      "id": "fda_poda.onset:2 years and older",
+      "name": "2 years and older",
+      "conceptType": "Phenotype",
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:Thyroid Gland Neoplasm": {
+      "id": "fda_poda.condition:Thyroid Gland Neoplasm",
+      "name": "Thyroid Gland Neoplasm",
+      "conceptType": "Disease",
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:medullary thyroid gland carcinoma": {
+      "id": "fda_poda.condition:medullary thyroid gland carcinoma",
+      "name": "medullary thyroid gland carcinoma",
+      "conceptType": "Disease",
+      "aliases": ["MTC"],
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:low-grade glioma": {
+      "id": "fda_poda.condition:low-grade glioma",
+      "name": "low-grade glioma",
+      "conceptType": "Disease",
+      "aliases": ["LGG"],
+      "type": "MappableConcept"
+    },
+    "fda_poda.onset:6 months and older": {
+      "id": "fda_poda.onset:6 months and older",
+      "name": "6 months and older",
+      "conceptType": "Phenotype",
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive": {
+      "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
+      "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
+      "conceptType": "Disease",
+      "aliases": ["Ph+ CML"],
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:inflammatory myofibroblastic tumor": {
+      "id": "fda_poda.condition:inflammatory myofibroblastic tumor",
+      "name": "inflammatory myofibroblastic tumor",
+      "conceptType": "Disease",
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:diffuse large B-cell lymphoma": {
+      "id": "fda_poda.condition:diffuse large B-cell lymphoma",
+      "name": "diffuse large B-cell lymphoma",
+      "conceptType": "Disease",
+      "aliases": ["DLBCL"],
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:Burkitt lymphoma": {
+      "id": "fda_poda.condition:Burkitt lymphoma",
+      "name": "Burkitt lymphoma",
+      "conceptType": "Disease",
+      "aliases": ["BL"],
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma": {
+      "id": "fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma",
+      "name": "Atypical Burkitt/Burkitt-Like Lymphoma",
+      "conceptType": "Disease",
+      "aliases": ["BLL"],
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:Burkitt Leukemia": {
+      "id": "fda_poda.condition:Burkitt Leukemia",
+      "name": "Burkitt Leukemia",
+      "conceptType": "Disease",
+      "aliases": ["B-AL"],
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma": {
+      "id": "fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma",
+      "name": "",
+      "conceptType": "Disease",
+      "aliases": ["ALCL"],
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:thyroid cancer": {
+      "id": "fda_poda.condition:thyroid cancer",
+      "name": "thyroid cancer",
+      "conceptType": "Disease",
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:acute myeloid leukemia": {
+      "id": "fda_poda.condition:acute myeloid leukemia",
+      "name": "acute myeloid leukemia",
+      "conceptType": "Disease",
+      "type": "MappableConcept"
+    },
+    "fda_poda.condition:acute lymphoblastic leukemia": {
+      "id": "fda_poda.condition:acute lymphoblastic leukemia",
+      "name": "acute lymphoblastic leukemia",
+      "conceptType": "Disease",
+      "aliases": ["ALL"],
+      "type": "MappableConcept"
+    },
+    "fda_poda.onset:0 years and older": {
+      "id": "fda_poda.onset:0 years and older",
+      "name": "0 years and older",
+      "conceptType": "Phenotype",
+      "type": "MappableConcept"
+    },
+    "fda_poda.onset:Pediatric": {
+      "id": "fda_poda.onset:Pediatric",
+      "name": "Pediatric",
+      "conceptType": "Phenotype",
+      "type": "MappableConcept"
+    }
+  },
+  "strength": {
+    "fda:approved": {
+      "id": "fda:approved",
+      "primaryCoding": {
+        "system": "https://www.fda.gov",
+        "code": "FDA-Approved"
+      },
+      "mappings": [
+        {
+          "coding": {
+            "name": "FDA recognized evidence",
+            "system": "https://go.osu.edu/evidence-codes",
+            "code": "e000002"
+          },
+          "relation": "exactMatch"
+        }
+      ],
+      "type": "MappableConcept"
+    }
+  },
+  "therapy": {
+    "drugsatfda.nda:218944": {
+      "name": "Revumenib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:218944",
+      "extensions": [
+        { "name": "trade_names", "value": ["Revuforj"] },
+        { "name": "drug_class", "value": "menin inhibitor" }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:218784": {
+      "name": "Vorasidenib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:218784",
+      "extensions": [
+        { "name": "trade_names", "value": ["Voranigo"] },
+        {
+          "name": "drug_class",
+          "value": "isocitrate dehydrogenase-1 (IDH1) and isocitrate dehydrogenase-2 (IDH2) inhibitor"
+        }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:125557": {
+      "name": "Blinatumomab",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:125557",
+      "extensions": [
+        { "name": "trade_names", "value": ["Blincyto"] },
+        {
+          "name": "drug_class",
+          "value": "bispecific CD19-directed CD3 T-cell engager"
+        }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:218213": {
+      "name": "Repotrectinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:218213",
+      "extensions": [
+        { "name": "trade_names", "value": ["Augtyro"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:213246": {
+      "name": "Selpercatinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:213246",
+      "extensions": [
+        { "name": "trade_names", "value": ["Retevmo"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:217700": {
+      "name": "Tovorafenib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:217700",
+      "extensions": [
+        { "name": "trade_names", "value": ["Ojemda"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.bla:761040": {
+      "name": "Inotuzumab",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.bla:761040",
+      "extensions": [
+        { "name": "trade_names", "value": ["Besponsa"] },
+        {
+          "name": "drug_class",
+          "value": "CD22-directed antibody and cytotoxic drug conjugate"
+        }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:212725": {
+      "name": "Entrectinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:212725",
+      "extensions": [
+        { "name": "trade_names", "value": ["Rozlytrek"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:203341": {
+      "name": "Bosutinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:203341",
+      "extensions": [
+        { "name": "trade_names", "value": ["Bosulif"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:202806": {
+      "name": "Dabrafenib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:202806",
+      "extensions": [
+        { "name": "trade_names", "value": ["Tafinlar"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:204114": {
+      "name": "Trametinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:204114",
+      "extensions": [
+        { "name": "trade_names", "value": ["Mekinist"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:202570": {
+      "name": "Crizotinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:202570",
+      "extensions": [
+        { "name": "trade_names", "value": ["Xalkori"] },
+        { "name": "drug_class", "value": "kinase inhibitor " }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:103705": {
+      "name": "Rituximab",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:103705",
+      "extensions": [
+        { "name": "trade_names", "value": ["Rituxan"] },
+        { "name": "drug_class", "value": "CD20-directed cytolytic antibody" }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:214701": {
+      "name": "Pralsetinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:214701",
+      "extensions": [
+        { "name": "trade_names", "value": ["Gavreto"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:761060": {
+      "name": "Gemtuzumab ozogamicin",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:761060",
+      "extensions": [
+        { "name": "trade_names", "value": ["Mylotarg"] },
+        {
+          "name": "drug_class",
+          "value": "CD33-directed antibody and cytotoxic drug conjugate"
+        }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:021986": {
+      "name": "Dasatinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:021986",
+      "extensions": [
+        { "name": "trade_names", "value": ["Sprycel"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:210861": {
+      "name": "Larotrectinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:210861",
+      "extensions": [
+        { "name": "trade_names", "value": ["Vitrakvi"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.bla:125557": {
+      "name": "Blinatumomab",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.bla:125557",
+      "extensions": [
+        { "name": "trade_names", "value": ["Blincyto"] },
+        {
+          "name": "drug_class",
+          "value": "bispecific CD19-directed CD3 T-cell engager "
+        }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:022068": {
+      "name": "Nilotinib",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:022068",
+      "extensions": [
+        { "name": "trade_names", "value": ["Tasigna"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.bla:761060": {
+      "name": "Gemtuzumab ozogamicin",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.bla:761060",
+      "extensions": [
+        { "name": "trade_names", "value": ["Mylotarg"] },
+        {
+          "name": "drug_class",
+          "value": "CD33-directed antibody and cytotoxic drug conjugate"
+        }
+      ],
+      "type": "MappableConcept"
+    },
+    "drugsatfda.nda:021588": {
+      "name": "Imatinib Mesylate",
+      "conceptType": "Therapy",
+      "id": "drugsatfda.nda:021588",
+      "extensions": [
+        { "name": "trade_names", "value": ["Gleevec"] },
+        { "name": "drug_class", "value": "kinase inhibitor" }
+      ],
+      "type": "MappableConcept"
+    }
+  },
+  "gene": {
+    "fda_poda.gene:KMT2A": {
+      "conceptType": "Gene",
+      "id": "fda_poda.gene:KMT2A",
+      "name": "KMT2A",
+      "type": "MappableConcept"
+    },
+    "fda_poda.gene:IDH1": {
+      "conceptType": "Gene",
+      "id": "fda_poda.gene:IDH1",
+      "name": "IDH1",
+      "type": "MappableConcept"
+    },
+    "fda_poda.gene:IDH2": {
+      "conceptType": "Gene",
+      "id": "fda_poda.gene:IDH2",
+      "name": "IDH2",
+      "type": "MappableConcept"
+    },
+    "fda_poda.gene:CD19": {
+      "conceptType": "Gene",
+      "id": "fda_poda.gene:CD19",
+      "name": "CD19",
+      "type": "MappableConcept"
+    },
+    "fda_poda.gene:RET": {
+      "conceptType": "Gene",
+      "id": "fda_poda.gene:RET",
+      "name": "RET",
+      "type": "MappableConcept"
+    },
+    "fda_poda.gene:BRAF": {
+      "conceptType": "Gene",
+      "id": "fda_poda.gene:BRAF",
+      "name": "BRAF",
+      "type": "MappableConcept"
+    },
+    "fda_poda.gene:CD22": {
+      "conceptType": "Gene",
+      "id": "fda_poda.gene:CD22",
+      "name": "CD22",
+      "type": "MappableConcept"
+    },
+    "fda_poda.gene:ALK": {
+      "conceptType": "Gene",
+      "id": "fda_poda.gene:ALK",
+      "name": "ALK",
+      "type": "MappableConcept"
+    },
+    "fda_poda.gene:CD20": {
+      "conceptType": "Gene",
+      "id": "fda_poda.gene:CD20",
+      "name": "CD20",
+      "type": "MappableConcept"
+    },
+    "fda_poda.gene:CD33": {
+      "conceptType": "Gene",
+      "id": "fda_poda.gene:CD33",
+      "name": "CD33",
+      "type": "MappableConcept"
+    },
+    "fda_poda.gene:BCR": {
+      "conceptType": "Gene",
+      "id": "fda_poda.gene:BCR",
+      "name": "BCR",
+      "type": "MappableConcept"
+    }
+  },
+  "variant": {
+    "fda_poda.variant:KMT2A translocation": {
+      "id": "fda_poda.variant:KMT2A translocation",
+      "type": "CategoricalVariant",
+      "name": "KIMT2A translocation"
+    },
+    "fda_poda.variant:IDH1 mutation": {
+      "id": "fda_poda.variant:IDH1 mutation",
+      "type": "CategoricalVariant",
+      "name": "IDH1 mutation"
+    },
+    "fda_poda.variant:IDH2 mutation": {
+      "id": "fda_poda.variant:IDH2 mutation",
+      "type": "CategoricalVariant",
+      "name": "IDH2 mutation"
+    },
+    "fda_poda.variant:CD19+ Ph-": {
+      "id": "fda_poda.variant:CD19+ Ph-",
+      "type": "CategoricalVariant",
+      "name": "CD19+ Ph-"
+    },
+    "fda_poda.variant:NTRK fusion": {
+      "id": "fda_poda.variant:NTRK fusion",
+      "type": "CategoricalVariant",
+      "name": "NTRK fusion"
+    },
+    "fda_poda.variant:RET fusion": {
+      "id": "fda_poda.variant:RET fusion",
+      "type": "CategoricalVariant",
+      "name": "RET fusion"
+    },
+    "fda_poda.variant:RET mutation": {
+      "id": "fda_poda.variant:RET mutation",
+      "type": "CategoricalVariant",
+      "name": "RET mutation"
+    },
+    "fda_poda.variant:BRAF V600": {
+      "id": "fda_poda.variant:BRAF V600",
+      "type": "CategoricalVariant",
+      "name": "BRAF V600"
+    },
+    "fda_poda.variant:BRAF Fusion": {
+      "id": "fda_poda.variant:BRAF Fusion",
+      "type": "CategoricalVariant",
+      "name": "BRAF Fusion"
+    },
+    "fda_poda.variant:CD22+": {
+      "id": "fda_poda.variant:CD22+",
+      "type": "CategoricalVariant",
+      "name": "CD22+"
+    },
+    "fda_poda.variant:BCR-ABL1 Fusion": {
+      "id": "fda_poda.variant:BCR-ABL1 Fusion",
+      "type": "CategoricalVariant",
+      "name": "BCR-ABL1 Fusion"
+    },
+    "fda_poda.variant:BRAF V600E": {
+      "id": "fda_poda.variant:BRAF V600E",
+      "type": "CategoricalVariant",
+      "name": "BRAF V600E"
+    },
+    "fda_poda.variant:ALK+": {
+      "id": "fda_poda.variant:ALK+",
+      "type": "CategoricalVariant",
+      "name": "ALK+"
+    },
+    "fda_poda.variant:CD20+": {
+      "id": "fda_poda.variant:CD20+",
+      "type": "CategoricalVariant",
+      "name": "CD20+"
+    },
+    "fda_poda.variant:RET Fusion": {
+      "id": "fda_poda.variant:RET Fusion",
+      "type": "CategoricalVariant",
+      "name": "RET Fusion"
+    },
+    "fda_poda.variant:RET Mutation": {
+      "id": "fda_poda.variant:RET Mutation",
+      "type": "CategoricalVariant",
+      "name": "RET Mutation"
+    },
+    "fda_poda.variant:CD33+": {
+      "id": "fda_poda.variant:CD33+",
+      "type": "CategoricalVariant",
+      "name": "CD33+"
+    },
+    "fda_poda.variant:NTRK Fusion": {
+      "id": "fda_poda.variant:NTRK Fusion",
+      "type": "CategoricalVariant",
+      "name": "NTRK Fusion"
+    },
+    "fda_poda.variant:CD19+": {
+      "id": "fda_poda.variant:CD19+",
+      "type": "CategoricalVariant",
+      "name": "CD19+"
+    }
+  },
+  "method": {
+    "fda_poda.method:1": {
+      "id": "fda_poda.method:1",
+      "type": "Method",
+      "name": "Federal Drug Administration Development & Approval Process for Drugs",
+      "reportedIn": {
+        "type": "Document",
+        "name": "Development & Approval Process | Drugs",
+        "title": "Development & Approval Process | Drugs",
+        "documentType": "webpage",
+        "urls": ["https://www.fda.gov/drugs/development-approval-process-drugs"]
+      }
+    }
+  },
+  "statement": {
+    "fda_poda.statement:1": {
       "id": "fda_poda.statement:1",
       "description": "Treatment of relapsed or refractory acute leukemia with a lysine methyltransferase 2A gene (KMT2A) translocation in adult and pediatric patients 1 year and older",
       "extensions": [
-        {
-          "name": "original_or_supplemental_approval",
-          "value": "original"
-        },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT04065399"]
-        },
+        { "name": "original_or_supplemental_approval", "value": "original" },
+        { "name": "clinical_trial_ids", "value": ["NCT04065399"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -30,94 +614,30 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:KMT2A translocation",
-          "type": "CategoricalVariant",
-          "name": "KIMT2A translocation"
-        },
-        "objectTherapeutic": {
-          "name": "Revumenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218944",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Revuforj"]
-            },
-            {
-              "name": "drug_class",
-              "value": "menin inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:KMT2A",
-          "name": "KMT2A"
-        },
+        "subject": "#/variant/fda_poda.variant:KMT2A translocation",
+        "object": "#/therapy/drugsatfda.nda:218944",
+        "geneContextQualifier": "#/gene/fda_poda.gene:KMT2A",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:acute leukemia",
-              "name": "acute leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:acute leukemia",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:2": {
       "id": "fda_poda.statement:2",
       "description": "Treatment of adult and pediatric patients 12 years and older with Grade 2 astrocytoma with a susceptible isocitrate dehydrogenase-1 (IDH1) mutation following surgery including biopsy, sub-total resection, or gross total resection",
       "extensions": [
-        {
-          "name": "original_or_supplemental_approval",
-          "value": "original"
-        },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT04164901"]
-        },
+        { "name": "original_or_supplemental_approval", "value": "original" },
+        { "name": "clinical_trial_ids", "value": ["NCT04164901"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -136,94 +656,30 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:IDH1 mutation",
-          "type": "CategoricalVariant",
-          "name": "IDH1 mutation"
-        },
-        "objectTherapeutic": {
-          "name": "Vorasidenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218784",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Voranigo"]
-            },
-            {
-              "name": "drug_class",
-              "value": "isocitrate dehydrogenase-1 (IDH1) and isocitrate dehydrogenase-2 (IDH2) inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:IDH1",
-          "name": "IDH1"
-        },
+        "subject": "#/variant/fda_poda.variant:IDH1 mutation",
+        "object": "#/therapy/drugsatfda.nda:218784",
+        "geneContextQualifier": "#/gene/fda_poda.gene:IDH1",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:diffuse astrocytoma",
-              "name": "diffuse astrocytoma",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:12 years and older",
-              "name": "12 years and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:diffuse astrocytoma",
+            "#/condition/fda_poda.onset:12 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:3": {
       "id": "fda_poda.statement:3",
       "description": "Treatment of adult and pediatric patients 12 years and older with Grade 2 oligodendroglioma with a susceptible isocitrate dehydrogenase-1 (IDH1) mutation following surgery including biopsy, sub-total resection, or gross total resection",
       "extensions": [
-        {
-          "name": "original_or_supplemental_approval",
-          "value": "original"
-        },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT04164901"]
-        },
+        { "name": "original_or_supplemental_approval", "value": "original" },
+        { "name": "clinical_trial_ids", "value": ["NCT04164901"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -242,94 +698,30 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:IDH1 mutation",
-          "type": "CategoricalVariant",
-          "name": "IDH1 mutation"
-        },
-        "objectTherapeutic": {
-          "name": "Vorasidenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218784",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Voranigo"]
-            },
-            {
-              "name": "drug_class",
-              "value": "isocitrate dehydrogenase-1 (IDH1) and isocitrate dehydrogenase-2 (IDH2) inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:IDH1",
-          "name": "IDH1"
-        },
+        "subject": "#/variant/fda_poda.variant:IDH1 mutation",
+        "object": "#/therapy/drugsatfda.nda:218784",
+        "geneContextQualifier": "#/gene/fda_poda.gene:IDH1",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:oligodendroglioma",
-              "name": "oligodendroglioma",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:12 years and older",
-              "name": "12 years and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:oligodendroglioma",
+            "#/condition/fda_poda.onset:12 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:4": {
       "id": "fda_poda.statement:4",
       "description": "Treatment of adult and pediatric patients 12 years and older with Grade 2 astrocytoma with a susceptible isocitrate dehydrogenase-2 (IDH2) mutation following surgery including biopsy, sub-total resection, or gross total resection",
       "extensions": [
-        {
-          "name": "original_or_supplemental_approval",
-          "value": "original"
-        },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT04164901"]
-        },
+        { "name": "original_or_supplemental_approval", "value": "original" },
+        { "name": "clinical_trial_ids", "value": ["NCT04164901"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -348,94 +740,30 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:IDH2 mutation",
-          "type": "CategoricalVariant",
-          "name": "IDH2 mutation"
-        },
-        "objectTherapeutic": {
-          "name": "Vorasidenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218784",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Voranigo"]
-            },
-            {
-              "name": "drug_class",
-              "value": "isocitrate dehydrogenase-1 (IDH1) and isocitrate dehydrogenase-2 (IDH2) inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:IDH2",
-          "name": "IDH2"
-        },
+        "subject": "#/variant/fda_poda.variant:IDH2 mutation",
+        "object": "#/therapy/drugsatfda.nda:218784",
+        "geneContextQualifier": "#/gene/fda_poda.gene:IDH2",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:diffuse astrocytoma",
-              "name": "diffuse astrocytoma",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:12 years and older",
-              "name": "12 years and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:diffuse astrocytoma",
+            "#/condition/fda_poda.onset:12 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:5": {
       "id": "fda_poda.statement:5",
       "description": "Treatment of adult and pediatric patients 12 years and older with Grade 2 oligodendroglioma with a susceptible isocitrate dehydrogenase-2 (IDH2) mutation following surgery including biopsy, sub-total resection, or gross total resection",
       "extensions": [
-        {
-          "name": "original_or_supplemental_approval",
-          "value": "original"
-        },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT04164901"]
-        },
+        { "name": "original_or_supplemental_approval", "value": "original" },
+        { "name": "clinical_trial_ids", "value": ["NCT04164901"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -454,83 +782,25 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:IDH2 mutation",
-          "type": "CategoricalVariant",
-          "name": "IDH2 mutation"
-        },
-        "objectTherapeutic": {
-          "name": "Vorasidenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218784",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Voranigo"]
-            },
-            {
-              "name": "drug_class",
-              "value": "isocitrate dehydrogenase-1 (IDH1) and isocitrate dehydrogenase-2 (IDH2) inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:IDH2",
-          "name": "IDH2"
-        },
+        "subject": "#/variant/fda_poda.variant:IDH2 mutation",
+        "object": "#/therapy/drugsatfda.nda:218784",
+        "geneContextQualifier": "#/gene/fda_poda.gene:IDH2",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:oligodendroglioma",
-              "name": "oligodendroglioma",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:12 years and older",
-              "name": "12 years and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:oligodendroglioma",
+            "#/condition/fda_poda.onset:12 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:6": {
       "id": "fda_poda.statement:6",
       "description": "Treatment of CD19-positive Philadelphia chromosome-negative B-cell precursor acute lymphoblastic leukemia (ALL) in the consolidation phase of multiphase chemotherapy in adult and pediatric patients one month and older",
       "extensions": [
@@ -560,83 +830,25 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD19+ Ph-",
-          "type": "CategoricalVariant",
-          "name": "CD19+ Ph-"
-        },
-        "objectTherapeutic": {
-          "name": "Blinatumomab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:125557",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Blincyto"]
-            },
-            {
-              "name": "drug_class",
-              "value": "bispecific CD19-directed CD3 T-cell engager"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:CD19",
-          "name": "CD19"
-        },
+        "subject": "#/variant/fda_poda.variant:CD19+ Ph-",
+        "object": "#/therapy/drugsatfda.nda:125557",
+        "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
-              "name": "precursor B-cell acute lymphoblastic leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 month and older",
-              "name": "1 month and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
+            "#/condition/fda_poda.onset:1 month and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:7": {
       "id": "fda_poda.statement:7",
       "description": "Treatment of adult and pediatric patients 12 years of age and older with solid tumors that have a neurotrophic tyrosine receptor kinase (NTRK) gene fusion, are locally advanced or metastatic or where surgical resection is likely to result in severe morbidity, and have progressed following treatment or have no satisfactory alternative therapy",
       "extensions": [
@@ -644,10 +856,7 @@
           "name": "original_or_supplemental_approval",
           "value": "supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT03093116"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT03093116"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -666,78 +875,24 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:NTRK fusion",
-          "type": "CategoricalVariant",
-          "name": "NTRK fusion"
-        },
-        "objectTherapeutic": {
-          "name": "Repotrectinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:218213",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Augtyro"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
+        "subject": "#/variant/fda_poda.variant:NTRK fusion",
+        "object": "#/therapy/drugsatfda.nda:218213",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:solid neoplasm",
-              "name": "solid neoplasm",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:12 years and older",
-              "name": "12 years and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:solid neoplasm",
+            "#/condition/fda_poda.onset:12 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:8": {
       "id": "fda_poda.statement:8",
       "description": "Treatment of adult and pediatric patients 2 years of age and older with locally advanced or metastatic solid tumors with a RET gene fusion, as detected by an FDA-approved test, that have progressed on or following prior systemic treatment or who have no satisfactory alternative treatment options",
       "extensions": [
@@ -749,10 +904,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT03899792"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT03899792"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -771,43 +923,13 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:RET fusion",
-          "type": "CategoricalVariant",
-          "name": "RET fusion"
-        },
-        "objectTherapeutic": {
-          "name": "Selpercatinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:213246",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Retevmo"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:RET",
-          "name": "RET"
-        },
+        "subject": "#/variant/fda_poda.variant:RET fusion",
+        "object": "#/therapy/drugsatfda.nda:213246",
+        "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:solid neoplasm",
-              "name": "solid neoplasm",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:2 years and older",
-              "name": "2 years and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:solid neoplasm",
+            "#/condition/fda_poda.onset:2 years and older"
           ],
           "membershipOperator": "AND",
           "extensions": [
@@ -815,45 +937,17 @@
               "name": "original_text",
               "value": "pediatric patients 2 years of age and older with locally advanced or metastatic solid tumors with a RET gene fusion, as detected by an FDA-approved test, that have progressed on or following prior systemic treatment or who have no satisfactory alternative treatment options"
             }
-          ]
+          ],
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:9": {
       "id": "fda_poda.statement:9",
       "description": "Treatment of adult and pediatric patients 2 years of age and older with advanced or metastatic thyroid cancer with a RET gene fusion, as detected by an FDA-approved test, who require systemic therapy and who are radioactive iodine-refractory (if radioactive iodine is appropriate)",
       "extensions": [
@@ -865,10 +959,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT03899792"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT03899792"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -887,43 +978,13 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:RET fusion",
-          "type": "CategoricalVariant",
-          "name": "RET fusion"
-        },
-        "objectTherapeutic": {
-          "name": "Selpercatinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:213246",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Retevmo"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:RET",
-          "name": "RET"
-        },
+        "subject": "#/variant/fda_poda.variant:RET fusion",
+        "object": "#/therapy/drugsatfda.nda:213246",
+        "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:Thyroid Gland Neoplasm",
-              "name": "Thyroid Gland Neoplasm",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:2 years and older",
-              "name": "2 years and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:Thyroid Gland Neoplasm",
+            "#/condition/fda_poda.onset:2 years and older"
           ],
           "membershipOperator": "AND",
           "extensions": [
@@ -931,45 +992,17 @@
               "name": "original_text",
               "value": "pediatric patients 2 years of age and older with advanced or metastatic thyroid cancer with a RET gene fusion, as detected by an FDA-approved test, who require systemic therapy and who are radioactive iodine-refractory (if radioactive iodine is appropriate)"
             }
-          ]
+          ],
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:10": {
       "id": "fda_poda.statement:10",
       "description": "Treatment of adult and pediatric patients 2 years of age and older with advanced or metastatic medullary thyroid cancer (MTC) with a RET mutation, as detected by an FDA-approved test, who require systemic therapy",
       "extensions": [
@@ -981,10 +1014,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT03899792"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT03899792"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -1003,43 +1033,13 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:RET mutation",
-          "type": "CategoricalVariant",
-          "name": "RET mutation"
-        },
-        "objectTherapeutic": {
-          "name": "Selpercatinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:213246",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Retevmo"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:RET",
-          "name": "RET"
-        },
+        "subject": "#/variant/fda_poda.variant:RET mutation",
+        "object": "#/therapy/drugsatfda.nda:213246",
+        "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:medullary thyroid gland carcinoma",
-              "name": "medullary thyroid gland carcinoma",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:2 years and older",
-              "name": "2 years and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:medullary thyroid gland carcinoma",
+            "#/condition/fda_poda.onset:2 years and older"
           ],
           "membershipOperator": "AND",
           "extensions": [
@@ -1047,45 +1047,17 @@
               "name": "original_text",
               "value": "pediatric patients 2 years of age and older with advanced or metastatic medullary thyroid cancer (MTC) with a RET mutation, as detected by an FDA-approved test, who require systemic therapy"
             }
-          ]
+          ],
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:11": {
       "id": "fda_poda.statement:11",
       "description": "Treatment of patients 6 months of age and older with relapsed or refractory pediatric low-grade glioma (LGG) harboring a BRAF fusion or rearrangement, or BRAF V600 mutation",
       "extensions": [
@@ -1093,14 +1065,8 @@
           "name": "additional_description",
           "value": "Tablets and oral suspension"
         },
-        {
-          "name": "original_or_supplemental_approval",
-          "value": "original"
-        },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT04775485"]
-        },
+        { "name": "original_or_supplemental_approval", "value": "original" },
+        { "name": "clinical_trial_ids", "value": ["NCT04775485"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -1108,20 +1074,7 @@
           ]
         }
       ],
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "reportedIn": [
         {
           "type": "Document",
@@ -1134,74 +1087,23 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BRAF V600",
-          "type": "CategoricalVariant",
-          "name": "BRAF V600"
-        },
-        "objectTherapeutic": {
-          "name": "Tovorafenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:217700",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Ojemda"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:BRAF",
-          "name": "BRAF"
-        },
+        "subject": "#/variant/fda_poda.variant:BRAF V600",
+        "object": "#/therapy/drugsatfda.nda:217700",
+        "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:low-grade glioma",
-              "name": "low-grade glioma",
-              "conceptType": "Disease",
-              "extensions": [
-                {
-                  "name": "aliases",
-                  "value": ["LGG"]
-                }
-              ]
-            },
-            {
-              "id": "fda_poda.onset:6 months and older",
-              "name": "6 months and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:low-grade glioma",
+            "#/condition/fda_poda.onset:6 months and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "direction": "supports",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:12": {
       "id": "fda_poda.statement:12",
       "description": "Treatment of patients 6 months of age and older with relapsed or refractory pediatric low-grade glioma (LGG) harboring a BRAF fusion or rearrangement, or BRAF V600 mutation",
       "extensions": [
@@ -1209,14 +1111,8 @@
           "name": "additional_description",
           "value": "Tablets and oral suspension"
         },
-        {
-          "name": "original_or_supplemental_approval",
-          "value": "original"
-        },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT04775485"]
-        },
+        { "name": "original_or_supplemental_approval", "value": "original" },
+        { "name": "clinical_trial_ids", "value": ["NCT04775485"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -1224,20 +1120,7 @@
           ]
         }
       ],
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "reportedIn": [
         {
           "type": "Document",
@@ -1250,74 +1133,23 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BRAF Fusion",
-          "type": "CategoricalVariant",
-          "name": "BRAF Fusion"
-        },
-        "objectTherapeutic": {
-          "name": "Tovorafenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:217700",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Ojemda"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:BRAF",
-          "name": "BRAF"
-        },
+        "subject": "#/variant/fda_poda.variant:BRAF Fusion",
+        "object": "#/therapy/drugsatfda.nda:217700",
+        "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:low-grade glioma",
-              "name": "low-grade glioma",
-              "conceptType": "Disease",
-              "extensions": [
-                {
-                  "name": "aliases",
-                  "value": ["LGG"]
-                }
-              ]
-            },
-            {
-              "id": "fda_poda.onset:6 months and older",
-              "name": "6 months and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:low-grade glioma",
+            "#/condition/fda_poda.onset:6 months and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "direction": "supports",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:13": {
       "id": "fda_poda.statement:13",
       "description": "Treatment of relapsed or refractory CD22-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients 1 year and older",
       "extensions": [
@@ -1325,10 +1157,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["WI203581 (ITCC-059)"]
-        },
+        { "name": "clinical_trial_ids", "value": ["WI203581 (ITCC-059)"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -1347,43 +1176,13 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD22+",
-          "type": "CategoricalVariant",
-          "name": "CD22+"
-        },
-        "objectTherapeutic": {
-          "name": "Inotuzumab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.bla:761040",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Besponsa"]
-            },
-            {
-              "name": "drug_class",
-              "value": "CD22-directed antibody and cytotoxic drug conjugate"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:CD22",
-          "name": "CD22"
-        },
+        "subject": "#/variant/fda_poda.variant:CD22+",
+        "object": "#/therapy/drugsatfda.bla:761040",
+        "geneContextQualifier": "#/gene/fda_poda.gene:CD22",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
-              "name": "precursor B-cell acute lymphoblastic leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
           "membershipOperator": "AND",
           "extensions": [
@@ -1391,45 +1190,17 @@
               "name": "original_text",
               "value": "relapsed or refractory CD22-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients 1 year and older"
             }
-          ]
+          ],
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:14": {
       "id": "fda_poda.statement:14",
       "description": "Treatment of adult and pediatric patients older than 1 month with solid tumors that have a neurotrophic tyrosine receptor kinase (NTRK) gene fusion without a known acquired resistance mutation, are metastatic or where surgical resection is likely to result in severe morbidity, and have progressed following treatment or have no satisfactory standard therapy",
       "extensions": [
@@ -1463,78 +1234,24 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:NTRK fusion",
-          "type": "CategoricalVariant",
-          "name": "NTRK fusion"
-        },
-        "objectTherapeutic": {
-          "name": "Entrectinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:212725",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Rozlytrek"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
+        "subject": "#/variant/fda_poda.variant:NTRK fusion",
+        "object": "#/therapy/drugsatfda.nda:212725",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:solid neoplasm",
-              "name": "solid neoplasm",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 month and older",
-              "name": "1 month and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:solid neoplasm",
+            "#/condition/fda_poda.onset:1 month and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:15": {
       "id": "fda_poda.statement:15",
       "description": "Treatment of adult and pediatric patients 1 year of age and older with chronic phase (CP) Philadelphia chromosome-positive chronic myelogenous leukemia (Ph+ CML), newly-diagnosed or resistant or intolerant to prior therapy",
       "extensions": [
@@ -1542,10 +1259,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT04258943"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT04258943"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -1564,38 +1278,12 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BCR-ABL1 Fusion",
-          "type": "CategoricalVariant",
-          "name": "BCR-ABL1 Fusion"
-        },
-        "objectTherapeutic": {
-          "name": "Bosutinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:203341",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Bosulif"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
+        "subject": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
+        "object": "#/therapy/drugsatfda.nda:203341",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
-              "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
           "membershipOperator": "AND",
           "extensions": [
@@ -1603,65 +1291,34 @@
               "name": "original_text",
               "value": "pediatric patients 1 year of age and older with chronic phase (CP) Philadelphia chromosome-positive chronic myelogenous leukemia (Ph+ CML), newly-diagnosed or resistant or intolerant to prior therapy"
             }
-          ]
+          ],
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:16": {
       "id": "fda_poda.statement:16",
       "description": "For the treatment of adult and pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment options",
       "extensions": [
         {
           "name": "additional_description",
-          "value": "This Prior Approval supplemental new drug application extends the age range of the tumor agnostic indication from patients aged 6 years of age and older (approved 6-22-2022 – see https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dabrafenib-combination-trametinib-unresectable-or-metastatic-solid)  to patients aged 1 year of age and older. There was no new clinical data submitted to support the 1-5 year old approval. The supplement was based on the benefit:risk profile and dosage established for the liquid formulation in pediatric glioma patients 1 to <6 years of age. Limitations of Use: TAFINLAR is not indicated for treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition; TAFINLAR is not indicated for treatment of patients with wild-type BRAF solid tumors "
+          "value": "This Prior Approval supplemental new drug application extends the age range of the tumor agnostic indication from patients aged 6 years of age and older (approved 6-22-2022 \u2013 see https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dabrafenib-combination-trametinib-unresectable-or-metastatic-solid)  to patients aged 1 year of age and older. There was no new clinical data submitted to support the 1-5 year old approval. The supplement was based on the benefit:risk profile and dosage established for the liquid formulation in pediatric glioma patients 1 to <6 years of age. Limitations of Use: TAFINLAR is not indicated for treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition; TAFINLAR is not indicated for treatment of patients with wild-type BRAF solid tumors "
         },
         {
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT02124772"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT02124772"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
-            "Dabrafenib [Tafinlar] |kinase inhibitor|BRAF, CRAF|In combination with trametinib, for the treatment of adult and pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment options|1 year and older |08-31-2023|Supplemental / [Initial U.S. Approval:05-29-2013]|NCT02124772|This Prior Approval supplemental new drug application extends the age range of the tumor agnostic indication from patients aged 6 years of age and older (approved 6-22-2022 – see https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dabrafenib-combination-trametinib-unresectable-or-metastatic-solid)  to patients aged 1 year of age and older. There was no new clinical data submitted to support the 1-5 year old approval. The supplement was based on the benefit:risk profile and dosage established for the liquid formulation in pediatric glioma patients 1 to <6 years of age. Limitations of Use: TAFINLAR is not indicated for treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition; TAFINLAR is not indicated for treatment of patients with wild-type BRAF solid tumors",
-            "Trametinib [Mekinist] |kinase inhibitor|MAP2K1 (MEK1), MAP2K2 (MEK2)|In combination with dabrafenib, for the treatment of adult and pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment options|1 year and older |08-31-2023|Supplemental / [Initial U.S. Approval:05-29-2013]|NCT02124772|This Prior Approval supplemental new drug application extends the age range of the tumor agnostic indication from patients aged 6 years of age and older (approved 6-22-2022 – see https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dabrafenib-combination-trametinib-unresectable-or-metastatic-solid)  to patients aged 1 year of age and older.    There was no new clinical data submitted to support the 1-5 year old approval. The supplement was based on the benefit:risk profile and dosage established for the liquid formulation in pediatric glioma patients 1 to <6 years of age.Limitations of Use: MEKINIST is not indicated for treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition "
+            "Dabrafenib [Tafinlar] |kinase inhibitor|BRAF, CRAF|In combination with trametinib, for the treatment of adult and pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment options|1 year and older |08-31-2023|Supplemental / [Initial U.S. Approval:05-29-2013]|NCT02124772|This Prior Approval supplemental new drug application extends the age range of the tumor agnostic indication from patients aged 6 years of age and older (approved 6-22-2022 \u2013 see https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dabrafenib-combination-trametinib-unresectable-or-metastatic-solid)  to patients aged 1 year of age and older. There was no new clinical data submitted to support the 1-5 year old approval. The supplement was based on the benefit:risk profile and dosage established for the liquid formulation in pediatric glioma patients 1 to <6 years of age. Limitations of Use: TAFINLAR is not indicated for treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition; TAFINLAR is not indicated for treatment of patients with wild-type BRAF solid tumors",
+            "Trametinib [Mekinist] |kinase inhibitor|MAP2K1 (MEK1), MAP2K2 (MEK2)|In combination with dabrafenib, for the treatment of adult and pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment options|1 year and older |08-31-2023|Supplemental / [Initial U.S. Approval:05-29-2013]|NCT02124772|This Prior Approval supplemental new drug application extends the age range of the tumor agnostic indication from patients aged 6 years of age and older (approved 6-22-2022 \u2013 see https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dabrafenib-combination-trametinib-unresectable-or-metastatic-solid)  to patients aged 1 year of age and older.    There was no new clinical data submitted to support the 1-5 year old approval. The supplement was based on the benefit:risk profile and dosage established for the liquid formulation in pediatric glioma patients 1 to <6 years of age.Limitations of Use: MEKINIST is not indicated for treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition "
           ]
         }
       ],
@@ -1676,103 +1333,32 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BRAF V600E",
-          "type": "CategoricalVariant",
-          "name": "BRAF V600E"
-        },
-        "objectTherapeutic": {
-          "therapies": [
-            {
-              "name": "Dabrafenib",
-              "conceptType": "Therapy",
-              "id": "drugsatfda.nda:202806",
-              "extensions": [
-                {
-                  "name": "trade_names",
-                  "value": ["Tafinlar"]
-                },
-                {
-                  "name": "drug_class",
-                  "value": "kinase inhibitor"
-                }
-              ]
-            },
-            {
-              "name": "Trametinib",
-              "conceptType": "Therapy",
-              "id": "drugsatfda.nda:204114",
-              "extensions": [
-                {
-                  "name": "trade_names",
-                  "value": ["Mekinist"]
-                },
-                {
-                  "name": "drug_class",
-                  "value": "kinase inhibitor"
-                }
-              ]
-            }
+        "subject": "#/variant/fda_poda.variant:BRAF V600E",
+        "object": {
+          "concepts": [
+            "#/therapy/drugsatfda.nda:202806",
+            "#/therapy/drugsatfda.nda:204114"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:BRAF",
-          "name": "BRAF"
-        },
+        "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:solid neoplasm",
-              "name": "solid neoplasm",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:solid neoplasm",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:17": {
       "id": "fda_poda.statement:17",
       "description": "Treatment of patients 6 months of age and older with relapsed or refractory pediatric low-grade glioma (LGG) harboring a BRAF fusion or rearrangement, or BRAF V600 mutation",
       "extensions": [
@@ -1780,14 +1366,8 @@
           "name": "additional_description",
           "value": "Tablets and oral suspension"
         },
-        {
-          "name": "original_or_supplemental_approval",
-          "value": "original"
-        },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT04775485"]
-        },
+        { "name": "original_or_supplemental_approval", "value": "original" },
+        { "name": "clinical_trial_ids", "value": ["NCT04775485"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -1795,20 +1375,7 @@
           ]
         }
       ],
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
+      "specifiedBy": "#/method/fda_poda.method:1",
       "reportedIn": [
         {
           "type": "Document",
@@ -1821,74 +1388,23 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BRAF Fusion",
-          "type": "CategoricalVariant",
-          "name": "BRAF Fusion"
-        },
-        "objectTherapeutic": {
-          "name": "Tovorafenib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:217700",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Ojemda"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:BRAF",
-          "name": "BRAF"
-        },
+        "subject": "#/variant/fda_poda.variant:BRAF Fusion",
+        "object": "#/therapy/drugsatfda.nda:217700",
+        "geneContextQualifier": "#/gene/fda_poda.gene:BRAF",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:low-grade glioma",
-              "name": "low-grade glioma",
-              "conceptType": "Disease",
-              "extensions": [
-                {
-                  "name": "aliases",
-                  "value": ["LGG"]
-                }
-              ]
-            },
-            {
-              "id": "fda_poda.onset:6 months and older",
-              "name": "6 months and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:low-grade glioma",
+            "#/condition/fda_poda.onset:6 months and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "direction": "supports",
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:18": {
       "id": "fda_poda.statement:18",
       "description": "Treatment of adult and pediatric patients 1 year of age and older with unresectable, recurrent, or refractory inflammatory myofibroblastic tumor (IMT) that is ALK-positive",
       "extensions": [
@@ -1896,10 +1412,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT00939770"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT00939770"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -1918,43 +1431,13 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:ALK+",
-          "type": "CategoricalVariant",
-          "name": "ALK+"
-        },
-        "objectTherapeutic": {
-          "name": "Crizotinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:202570",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Xalkori"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:ALK",
-          "name": "ALK"
-        },
+        "subject": "#/variant/fda_poda.variant:ALK+",
+        "object": "#/therapy/drugsatfda.nda:202570",
+        "geneContextQualifier": "#/gene/fda_poda.gene:ALK",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:inflammatory myofibroblastic tumor",
-              "name": "inflammatory myofibroblastic tumor",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:inflammatory myofibroblastic tumor",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
           "membershipOperator": "AND",
           "extensions": [
@@ -1962,45 +1445,17 @@
               "name": "original_text",
               "value": "pediatric patients 1 year of age and older with unresectable, recurrent, or refractory inflammatory myofibroblastic tumor (IMT) that is ALK-positive"
             }
-          ]
+          ],
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:19": {
       "id": "fda_poda.statement:19",
       "description": "Treatment of pediatric patients aged 6 months and older with previously untreated, advanced stage, CD20-positive diffuse large B-cell lymphoma (DLBCL), Burkitt lymphoma (BL), Burkitt-like lymphoma (BLL) or mature B-cell acute leukemia (B-AL) in combination with chemotherapy",
       "extensions": [
@@ -2008,10 +1463,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT01516580"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT01516580"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -2030,89 +1482,25 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD20+",
-          "type": "CategoricalVariant",
-          "name": "CD20+"
-        },
-        "objectTherapeutic": {
-          "name": "Rituximab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:103705",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Rituxan"]
-            },
-            {
-              "name": "drug_class",
-              "value": "CD20-directed cytolytic antibody"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:CD20",
-          "name": "CD20"
-        },
+        "subject": "#/variant/fda_poda.variant:CD20+",
+        "object": "#/therapy/drugsatfda.nda:103705",
+        "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:diffuse large B-cell lymphoma",
-              "name": "diffuse large B-cell lymphoma",
-              "conceptType": "Disease",
-              "extensions": [
-                {
-                  "name": "aliases",
-                  "value": ["DLBCL"]
-                }
-              ]
-            },
-            {
-              "id": "fda_poda.onset:6 months and older",
-              "name": "6 months and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:diffuse large B-cell lymphoma",
+            "#/condition/fda_poda.onset:6 months and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:20": {
       "id": "fda_poda.statement:20",
       "description": "Treatment of pediatric patients aged 6 months and older with previously untreated, advanced stage, CD20-positive diffuse large B-cell lymphoma (DLBCL), Burkitt lymphoma (BL), Burkitt-like lymphoma (BLL) or mature B-cell acute leukemia (B-AL) in combination with chemotherapy",
       "extensions": [
@@ -2120,10 +1508,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT01516580"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT01516580"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -2142,89 +1527,25 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD20+",
-          "type": "CategoricalVariant",
-          "name": "CD20+"
-        },
-        "objectTherapeutic": {
-          "name": "Rituximab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:103705",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Rituxan"]
-            },
-            {
-              "name": "drug_class",
-              "value": "CD20-directed cytolytic antibody"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:CD20",
-          "name": "CD20"
-        },
+        "subject": "#/variant/fda_poda.variant:CD20+",
+        "object": "#/therapy/drugsatfda.nda:103705",
+        "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:Burkitt lymphoma",
-              "name": "Burkitt lymphoma",
-              "conceptType": "Disease",
-              "extensions": [
-                {
-                  "name": "aliases",
-                  "value": ["BL"]
-                }
-              ]
-            },
-            {
-              "id": "fda_poda.onset:6 months and older",
-              "name": "6 months and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:Burkitt lymphoma",
+            "#/condition/fda_poda.onset:6 months and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:21": {
       "id": "fda_poda.statement:21",
       "description": "Treatment of pediatric patients aged 6 months and older with previously untreated, advanced stage, CD20-positive diffuse large B-cell lymphoma (DLBCL), Burkitt lymphoma (BL), Burkitt-like lymphoma (BLL) or mature B-cell acute leukemia (B-AL) in combination with chemotherapy",
       "extensions": [
@@ -2232,10 +1553,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT01516580"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT01516580"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -2254,89 +1572,25 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD20+",
-          "type": "CategoricalVariant",
-          "name": "CD20+"
-        },
-        "objectTherapeutic": {
-          "name": "Rituximab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:103705",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Rituxan"]
-            },
-            {
-              "name": "drug_class",
-              "value": "CD20-directed cytolytic antibody"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:CD20",
-          "name": "CD20"
-        },
+        "subject": "#/variant/fda_poda.variant:CD20+",
+        "object": "#/therapy/drugsatfda.nda:103705",
+        "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:Atypical Burkitt/Burkitt-Like Lymphoma",
-              "name": "Atypical Burkitt/Burkitt-Like Lymphoma",
-              "conceptType": "Disease",
-              "extensions": [
-                {
-                  "name": "aliases",
-                  "value": ["BLL"]
-                }
-              ]
-            },
-            {
-              "id": "fda_poda.onset:6 months and older",
-              "name": "6 months and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:Atypical Burkitt~1Burkitt-Like Lymphoma",
+            "#/condition/fda_poda.onset:6 months and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:22": {
       "id": "fda_poda.statement:22",
       "description": "Treatment of pediatric patients aged 6 months and older with previously untreated, advanced stage, CD20-positive diffuse large B-cell lymphoma (DLBCL), Burkitt lymphoma (BL), Burkitt-like lymphoma (BLL) or mature B-cell acute leukemia (B-AL) in combination with chemotherapy",
       "extensions": [
@@ -2344,10 +1598,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT01516580"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT01516580"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -2366,89 +1617,25 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD20+",
-          "type": "CategoricalVariant",
-          "name": "CD20+"
-        },
-        "objectTherapeutic": {
-          "name": "Rituximab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:103705",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Rituxan"]
-            },
-            {
-              "name": "drug_class",
-              "value": "CD20-directed cytolytic antibody"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:CD20",
-          "name": "CD20"
-        },
+        "subject": "#/variant/fda_poda.variant:CD20+",
+        "object": "#/therapy/drugsatfda.nda:103705",
+        "geneContextQualifier": "#/gene/fda_poda.gene:CD20",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:Burkitt Leukemia",
-              "name": "Burkitt Leukemia",
-              "conceptType": "Disease",
-              "extensions": [
-                {
-                  "name": "aliases",
-                  "value": ["B-AL"]
-                }
-              ]
-            },
-            {
-              "id": "fda_poda.onset:6 months and older",
-              "name": "6 months and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:Burkitt Leukemia",
+            "#/condition/fda_poda.onset:6 months and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:23": {
       "id": "fda_poda.statement:23",
       "description": "Treatment of pediatric patients 1 year of age and older and young adults with relapsed or refractory, systemic anaplastic large cell lymphoma (ALCL) that is ALK-positive",
       "extensions": [
@@ -2456,10 +1643,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT00939770"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT00939770"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -2478,89 +1662,25 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:ALK+",
-          "type": "CategoricalVariant",
-          "name": "ALK+"
-        },
-        "objectTherapeutic": {
-          "name": "Crizotinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:202570",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Xalkori"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor "
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:ALK",
-          "name": "ALK"
-        },
+        "subject": "#/variant/fda_poda.variant:ALK+",
+        "object": "#/therapy/drugsatfda.nda:202570",
+        "geneContextQualifier": "#/gene/fda_poda.gene:ALK",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma",
-              "name": "",
-              "conceptType": "Disease",
-              "extensions": [
-                {
-                  "name": "aliases",
-                  "value": ["ALCL"]
-                }
-              ]
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:Systemic Anaplastic Large Cell Lymphoma",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:24": {
       "id": "fda_poda.statement:24",
       "description": "Treatment of adult and pediatric patients 12 years of age and older with advanced or metastatic RET fusion-positive thyroid cancer who require systemic therapy and who are radioactive iodine-refractory (if radioactive iodine is appropriate)",
       "extensions": [
@@ -2568,14 +1688,8 @@
           "name": "additional_description",
           "value": "Not a supplemental approval. Two different New Drug Applications (NDAs) were submitted; a NDA for the lung indication (adult only indication,  approved O9-04-2020) and a NDA  for the thyroid indications, including pediatric patients [approved  12-01-2020]."
         },
-        {
-          "name": "original_or_supplemental_approval",
-          "value": "Original"
-        },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT03037385"]
-        },
+        { "name": "original_or_supplemental_approval", "value": "Original" },
+        { "name": "clinical_trial_ids", "value": ["NCT03037385"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -2594,83 +1708,25 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:RET Fusion",
-          "type": "CategoricalVariant",
-          "name": "RET Fusion"
-        },
-        "objectTherapeutic": {
-          "name": "Pralsetinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:214701",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Gavreto"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:RET",
-          "name": "RET"
-        },
+        "subject": "#/variant/fda_poda.variant:RET Fusion",
+        "object": "#/therapy/drugsatfda.nda:214701",
+        "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:thyroid cancer",
-              "name": "thyroid cancer",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:12 years and older",
-              "name": "12 years and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:thyroid cancer",
+            "#/condition/fda_poda.onset:12 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:25": {
       "id": "fda_poda.statement:25",
       "description": "Treatment of adult and pediatric patients 12 years of age and older with advanced or metastatic RET-mutant medullary thyroid cancer (MTC) who require systemic therapy",
       "extensions": [
@@ -2678,14 +1734,8 @@
           "name": "additional_description",
           "value": "Not a supplemental approval. Two different New Drug Applications (NDAs) were submitted; a NDA for the lung indication (adult only indication,  approved O9-04-2020) and a NDA  for the thyroid indications, including pediatric patients [approved  12-01-2020]."
         },
-        {
-          "name": "original_or_supplemental_approval",
-          "value": "Original"
-        },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT03037385"]
-        },
+        { "name": "original_or_supplemental_approval", "value": "Original" },
+        { "name": "clinical_trial_ids", "value": ["NCT03037385"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -2704,89 +1754,25 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:RET Mutation",
-          "type": "CategoricalVariant",
-          "name": "RET Mutation"
-        },
-        "objectTherapeutic": {
-          "name": "Pralsetinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:214701",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Gavreto"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:RET",
-          "name": "RET"
-        },
+        "subject": "#/variant/fda_poda.variant:RET Mutation",
+        "object": "#/therapy/drugsatfda.nda:214701",
+        "geneContextQualifier": "#/gene/fda_poda.gene:RET",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:medullary thyroid gland carcinoma",
-              "name": "medullary thyroid gland carcinoma",
-              "conceptType": "Disease",
-              "extensions": [
-                {
-                  "name": "aliases",
-                  "value": ["MTC"]
-                }
-              ]
-            },
-            {
-              "id": "fda_poda.onset:12 years and older",
-              "name": "12 years and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:medullary thyroid gland carcinoma",
+            "#/condition/fda_poda.onset:12 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:26": {
       "id": "fda_poda.statement:26",
       "description": "Treatment of newly-diagnosed CD33-positive acute myeloid leukemia in adults and pediatric patients 1 month and older",
       "extensions": [
@@ -2794,10 +1780,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT00372593"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT00372593"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -2816,83 +1799,25 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD33+",
-          "type": "CategoricalVariant",
-          "name": "CD33+"
-        },
-        "objectTherapeutic": {
-          "name": "Gemtuzumab ozogamicin",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:761060",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Mylotarg"]
-            },
-            {
-              "name": "drug_class",
-              "value": "CD33-directed antibody and cytotoxic drug conjugate"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:CD33",
-          "name": "CD33"
-        },
+        "subject": "#/variant/fda_poda.variant:CD33+",
+        "object": "#/therapy/drugsatfda.nda:761060",
+        "geneContextQualifier": "#/gene/fda_poda.gene:CD33",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:acute myeloid leukemia",
-              "name": "acute myeloid leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 month and older",
-              "name": "1 month and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:acute myeloid leukemia",
+            "#/condition/fda_poda.onset:1 month and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:27": {
       "id": "fda_poda.statement:27",
       "description": "Treatment of pediatric patients 1 year of age and older with newly  diagnosed  Philadelphia chromosome-positive acute lymphoblastic leukemia (Ph+ ALL) in combination with chemotherapy",
       "extensions": [
@@ -2900,10 +1825,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT01460160"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT01460160"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -2922,83 +1844,25 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BCR-ABL1 Fusion",
-          "type": "CategoricalVariant",
-          "name": "BCR-ABL1 Fusion"
-        },
-        "objectTherapeutic": {
-          "name": "DASATINIB",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:021986",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["SPRYCEL"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:BCR",
-          "name": "BCR"
-        },
+        "subject": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
+        "object": "#/therapy/drugsatfda.nda:021986",
+        "geneContextQualifier": "#/gene/fda_poda.gene:BCR",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:acute lymphoblastic leukemia",
-              "name": "acute lymphoblastic leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:acute lymphoblastic leukemia",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:28": {
       "id": "fda_poda.statement:28",
       "description": "Treatment of adult and pediatric patients with solid tumors that have a neurotrophic receptor tyrosine kinase (NTRK) gene fusion without a known acquired resistance mutation, are metastatic or where surgical resection is likely to result in severe morbidity, and have no satisfactory alternative treatments or that have progressed following treatment",
       "extensions": [
@@ -3006,10 +1870,7 @@
           "name": "additional_description",
           "value": "On November 26, 2018, FDA granted accelerated approval to both the capsule and oral solution formulations of Vitrakvi (larotrectinib) [https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/211710Orig1s000ltr.pdf]. On April 09, 2025, FDA granted traditional approval for these indications [capsule: https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/210861Orig1s012ltr.pdf; oral solution: https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/211710Orig1s010ltr.pdf].  For additional details see Drugs@FDA listing."
         },
-        {
-          "name": "original_or_supplemental_approval",
-          "value": "Original"
-        },
+        { "name": "original_or_supplemental_approval", "value": "Original" },
         {
           "name": "clinical_trial_ids",
           "value": ["NCT02122913", "NCT02637687", "NCT02576431"]
@@ -3032,84 +1893,30 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:NTRK Fusion",
-          "type": "CategoricalVariant",
-          "name": "NTRK Fusion"
-        },
-        "objectTherapeutic": {
-          "name": "Larotrectinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:210861",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Vitrakvi"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
+        "subject": "#/variant/fda_poda.variant:NTRK Fusion",
+        "object": "#/therapy/drugsatfda.nda:210861",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:solid neoplasm",
-              "name": "solid neoplasm",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:0 years and older",
-              "name": "0 years and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:solid neoplasm",
+            "#/condition/fda_poda.onset:0 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:29": {
       "id": "fda_poda.statement:29",
       "description": "Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older",
       "extensions": [
         {
           "name": "additional_description",
-          "value": "\"Indication statements of blinatumomab for MRD-positive B-cell Precursor ALL: •  Approved on 03-29-2018: Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adults and children. For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-granted-accelerated-approval-blinatumomab-blincyto-amgen-inc-treatment-adult-and-pediatric]. •  Revised on 06-20-2023 to “Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients.” For additional details see Drugs@FDA listing. •  Revised on 06-14-2024 to “Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older.” For additional details see Drugs@FDA listing.\""
+          "value": "\"Indication statements of blinatumomab for MRD-positive B-cell Precursor ALL: \u2022  Approved on 03-29-2018: Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adults and children. For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-granted-accelerated-approval-blinatumomab-blincyto-amgen-inc-treatment-adult-and-pediatric]. \u2022  Revised on 06-20-2023 to \u201cTreatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients.\u201d For additional details see Drugs@FDA listing. \u2022  Revised on 06-14-2024 to \u201cTreatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older.\u201d For additional details see Drugs@FDA listing.\""
         },
         {
           "name": "original_or_supplemental_approval",
@@ -3122,7 +1929,7 @@
         {
           "name": "original_spreadsheet_rows",
           "value": [
-            "Blinatumomab [Blincyto]|bispecific CD19-directed CD3 T-cell engager |CD19/CD3|Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older|one month and older|03-29-2018|Supplemental [Initial U.S. Approval: 12-03-2014]|NCT02101853, NCT02393859|\"Indication statements of blinatumomab for MRD-positive B-cell Precursor ALL: •  Approved on 03-29-2018: Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adults and children. For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-granted-accelerated-approval-blinatumomab-blincyto-amgen-inc-treatment-adult-and-pediatric]. •  Revised on 06-20-2023 to “Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients.” For additional details see Drugs@FDA listing. •  Revised on 06-14-2024 to “Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older.” For additional details see Drugs@FDA listing.\""
+            "Blinatumomab [Blincyto]|bispecific CD19-directed CD3 T-cell engager |CD19/CD3|Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older|one month and older|03-29-2018|Supplemental [Initial U.S. Approval: 12-03-2014]|NCT02101853, NCT02393859|\"Indication statements of blinatumomab for MRD-positive B-cell Precursor ALL: \u2022  Approved on 03-29-2018: Treatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adults and children. For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-granted-accelerated-approval-blinatumomab-blincyto-amgen-inc-treatment-adult-and-pediatric]. \u2022  Revised on 06-20-2023 to \u201cTreatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients.\u201d For additional details see Drugs@FDA listing. \u2022  Revised on 06-14-2024 to \u201cTreatment of CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in first or second complete remission with minimal residual disease (MRD) greater than or equal to 0.1% in adult and pediatric patients one month and older.\u201d For additional details see Drugs@FDA listing.\""
           ]
         }
       ],
@@ -3137,83 +1944,25 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD19+",
-          "type": "CategoricalVariant",
-          "name": "CD19+"
-        },
-        "objectTherapeutic": {
-          "name": "Blinatumomab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.bla:125557",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Blincyto"]
-            },
-            {
-              "name": "drug_class",
-              "value": "bispecific CD19-directed CD3 T-cell engager "
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:CD19",
-          "name": "CD19"
-        },
+        "subject": "#/variant/fda_poda.variant:CD19+",
+        "object": "#/therapy/drugsatfda.bla:125557",
+        "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
-              "name": "precursor B-cell acute lymphoblastic leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 month and older",
-              "name": "1 month and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
+            "#/condition/fda_poda.onset:1 month and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:30": {
       "id": "fda_poda.statement:30",
       "description": "Treatment of adult and pediatric patients greater than or equal to 1 year of age with newly diagnosed Philadelphia chromosome positive chronic myeloid leukemia (Ph+ CML) in chronic phase",
       "extensions": [
@@ -3221,10 +1970,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT01844765"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT01844765"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -3243,84 +1989,24 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BCR-ABL1 Fusion",
-          "type": "CategoricalVariant",
-          "name": "BCR-ABL1 Fusion"
-        },
-        "objectTherapeutic": {
-          "name": "Nilotinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:022068",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Tasigna"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
+        "subject": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
+        "object": "#/therapy/drugsatfda.nda:022068",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
-              "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Disease",
-              "extensions": [
-                {
-                  "name": "aliases",
-                  "value": ["Ph+ CML"]
-                }
-              ]
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:31": {
       "id": "fda_poda.statement:31",
       "description": "Treatment of pediatric patients greater than or equal to 1 year of age with chronic phase and accelerated phase Philadelphia chromosome positive chronic myeloid leukemia (Ph+ CML) with resistance or intolerance to prior tyrosine-kinase inhibitor (TKI) therapy",
       "extensions": [
@@ -3350,84 +2036,24 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BCR-ABL1 Fusion",
-          "type": "CategoricalVariant",
-          "name": "BCR-ABL1 Fusion"
-        },
-        "objectTherapeutic": {
-          "name": "Nilotinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:022068",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Tasigna"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
+        "subject": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
+        "object": "#/therapy/drugsatfda.nda:022068",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
-              "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Disease",
-              "extensions": [
-                {
-                  "name": "aliases",
-                  "value": ["Ph+ CML"]
-                }
-              ]
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:32": {
       "id": "fda_poda.statement:32",
       "description": "Treatment of pediatric patients 1 year of age and older with Philadelphia chromosome-positive (Ph+) chronic myeloid leukemia (CML) in chronic phase",
       "extensions": [
@@ -3457,78 +2083,24 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BCR-ABL1 Fusion",
-          "type": "CategoricalVariant",
-          "name": "BCR-ABL1 Fusion"
-        },
-        "objectTherapeutic": {
-          "name": "Dasatinib",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:021986",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Sprycel"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
+        "subject": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
+        "object": "#/therapy/drugsatfda.nda:021986",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
-              "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 year and older",
-              "name": "1 year and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
+            "#/condition/fda_poda.onset:1 year and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:33": {
       "id": "fda_poda.statement:33",
       "description": "Treatment of relapsed or refractory CD33-positive acute myeloid leukemia in adults and pediatric patients 2 years and older.",
       "extensions": [
@@ -3554,102 +2126,41 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD33+",
-          "type": "CategoricalVariant",
-          "name": "CD33+"
-        },
-        "objectTherapeutic": {
-          "name": "Gemtuzumab ozogamicin",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.bla:761060",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Mylotarg"]
-            },
-            {
-              "name": "drug_class",
-              "value": "CD33-directed antibody and cytotoxic drug conjugate"
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:CD33",
-          "name": "CD33"
-        },
+        "subject": "#/variant/fda_poda.variant:CD33+",
+        "object": "#/therapy/drugsatfda.bla:761060",
+        "geneContextQualifier": "#/gene/fda_poda.gene:CD33",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:acute myeloid leukemia",
-              "name": "acute myeloid leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:2 years and older",
-              "name": "2 years and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:acute myeloid leukemia",
+            "#/condition/fda_poda.onset:2 years and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:34": {
       "id": "fda_poda.statement:34",
       "description": "Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients one month and older",
       "extensions": [
         {
           "name": "additional_description",
-          "value": "\"Indication statements of blinatumomab for Relapsed or Refractory B-cell Precursor ALL: •  08-30-2016: Treatment of Philadelphia chromosome-negative relapsed or refractory B-cell precursor acute lymphoblastic leukemia (ALL). For additional details see Drugs@FDA listing. •  On 07-11-2017 the indication was expanded to include Philadelphia chromosome-positive (Ph+) relapsed or refractory B-cell precursor ALL: “Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adults and  children”.  For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-regular-approval-blinatumomab-and-expands-indication-include-philadelphia-chromosome]. •  Revised on 06-20-2023 to: “Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients.” For additional details see Drugs@FDA listing. \"\" •  Revised on 06-14-2024 to “Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients one month and older.”\""
+          "value": "\"Indication statements of blinatumomab for Relapsed or Refractory B-cell Precursor ALL: \u2022  08-30-2016: Treatment of Philadelphia chromosome-negative relapsed or refractory B-cell precursor acute lymphoblastic leukemia (ALL). For additional details see Drugs@FDA listing. \u2022  On 07-11-2017 the indication was expanded to include Philadelphia chromosome-positive (Ph+) relapsed or refractory B-cell precursor ALL: \u201cTreatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adults and  children\u201d.  For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-regular-approval-blinatumomab-and-expands-indication-include-philadelphia-chromosome]. \u2022  Revised on 06-20-2023 to: \u201cTreatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients.\u201d For additional details see Drugs@FDA listing. \"\" \u2022  Revised on 06-14-2024 to \u201cTreatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients one month and older.\u201d\""
         },
         {
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT01471782"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT01471782"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
-            "Blinatumomab [Blincyto]|bispecific CD19-directed CD3 T-cell engager |CD19/CD3|Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients one month and older|one month and older|07-11-2017|Supplemental [Initial U.S. Approval: 12-03-2014]|NCT01471782|\"Indication statements of blinatumomab for Relapsed or Refractory B-cell Precursor ALL: •  08-30-2016: Treatment of Philadelphia chromosome-negative relapsed or refractory B-cell precursor acute lymphoblastic leukemia (ALL). For additional details see Drugs@FDA listing. •  On 07-11-2017 the indication was expanded to include Philadelphia chromosome-positive (Ph+) relapsed or refractory B-cell precursor ALL: “Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adults and  children”.  For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-regular-approval-blinatumomab-and-expands-indication-include-philadelphia-chromosome]. •  Revised on 06-20-2023 to: “Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients.” For additional details see Drugs@FDA listing. \"\" •  Revised on 06-14-2024 to “Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients one month and older.”\""
+            "Blinatumomab [Blincyto]|bispecific CD19-directed CD3 T-cell engager |CD19/CD3|Treatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients one month and older|one month and older|07-11-2017|Supplemental [Initial U.S. Approval: 12-03-2014]|NCT01471782|\"Indication statements of blinatumomab for Relapsed or Refractory B-cell Precursor ALL: \u2022  08-30-2016: Treatment of Philadelphia chromosome-negative relapsed or refractory B-cell precursor acute lymphoblastic leukemia (ALL). For additional details see Drugs@FDA listing. \u2022  On 07-11-2017 the indication was expanded to include Philadelphia chromosome-positive (Ph+) relapsed or refractory B-cell precursor ALL: \u201cTreatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adults and  children\u201d.  For additional details see Drugs@FDA listing and [https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-regular-approval-blinatumomab-and-expands-indication-include-philadelphia-chromosome]. \u2022  Revised on 06-20-2023 to: \u201cTreatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients.\u201d For additional details see Drugs@FDA listing. \"\" \u2022  Revised on 06-14-2024 to \u201cTreatment of relapsed or refractory CD19-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients one month and older.\u201d\""
           ]
         }
       ],
@@ -3664,83 +2175,25 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:CD19+",
-          "type": "CategoricalVariant",
-          "name": "CD19+"
-        },
-        "objectTherapeutic": {
-          "name": "Blinatumomab",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.bla:125557",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Blincyto"]
-            },
-            {
-              "name": "drug_class",
-              "value": "bispecific CD19-directed CD3 T-cell engager "
-            }
-          ]
-        },
-        "geneContextQualifier": {
-          "conceptType": "Gene",
-          "id": "fda_poda.gene:CD19",
-          "name": "CD19"
-        },
+        "subject": "#/variant/fda_poda.variant:CD19+",
+        "object": "#/therapy/drugsatfda.bla:125557",
+        "geneContextQualifier": "#/gene/fda_poda.gene:CD19",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
-              "name": "precursor B-cell acute lymphoblastic leukemia",
-              "conceptType": "Disease"
-            },
-            {
-              "id": "fda_poda.onset:1 month and older",
-              "name": "1 month and older",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:precursor B-cell acute lymphoblastic leukemia",
+            "#/condition/fda_poda.onset:1 month and older"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:35": {
       "id": "fda_poda.statement:35",
       "description": "Pediatric patients with newly diagnosed Philadelphia chromosome positive acute lymphoblastic leukemia (Ph+ ALL) in combination with chemotherapy",
       "extensions": [
@@ -3752,7 +2205,6 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -3771,84 +2223,24 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BCR-ABL1 Fusion",
-          "type": "CategoricalVariant",
-          "name": "BCR-ABL1 Fusion"
-        },
-        "objectTherapeutic": {
-          "name": "Imatinib Mesylate",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:021588",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Gleevec"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
+        "subject": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
+        "object": "#/therapy/drugsatfda.nda:021588",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:acute lymphoblastic leukemia",
-              "name": "acute lymphoblastic leukemia",
-              "conceptType": "Disease",
-              "extensions": [
-                {
-                  "name": "aliases",
-                  "value": ["ALL"]
-                }
-              ]
-            },
-            {
-              "id": "fda_poda.onset:Pediatric",
-              "name": "Pediatric",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:acute lymphoblastic leukemia",
+            "#/condition/fda_poda.onset:Pediatric"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     },
-    {
+    "fda_poda.statement:36": {
       "id": "fda_poda.statement:36",
       "description": "Newly diagnosed adult and pediatric patients with Philadelphia chromosome positive chronic myeloid leukemia (Ph+ CML) in chronic phase",
       "extensions": [
@@ -3860,10 +2252,7 @@
           "name": "original_or_supplemental_approval",
           "value": "Supplemental"
         },
-        {
-          "name": "clinical_trial_ids",
-          "value": ["NCT00030394"]
-        },
+        { "name": "clinical_trial_ids", "value": ["NCT00030394"] },
         {
           "name": "original_spreadsheet_rows",
           "value": [
@@ -3882,82 +2271,22 @@
       "proposition": {
         "type": "VariantTherapeuticResponseProposition",
         "predicate": "predictsSensitivityTo",
-        "subjectVariant": {
-          "id": "fda_poda.variant:BCR-ABL1 Fusion",
-          "type": "CategoricalVariant",
-          "name": "BCR-ABL1 Fusion"
-        },
-        "objectTherapeutic": {
-          "name": "Imatinib Mesylate",
-          "conceptType": "Therapy",
-          "id": "drugsatfda.nda:021588",
-          "extensions": [
-            {
-              "name": "trade_names",
-              "value": ["Gleevec"]
-            },
-            {
-              "name": "drug_class",
-              "value": "kinase inhibitor"
-            }
-          ]
-        },
+        "subject": "#/variant/fda_poda.variant:BCR-ABL1 Fusion",
+        "object": "#/therapy/drugsatfda.nda:021588",
         "conditionQualifier": {
-          "conditions": [
-            {
-              "id": "fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
-              "name": "chronic myelogenous leukemia, BCR-ABL1 positive",
-              "conceptType": "Disease",
-              "extensions": [
-                {
-                  "name": "aliases",
-                  "value": ["Ph+ CML"]
-                }
-              ]
-            },
-            {
-              "id": "fda_poda.onset:Pediatric",
-              "name": "Pediatric",
-              "conceptType": "Phenotype"
-            }
+          "concepts": [
+            "#/condition/fda_poda.condition:chronic myelogenous leukemia, BCR-ABL1 positive",
+            "#/condition/fda_poda.onset:Pediatric"
           ],
-          "membershipOperator": "AND"
+          "membershipOperator": "AND",
+          "type": "ConceptSet"
         },
         "alleleOriginQualifier": { "name": "somatic" }
       },
       "type": "Statement",
       "direction": "supports",
-      "specifiedBy": {
-        "id": "fda_poda.method:1",
-        "type": "Method",
-        "name": "Federal Drug Administration Development & Approval Process for Drugs",
-        "reportedIn": {
-          "type": "Document",
-          "name": "Development & Approval Process | Drugs",
-          "title": "Development & Approval Process | Drugs",
-          "documentType": "webpage",
-          "urls": [
-            "https://www.fda.gov/drugs/development-approval-process-drugs"
-          ]
-        }
-      },
-      "strength": {
-        "id": "fda:approved",
-        "primaryCoding": {
-          "system": "https://www.fda.gov",
-          "code": "FDA-Approved"
-        },
-        "mappings": [
-          {
-            "coding": {
-              "name": "FDA recognized evidence",
-              "system": "https://go.osu.edu/evidence-codes",
-              "code": "e000002"
-            },
-            "relation": "exactMatch"
-          }
-        ]
-      }
+      "specifiedBy": "#/method/fda_poda.method:1",
+      "strength": "#/strength/fda:approved"
     }
-  ]
+  }
 }
