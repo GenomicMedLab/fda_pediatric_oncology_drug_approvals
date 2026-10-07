@@ -1,6 +1,6 @@
 # FDA Pediatric Drug Oncology Approvals Curation
 
-Description TBD
+Curation of US Federal Drug Administration [Pediatric Oncology Drug Approvals](https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology-drug-approvals) as GA4GH Genomic Knowledge Model statements.
 
 ## Releases
 
@@ -19,6 +19,6 @@ git tag <dataVersion>
 git push origin <dataVersion>
 ```
 
-For example, if `dataVersion` is `1.2.0`, push the `1.2.0` tag. If the tag and
+For example, if `dataVersion` is `2026-01-01`, push the `2026-01-01` tag. If the tag and
 data version differ, or the tests fail, no release is published. Re-pushing an
 existing release tag updates its archive asset.
