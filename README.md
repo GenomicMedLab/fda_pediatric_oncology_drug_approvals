@@ -1,8 +1,20 @@
-# FDA Pediatric Drug Oncology Approvals Curation
+# FDA Pediatric Oncology Drug Approvals
 
-Curation of US Federal Drug Administration [Pediatric Oncology Drug Approvals](https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology-drug-approvals) as GA4GH Genomic Knowledge Model statements.
+This repository curates the FDA's [Pediatric Oncology Drug Approvals](https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology-drug-approvals) as a machine-readable [GA4GH Genomic Knowledge Model (GKM)](https://genomicsandhealth.org/ga4gh-genomic-knowledge-standards/) bundle. It represents approval statements alongside the relevant therapies, cancer types, age groups, and—where applicable—genomic biomarkers.
 
-## Releases
+## Usage
+
+Use the [GA4GH GKM Starter Kit](https://ga4gh.github.io/gkm-starter-kit/latest/) to load the bundle. Keep `fda_poda.json` and `schema.json` together (as they are in this repository or a release archive), then load and validate the data:
+
+```python
+from ga4gh.gkm.bundles import load_bundle
+
+bundle = load_bundle("fda_poda.json", schema="schema.json")
+```
+
+## Development
+
+### Minting a release
 
 Pushing a Git tag triggers the `release data` GitHub Actions workflow. The
 workflow verifies that the tag exactly matches the `dataVersion` in
